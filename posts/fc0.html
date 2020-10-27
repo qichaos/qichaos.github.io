@@ -1,0 +1,1197 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="测试">
+    <meta name="description" content="度">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Demo</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Demo</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>Contact</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>Friends</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Demo</div>
+        <div class="logo-desc">
+            
+            度
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			Friends
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2020-10-27
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <!DOCTYPE html><html lang="zh-CN" data-theme="light">
+<!-- Mirrored from yafine-blog.cn/posts/fc0.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Oct 2020 16:08:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hexo+Github博客搭建之博客优化篇 | 过客~励む</title><meta name="description" content="对博客进行优化"><meta name="keywords" content="图片懒加载,代码压缩,cdn加速,图床"><meta name="author" content="Yafine"><meta name="copyright" content="Yafine"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/favicon.png"><link rel="canonical" href="fc0.html"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="http://cdn.jsdelivr.net/"><link rel="preconnect" href="http://www.google-analytics.com/" crossorigin="crossorigin"><link rel="preconnect" href="http://hm.baidu.com/"><link rel="preconnect" href="http://ta.qq.com/"><link rel="preconnect" href="http://fonts.googleapis.com/" crossorigin="crossorigin"><link rel="preconnect" href="http://busuanzi.ibruce.info/"><link rel="preconnect" href="http://zz.bdstatic.com/"><meta name="google-site-verification" content="_Yxe-z9eMYY_SRPAcIzAbYH5As14vyJJcWZRdsz82oo"><meta name="msvalidate.01" content="24D491BCFF09B589F74D051A28BEA16A"><meta name="baidu-site-verification" content="ukPosCpWvc"><meta name="360-site-verification" content="f67a6b2f0543b97e5f2c6504670f94b6"><meta property="og:type" content="article"><meta property="og:title" content="Hexo+Github博客搭建之博客优化篇"><meta property="og:url" content="fc0.html"><meta property="og:site_name" content="过客~励む"><meta property="og:description" content="对博客进行优化"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0027.png"><meta property="article:published_time" content="2020-03-18T08:23:09.000Z"><meta property="article:modified_time" content="2020-07-13T04:14:02.421Z"><meta name="twitter:card" content="summary"><link rel="manifest" href="../img/pwa/manifest.json"><meta name="theme-color" content="#fff"><meta name="msapplication-TileColor" content="#fff"><link rel="apple-touch-icon" sizes="180x180" href="../img/pwa/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="../img/pwa/32.png"><link rel="icon" type="image/png" sizes="16x16" href="../img/pwa/16.png"><link rel="mask-icon" href="../img/pwa/safari-pinned-tab.svg" color="#5bbad5"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="prev" title="Hexo+Github博客搭建之域名解析与绑定篇" href="a170.html"><link rel="next" title="Hexo+Github博客搭建之Matery主题个性化修改篇（一）" href="8c84.html"><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?12c4949ccded8725d72796f9cafb6249";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script>!function(e,a,t,n,g,c,o){e.GoogleAnalyticsObject=g,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),o=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script",0,"ga"),ga("create","151181323","auto"),ga("send","pageview")</script><script src="https://tajs.qq.com/stats?sId=66505462" charset="UTF-8"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG={root:"/",algolia:void 0,localSearch:{path:"search.xml",languages:{hits_empty:"找不到您查询的内容:${query}"}},translate:void 0,noticeOutdate:{limitDay:6,position:"top",messagePrev:"读者请注意，本文章编写于",messageNext:"天前，文中某些信息可能已经过时，如有任何问题，请在文章末尾评论处留言！"},copy:{success:"复制成功",error:"复制错误",noSupport:"浏览器不支持"},bookmark:{message_prev:"按",message_next:"键将本页加入书签"},runtime_unit:"天",runtime:!0,copyright:{languages:{author:"作者: Yafine",link:"链接: ",source:"来源: 过客~励む",info:"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},ClickShowText:void 0,medium_zoom:!1,fancybox:!0,Snackbar:void 0,justifiedGallery:{js:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js",css:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css"},baiduPush:!0,highlightCopy:!0,highlightLang:!0,isPhotoFigcaption:!0,islazyload:!1,isanchor:!1}</script><script>var GLOBAL_CONFIG_SITE={isPost:!0,isHome:!1,isHighlightShrink:!1,isSidebar:!0,postUpdate:"2020-07-13 12:14:02"}</script><noscript><style>#nav{opacity:1}.justified-gallery img{opacity:1}</style></noscript><meta name="sogou_site_verification" content="gPRA4fogql"><meta name="360-site-verification" content="f67a6b2f0543b97e5f2c6504670f94b6"><link rel="stylesheet" href="http://at.alicdn.com/t/font_1542125_n4k33ijorz.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/flink.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/plugins.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/wgtags.css"><link href="https://cdn.bootcdn.net/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.min.css" rel="stylesheet"><link href="../css/ye.html" rel="stylesheet"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="../atom.xml" title="过客~励む" type="application/atom+xml"><link rel="alternate" href="../rss2.xml" title="过客~励む" type="application/rss+xml"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://gitee.com/yafine66/blogimage/raw/master/img/avatar.jpg" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/friend_404.gif"' alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../archives/index.html"><div class="headline">文章</div><div class="length_num">33</div></a></div></div><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../tags/index.html"><div class="headline">标签</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../categories/index.html"><div class="headline">分类</div><div class="length_num">8</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="../index.html"><i class="fa-fw fa fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="../archives/index.html"><i class="fa-fw fa fa-archive"></i> <span>归档</span></a></div><div class="menus_item"><a class="site-page" href="../tags/index.html"><i class="fa-fw fa fa-tags"></i> <span>标签</span></a></div><div class="menus_item"><a class="site-page" href="../categories/index.html"><i class="fa-fw fa fa-folder-open"></i> <span>分类</span></a></div><div class="menus_item"><a class="site-page" href="../about/index.html"><i class="fa-fw fa fa-heart"></i> <span>关于我</span></a></div><div class="menus_item"><a class="site-page" href="../contact/index.html"><i class="fa-fw fa fa-comments"></i> <span>留言板</span></a></div><div class="menus_item"><a class="site-page" href="../suiyu/index.html"><i class="fa-fw fa fa-comment-alt"></i> <span>碎语</span></a></div><div class="menus_item"><a class="site-page" href="../link/index.html"><i class="fa-fw fa fa-link"></i> <span>友人帐</span></a></div><div class="menus_item"><a class="site-page" href="../box/index.html"><i class="fa-fw fa fa-box"></i> <span>工具箱</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#图片懒加载"><span class="toc-number">1.</span> <span class="toc-text">图片懒加载</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#懒加载优化"><span class="toc-number">1.1.</span> <span class="toc-text">懒加载优化</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码压缩"><span class="toc-number">2.</span> <span class="toc-text">代码压缩</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#gulp代码压缩"><span class="toc-number">3.</span> <span class="toc-text">gulp代码压缩</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-neat插件实现代码压缩"><span class="toc-number">4.</span> <span class="toc-text">hexo-neat插件实现代码压缩</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CDN加速"><span class="toc-number">5.</span> <span class="toc-text">CDN加速</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#打造稳定快速、高效免费图床"><span class="toc-number">6.</span> <span class="toc-text">打造稳定快速、高效免费图床</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SEO优化"><span class="toc-number">7.</span> <span class="toc-text">SEO优化</span></a></li></ol></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image:url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0027.png)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="../index.html">过客~励む</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i> <span>搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="../index.html"><i class="fa-fw fa fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="../archives/index.html"><i class="fa-fw fa fa-archive"></i> <span>归档</span></a></div><div class="menus_item"><a class="site-page" href="../tags/index.html"><i class="fa-fw fa fa-tags"></i> <span>标签</span></a></div><div class="menus_item"><a class="site-page" href="../categories/index.html"><i class="fa-fw fa fa-folder-open"></i> <span>分类</span></a></div><div class="menus_item"><a class="site-page" href="../about/index.html"><i class="fa-fw fa fa-heart"></i> <span>关于我</span></a></div><div class="menus_item"><a class="site-page" href="../contact/index.html"><i class="fa-fw fa fa-comments"></i> <span>留言板</span></a></div><div class="menus_item"><a class="site-page" href="../suiyu/index.html"><i class="fa-fw fa fa-comment-alt"></i> <span>碎语</span></a></div><div class="menus_item"><a class="site-page" href="../link/index.html"><i class="fa-fw fa fa-link"></i> <span>友人帐</span></a></div><div class="menus_item"><a class="site-page" href="../box/index.html"><i class="fa-fw fa fa-box"></i> <span>工具箱</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">Hexo+Github博客搭建之博客优化篇</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2020-03-18 16:23:09"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2020-03-18</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-07-13 12:14:02"><i class="fas fa-history fa-fw"></i> 更新于 2020-07-13</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="../categories/Hexo%e5%8d%9a%e5%ae%a2/index.html">Hexo博客</a></span></div><div class="meta-secondline"><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta__icon"></i> <span>字数总计:</span><span class="word-count">2.9k</span><span class="post-meta__separator">|</span><i class="far fa-clock fa-fw post-meta__icon"></i><span>阅读时长: 11 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span><span class="post-meta__separator">|</span><i class="far fa-comments fa-fw post-meta__icon"></i><span>评论数:</span><a href="fc0.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/posts/fc0.html" itemprop="commentCount"></span></a></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h2 id="图片懒加载"><a href="#图片懒加载" class="headerlink" title="图片懒加载"></a>图片懒加载</h2><blockquote><p><strong>知识小课堂：</strong>图片加载方式有两种，一个是预加载，另一个就是懒加载，那你了解什么是预加载和懒加载吗？下面来学习一下。</p><p>参考：<a href="https://blog.csdn.net/alex8046/article/details/50388050" target="_blank" rel="noopener">图片预加载与图片懒加载（缓载）的区别与实现</a></p></blockquote><ul><li>图片预加载：顾名思义，图片预加载就是在网页全部加载之前，提前加载图片。当用户需要查看时可直接从本地缓存中渲染，以提供给用户更好的体验，减少等待的时间。否则，如果一个页面的内容过于庞大，没有使用预加载技术的页面就会长时间的展现为一片空白，这样浏览者可能以为图片预览慢而没兴趣浏览，把网页关掉，这时，就需要图片预加载。当然这种做法实际上牺牲了服务器的性能换取了更好的用户体验。</li><li>图片懒加载（缓载）：延迟加载图片或符合某些条件时才加载某些图片。这样做的好处是减少不必要的访问数据库或延迟访问数据库的次数，因为每次访问数据库都是比较耗时的即只有真正使用该对象的数据时才会创建。懒加载的主要目的是作为服务器前端的优化，减少请求数或延迟请求数。</li></ul><p><strong>预加载与懒加载的区别之处：</strong></p><p>两者的行为是相反的，一个是提前加载，一个是迟缓甚至不加载。懒加载对服务器前端有一定的缓解压力作用，预载则会增加服务器前端压力。</p><hr><p>使用图片懒加载需要安装插件：<a href="https://github.com/Troy-Yang/hexo-lazyload-image" target="_blank" rel="noopener">hexo-lazyload-image</a></p><p>在站点根目录执行下面的命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-lazyload-image --save</span><br></pre></td></tr></table></figure><p>之后在站点配置文件下添加下面的代码：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">lazyload:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment"># 是否开启图片懒加载</span></span><br><span class="line">  <span class="attr">onlypost:</span> <span class="literal">false</span>  <span class="comment"># 是否只对文章的图片做懒加载</span></span><br><span class="line">  <span class="attr">loadingImg:</span> <span class="comment"># eg ./images/loading.gif</span></span><br></pre></td></tr></table></figure><p>最后执行<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code>就可以看到效果了。</p><div class="note warning"><p>注意，以下几个小问题针对matery主题而言，其他主题是否会出现以下情况目前我也不清楚，如果出现，你在尝试下以下解决方法。(暴力解决法，而不是直接修改懒加载插件😂😂😂)</p></div><ul><li>问题1：查看大图，发现全部为loading加载图，原因是因为懒加载插件与<strong>lightgallery插件</strong>冲突，解决办法如下：</li></ul><p>修改主题文件下的<strong>matery.js</strong>，在108行左右添加以下代码：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).find(<span class="string">'img[data-original]'</span>).each(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    $(<span class="keyword">this</span>).parent().attr(<span class="string">"href"</span>, $(<span class="keyword">this</span>).attr(<span class="string">"data-original"</span>));</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><ul><li>问题2：点击首页<strong>logo</strong>不是跳转到首页，而是查看<strong>logo</strong>图片，解决办法如下：</li></ul><p>修改主题的<strong>header.ejs</strong>文件，原代码为：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"brand-logo"</span>&gt;</span><br><span class="line">    &lt;a href=<span class="string">"&lt;%- url_for() %&gt;"</span> <span class="class"><span class="keyword">class</span></span>=<span class="string">"waves-effect waves-light"</span>&gt;</span><br><span class="line">         &lt;% <span class="keyword">if</span> (theme.logo !== <span class="literal">undefined</span> &amp;&amp; theme.logo.length &gt; <span class="number">0</span>) &#123; %&gt;</span><br><span class="line">         &lt;img src=<span class="string">"&lt;%= theme.logo %&gt;"</span> <span class="class"><span class="keyword">class</span></span>=<span class="string">"logo-img"</span> alt=<span class="string">"LOGO"</span>&gt;</span><br><span class="line">         &lt;% &#125; %&gt;</span><br><span class="line">         &lt;span <span class="class"><span class="keyword">class</span></span>=<span class="string">"logo-span"</span>&gt;&lt;%- config.title %&gt;&lt;<span class="regexp">/span&gt;</span></span><br><span class="line"><span class="regexp">    &lt;/</span>a&gt;</span><br><span class="line">&lt;<span class="regexp">/div&gt;</span></span><br></pre></td></tr></table></figure><p>修改为：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"brand-logo"</span>&gt;</span><br><span class="line">    &lt;a href=<span class="string">"&lt;%- url_for() %&gt;"</span> <span class="class"><span class="keyword">class</span></span>=<span class="string">"waves-effect waves-light"</span>&gt;</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">            &lt;% <span class="keyword">if</span> (theme.logo !== <span class="literal">undefined</span> &amp;&amp; theme.logo.length &gt; <span class="number">0</span>) &#123; %&gt;</span><br><span class="line">            &lt;img src=<span class="string">"&lt;%= theme.logo %&gt;"</span> <span class="class"><span class="keyword">class</span></span>=<span class="string">"logo-img"</span> alt=<span class="string">"LOGO"</span>&gt;</span><br><span class="line">            &lt;% &#125; %&gt;</span><br><span class="line">            &lt;span <span class="class"><span class="keyword">class</span></span>=<span class="string">"logo-span"</span>&gt;&lt;%- config.title %&gt;&lt;<span class="regexp">/span&gt;</span></span><br><span class="line"><span class="regexp">        &lt;/</span>div&gt;</span><br><span class="line">    &lt;<span class="regexp">/a&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></table></figure><h3 id="懒加载优化"><a href="#懒加载优化" class="headerlink" title="懒加载优化"></a>懒加载优化</h3><blockquote><p>经过以上操作就已经很完美了，以下内容可做可不做</p></blockquote><ul><li><p>其实第一次加载后本地都是有缓存的，如果每次都把loading显示出来就不那么好看</p></li><li><p>所以我们需要对插件进行魔改，让图片稍微提前加载，避开加载动画</p></li><li><p>打开 <code>Hexo根目录</code>&gt;<code>node_modules</code> &gt; <code>hexo-lazyload-image</code> &gt; <code>lib</code> &gt; <code>simple-lazyload.js</code> 文件</p></li><li><p>第9行修改为：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;&amp; rect.top &lt;= (<span class="built_in">window</span>.innerHeight +<span class="number">240</span> || <span class="built_in">document</span>.documentElement.clientHeight +<span class="number">240</span>)</span><br></pre></td></tr></table></figure></li><li><p>作用：提前240个像素加载图片；当然这个值也可以根据自己情况修改</p></li></ul><blockquote><p>参考：<a href="https://blog.sky03.cn/posts/42790.html#toc-heading-5" target="_blank" rel="noopener">https://blog.sky03.cn/posts/42790.html#toc-heading-5</a></p></blockquote><h2 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h2><h2 id="gulp代码压缩"><a href="#gulp代码压缩" class="headerlink" title="gulp代码压缩"></a>gulp代码压缩</h2><p>因为hexo生成的html、css、js等都有很多的空格或者换行，而空格和换行也是占用字节的，所以需要将空格换行去掉也就是我要进行的“压缩”。</p><p>有人说空格换行能占多少字节？确实占不了多少，但是一个人访问是这么多字节，那么一百人，一万人呢？加起来这量就不少了吧，这都是流量啊！这也是很多css/js文件的后缀为<em>.min.js或</em>.min.css的原因。虽然我们可能没那么多访问量，但是能减小一点资源文件的大小也是对访问速度有那么一点提升的。</p><p>我们采用gulp代码压缩方式。</p><p><strong>使用方法：</strong></p><ol><li>进入站点根目录下依次执行下面的命令：</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 全局安装gulp模块</span></span><br><span class="line">npm install gulp -g</span><br><span class="line"><span class="comment"># 安装各种小功能模块  执行这步的时候，可能会提示权限的问题，最好以管理员模式执行</span></span><br><span class="line">npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify gulp-imagemin --save</span><br><span class="line"><span class="comment"># 额外的功能模块</span></span><br><span class="line">npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 del @babel/core --save</span><br></pre></td></tr></table></figure><ol start="2"><li>在Hexo根目录新建文件 <code>gulpfile.js</code>，并复制以下内容到文件中，有中文注释，可以根据自己需求修改。（<font color="red">注意：</font>文件名不能错，一定为<code>gulpfile.js</code>，否则会出错！）</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">"gulp"</span>);</span><br><span class="line"><span class="keyword">var</span> debug = <span class="built_in">require</span>(<span class="string">"gulp-debug"</span>);</span><br><span class="line"><span class="keyword">var</span> cleancss = <span class="built_in">require</span>(<span class="string">"gulp-clean-css"</span>); <span class="comment">//css压缩组件</span></span><br><span class="line"><span class="keyword">var</span> uglify = <span class="built_in">require</span>(<span class="string">"gulp-uglify"</span>); <span class="comment">//js压缩组件</span></span><br><span class="line"><span class="keyword">var</span> htmlmin = <span class="built_in">require</span>(<span class="string">"gulp-htmlmin"</span>); <span class="comment">//html压缩组件</span></span><br><span class="line"><span class="keyword">var</span> htmlclean = <span class="built_in">require</span>(<span class="string">"gulp-htmlclean"</span>); <span class="comment">//html清理组件</span></span><br><span class="line"><span class="keyword">var</span> imagemin = <span class="built_in">require</span>(<span class="string">"gulp-imagemin"</span>); <span class="comment">//图片压缩组件</span></span><br><span class="line"><span class="keyword">var</span> changed = <span class="built_in">require</span>(<span class="string">"gulp-changed"</span>); <span class="comment">//文件更改校验组件</span></span><br><span class="line"><span class="keyword">var</span> gulpif = <span class="built_in">require</span>(<span class="string">"gulp-if"</span>); <span class="comment">//任务 帮助调用组件</span></span><br><span class="line"><span class="keyword">var</span> plumber = <span class="built_in">require</span>(<span class="string">"gulp-plumber"</span>); <span class="comment">//容错组件（发生错误不跳出任务，并报出错误内容）</span></span><br><span class="line"><span class="keyword">var</span> isScriptAll = <span class="literal">true</span>; <span class="comment">//是否处理所有文件，(true|处理所有文件)(false|只处理有更改的文件)</span></span><br><span class="line"><span class="keyword">var</span> isDebug = <span class="literal">true</span>; <span class="comment">//是否调试显示 编译通过的文件</span></span><br><span class="line"><span class="keyword">var</span> gulpBabel = <span class="built_in">require</span>(<span class="string">"gulp-babel"</span>);</span><br><span class="line"><span class="keyword">var</span> es2015Preset = <span class="built_in">require</span>(<span class="string">"babel-preset-es2015"</span>);</span><br><span class="line"><span class="keyword">var</span> del = <span class="built_in">require</span>(<span class="string">"del"</span>);</span><br><span class="line"><span class="keyword">var</span> Hexo = <span class="built_in">require</span>(<span class="string">"hexo"</span>);</span><br><span class="line"><span class="keyword">var</span> hexo = <span class="keyword">new</span> Hexo(process.cwd(), &#123;&#125;); <span class="comment">// 初始化一个hexo对象</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 清除public文件夹</span></span><br><span class="line">gulp.task(<span class="string">"clean"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> del([<span class="string">"public/**/*"</span>]);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 下面几个跟hexo有关的操作，主要通过hexo.call()去执行，注意return</span></span><br><span class="line"><span class="comment">// 创建静态页面 （等同 hexo generate）</span></span><br><span class="line">gulp.task(<span class="string">"generate"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> hexo.init().then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> hexo</span><br><span class="line">            .call(<span class="string">"generate"</span>, &#123;</span><br><span class="line">                watch: <span class="literal">false</span></span><br><span class="line">            &#125;)</span><br><span class="line">            .then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                <span class="keyword">return</span> hexo.exit();</span><br><span class="line">            &#125;)</span><br><span class="line">            .catch(<span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</span><br><span class="line">                <span class="keyword">return</span> hexo.exit(err);</span><br><span class="line">            &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 启动Hexo服务器</span></span><br><span class="line">gulp.task(<span class="string">"server"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> hexo</span><br><span class="line">        .init()</span><br><span class="line">        .then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> hexo.call(<span class="string">"server"</span>, &#123;&#125;);</span><br><span class="line">        &#125;)</span><br><span class="line">        .catch(<span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</span><br><span class="line">            <span class="built_in">console</span>.log(err);</span><br><span class="line">        &#125;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 部署到服务器</span></span><br><span class="line">gulp.task(<span class="string">"deploy"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> hexo.init().then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> hexo</span><br><span class="line">            .call(<span class="string">"deploy"</span>, &#123;</span><br><span class="line">                watch: <span class="literal">false</span></span><br><span class="line">            &#125;)</span><br><span class="line">            .then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                <span class="keyword">return</span> hexo.exit();</span><br><span class="line">            &#125;)</span><br><span class="line">            .catch(<span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</span><br><span class="line">                <span class="keyword">return</span> hexo.exit(err);</span><br><span class="line">            &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 压缩public目录下的js文件</span></span><br><span class="line">gulp.task(<span class="string">"compressJs"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp</span><br><span class="line">        .src([<span class="string">"./public/**/*.js"</span>, <span class="string">"!./public/libs/**"</span>]) <span class="comment">//排除的js</span></span><br><span class="line">        .pipe(gulpif(!isScriptAll, changed(<span class="string">"./public"</span>)))</span><br><span class="line">        .pipe(gulpif(isDebug, debug(&#123; <span class="attr">title</span>: <span class="string">"Compress JS:"</span> &#125;)))</span><br><span class="line">        .pipe(plumber())</span><br><span class="line">        .pipe(</span><br><span class="line">            gulpBabel(&#123;</span><br><span class="line">                presets: [es2015Preset] <span class="comment">// es5检查机制</span></span><br><span class="line">            &#125;)</span><br><span class="line">        )</span><br><span class="line">        .pipe(uglify()) <span class="comment">//调用压缩组件方法uglify(),对合并的文件进行压缩</span></span><br><span class="line">        .pipe(gulp.dest(<span class="string">"./public"</span>)); <span class="comment">//输出到目标目录</span></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 压缩public目录下的css文件</span></span><br><span class="line">gulp.task(<span class="string">"compressCss"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> option = &#123;</span><br><span class="line">        rebase: <span class="literal">false</span>,</span><br><span class="line">        <span class="comment">//advanced: true, //类型：Boolean 默认：true [是否开启高级优化（合并选择器等）]</span></span><br><span class="line">        compatibility: <span class="string">"ie7"</span> <span class="comment">//保留ie7及以下兼容写法 类型：String 默认：''or'*' [启用兼容模式； 'ie7'：IE7兼容模式，'ie8'：IE8兼容模式，'*'：IE9+兼容模式]</span></span><br><span class="line">        <span class="comment">//keepBreaks: true, //类型：Boolean 默认：false [是否保留换行]</span></span><br><span class="line">        <span class="comment">//keepSpecialComments: '*' //保留所有特殊前缀 当你用autoprefixer生成的浏览器前缀，如果不加这个参数，有可能将会删除你的部分前缀</span></span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="keyword">return</span> gulp</span><br><span class="line">        .src([<span class="string">"./public/**/*.css"</span>, <span class="string">"!./public/**/*.min.css"</span>]) <span class="comment">//排除的css</span></span><br><span class="line">        .pipe(gulpif(!isScriptAll, changed(<span class="string">"./public"</span>)))</span><br><span class="line">        .pipe(gulpif(isDebug, debug(&#123; <span class="attr">title</span>: <span class="string">"Compress CSS:"</span> &#125;)))</span><br><span class="line">        .pipe(plumber())</span><br><span class="line">        .pipe(cleancss(option))</span><br><span class="line">        .pipe(gulp.dest(<span class="string">"./public"</span>));</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 压缩public目录下的html文件</span></span><br><span class="line">gulp.task(<span class="string">"compressHtml"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> cleanOptions = &#123;</span><br><span class="line">        protect: <span class="regexp">/&lt;\!--%fooTemplate\b.*?%--&gt;/g</span>, <span class="comment">//忽略处理</span></span><br><span class="line">        unprotect: <span class="regexp">/&lt;script [^&gt;]*\btype="text\/x-handlebars-template"[\s\S]+?&lt;\/script&gt;/gi</span> <span class="comment">//特殊处理</span></span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="keyword">var</span> minOption = &#123;</span><br><span class="line">        collapseWhitespace: <span class="literal">true</span>, <span class="comment">//压缩HTML</span></span><br><span class="line">        collapseBooleanAttributes: <span class="literal">true</span>, <span class="comment">//省略布尔属性的值 &lt;input checked="true"/&gt; ==&gt; &lt;input /&gt;</span></span><br><span class="line">        removeEmptyAttributes: <span class="literal">true</span>, <span class="comment">//删除所有空格作属性值 &lt;input id="" /&gt; ==&gt; &lt;input /&gt;</span></span><br><span class="line">        removeScriptTypeAttributes: <span class="literal">true</span>, <span class="comment">//删除&lt;script&gt;的type="text/javascript"</span></span><br><span class="line">        removeStyleLinkTypeAttributes: <span class="literal">true</span>, <span class="comment">//删除&lt;style&gt;和&lt;link&gt;的type="text/css"</span></span><br><span class="line">        removeComments: <span class="literal">true</span>, <span class="comment">//清除HTML注释</span></span><br><span class="line">        minifyJS: <span class="literal">true</span>, <span class="comment">//压缩页面JS</span></span><br><span class="line">        minifyCSS: <span class="literal">true</span>, <span class="comment">//压缩页面CSS</span></span><br><span class="line">        minifyURLs: <span class="literal">true</span> <span class="comment">//替换页面URL</span></span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="keyword">return</span> gulp</span><br><span class="line">        .src(<span class="string">"./public/**/*.html"</span>)</span><br><span class="line">        .pipe(gulpif(isDebug, debug(&#123; <span class="attr">title</span>: <span class="string">"Compress HTML:"</span> &#125;)))</span><br><span class="line">        .pipe(plumber())</span><br><span class="line">        .pipe(htmlclean(cleanOptions))</span><br><span class="line">        .pipe(htmlmin(minOption))</span><br><span class="line">        .pipe(gulp.dest(<span class="string">"./public"</span>));</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 压缩 public/medias 目录内图片</span></span><br><span class="line">gulp.task(<span class="string">"compressImage"</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> option = &#123;</span><br><span class="line">        optimizationLevel: <span class="number">5</span>, <span class="comment">//类型：Number 默认：3 取值范围：0-7（优化等级）</span></span><br><span class="line">        progressive: <span class="literal">true</span>, <span class="comment">//类型：Boolean 默认：false 无损压缩jpg图片</span></span><br><span class="line">        interlaced: <span class="literal">false</span>, <span class="comment">//类型：Boolean 默认：false 隔行扫描gif进行渲染</span></span><br><span class="line">        multipass: <span class="literal">false</span> <span class="comment">//类型：Boolean 默认：false 多次优化svg直到完全优化</span></span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="keyword">return</span> gulp</span><br><span class="line">        .src(<span class="string">"./public/medias/**/*.*"</span>)</span><br><span class="line">        .pipe(gulpif(!isScriptAll, changed(<span class="string">"./public/medias"</span>)))</span><br><span class="line">        .pipe(gulpif(isDebug, debug(&#123; <span class="attr">title</span>: <span class="string">"Compress Images:"</span> &#125;)))</span><br><span class="line">        .pipe(plumber())</span><br><span class="line">        .pipe(imagemin(option))</span><br><span class="line">        .pipe(gulp.dest(<span class="string">"./public"</span>));</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// 执行顺序： 清除public目录 -&gt; 产生原始博客内容 -&gt; 执行压缩混淆 -&gt; 部署到服务器</span></span><br><span class="line">gulp.task(</span><br><span class="line">    <span class="string">"build"</span>,</span><br><span class="line">    gulp.series(</span><br><span class="line">        <span class="string">"clean"</span>,</span><br><span class="line">        <span class="string">"generate"</span>,</span><br><span class="line">        <span class="string">"compressHtml"</span>,</span><br><span class="line">        <span class="string">"compressCss"</span>,</span><br><span class="line">        <span class="string">"compressJs"</span>,</span><br><span class="line">        <span class="string">"compressImage"</span>,</span><br><span class="line">        gulp.parallel(<span class="string">"deploy"</span>)</span><br><span class="line">    )</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 默认任务</span></span><br><span class="line">gulp.task(</span><br><span class="line">    <span class="string">"default"</span>,</span><br><span class="line">    gulp.series(</span><br><span class="line">        <span class="string">"clean"</span>,</span><br><span class="line">        <span class="string">"generate"</span>,</span><br><span class="line">        gulp.parallel(<span class="string">"compressHtml"</span>, <span class="string">"compressCss"</span>, <span class="string">"compressJs"</span>,<span class="string">"compressImage"</span>)</span><br><span class="line">    )</span><br><span class="line">);</span><br><span class="line"><span class="comment">//Gulp4最大的一个改变就是gulp.task函数现在只支持两个参数，分别是任务名和运行任务的函数</span></span><br></pre></td></tr></table></figure><ol start="3"><li><p>以后的执行方式有两种：</p><ul><li><p>直接在Hexo根目录执行 <code>gulp</code>或者 <code>gulp default</code> ，这个命令相当于 <code>hexo cl&amp;&amp;hexo g</code> 并且再把代码和图片压缩。</p></li><li><p>在Hexo根目录执行 <code>gulp build</code> ，这个命令与第1种相比是：在最后又加了个 <code>hexo d</code> ，等于说生成、压缩文件后又帮你自动部署了。</p></li></ul></li></ol><blockquote><p>值得注意的是：这个加入了图片压缩，如果不想用图片压缩可以把第154行的 <code>&quot;compressImage&quot;,</code> 和第165行的 <code>,&quot;compressImage&quot;</code> 去掉即可</p></blockquote><h2 id="hexo-neat插件实现代码压缩"><a href="#hexo-neat插件实现代码压缩" class="headerlink" title="hexo-neat插件实现代码压缩"></a>hexo-neat插件实现代码压缩</h2><p>可能以上方法比较复杂，来介绍个简单的，<a href="https://github.com/rozbo/hexo-neat" target="_blank" rel="noopener">hexo-neat</a>插件也是用来压缩代码的，底层也是通过gulp来实现的。</p><p>但是这个插件是有Bug的：</p><ul><li>压缩 md 文件会使 markdown 语法的代码块消失</li><li>会删除全角空格</li></ul><p>在博客站点根目录执行安装代码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-neat --save</span><br></pre></td></tr></table></figure><p>紧接着在站点根目录下的配置文件添加如下代码：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">neat_enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">neat_html:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line"><span class="attr">neat_css:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">'*.min.css'</span></span><br><span class="line"><span class="attr">neat_js:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">mangle:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">output:</span></span><br><span class="line">  <span class="attr">compress:</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">'*.min.js'</span></span><br></pre></td></tr></table></figure><p>然后直接 <code>hexo cl&amp;&amp;hexo g</code> 就可以了，会自动压缩文件 。</p><p><strong>补充</strong>：为了解决以上Bug，<strong>对于matery主题</strong>（其他主题自行解决）需要将以上默认配置修改为：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#hexo-neat 优化提速插件（去掉HTML、css、js的blank字符）</span></span><br><span class="line"><span class="attr">neat_enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">neat_html:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">'**/*.md'</span></span><br><span class="line"><span class="attr">neat_css:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">'**/*.min.css'</span></span><br><span class="line"><span class="attr">neat_js:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">mangle:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">output:</span></span><br><span class="line">  <span class="attr">compress:</span></span><br><span class="line">  <span class="attr">exclude:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">'**/*.min.js'</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">'**/**/instantpage.js'</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">'**/matery.js'</span></span><br></pre></td></tr></table></figure><h2 id="CDN加速"><a href="#CDN加速" class="headerlink" title="CDN加速"></a>CDN加速</h2><blockquote><p>请看我的另一篇博客文章：<a href="ee35.html">https://yafine-blog.cn/posts/ee35.html</a></p></blockquote><h2 id="打造稳定快速、高效免费图床"><a href="#打造稳定快速、高效免费图床" class="headerlink" title="打造稳定快速、高效免费图床"></a>打造稳定快速、高效免费图床</h2><blockquote><p>请移步另两篇博文：</p><p>GitHub图床：<a href="eb3a.html">https://yafine-blog.cn/posts/eb3a.html</a></p><p>Gitee图床：<a href="15cb.html">https://yafine-blog.cn/posts/15cb.html</a></p></blockquote><h2 id="SEO优化"><a href="#SEO优化" class="headerlink" title="SEO优化"></a>SEO优化</h2><blockquote><p>请参考这篇博文：<a href="https://blog.sky03.cn/posts/42790.html#toc-heading-18" target="_blank" rel="noopener">https://blog.sky03.cn/posts/42790.html#toc-heading-18</a></p></blockquote></div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者:</span> <span class="post-copyright-info"><a href="mailto:undefined">Yafine</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接:</span> <span class="post-copyright-info"><a href="fc0.html">https://yafine-blog.cn/posts/fc0.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明:</span> <span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="../index.html" target="_blank">过客~励む</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="../tags/Hexo/index.html">Hexo</a><a class="post-meta__tags" href="../tags/matery%e4%b8%bb%e9%a2%98/index.html">matery主题</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0027.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div id="wpac-rating" style="text-align:center;margin-top:10px"></div><script>wpac_init=window.wpac_init||[],wpac_init.push({widget:"Rating",id:18134}),function(){if(!("WIDGETPACK_LOADED"in window)){WIDGETPACK_LOADED=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="http://embed.widgetpack.com/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t.nextSibling)}}()</script><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="a170.html"><img class="prev-cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0025.png" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"'><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Hexo+Github博客搭建之域名解析与绑定篇</div></div></a></div><div class="next-post pull-right"><a href="8c84.html"><img class="next-cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0023.png" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"'><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hexo+Github博客搭建之Matery主题个性化修改篇（一）</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fas fa-thumbs-up fa-fw"></i> <span>相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="12b4.html" title="Hexo+Github博客搭建之Matery主题个性化修改篇（二）"><img class="relatedPosts_cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0001.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-04-26</div><div class="relatedPosts_title">Hexo+Github博客搭建之Matery主题个性化修改篇（二）</div></div></a></div><div class="relatedPosts_item"><a href="b93d.html" title="matery主题修改文章发布统计图的开始时间"><img class="relatedPosts_cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0028.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-04-07</div><div class="relatedPosts_title">matery主题修改文章发布统计图的开始时间</div></div></a></div><div class="relatedPosts_item"><a href="7400.html" title="Matery主题添加loading-pages"><img class="relatedPosts_cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0005.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-03-25</div><div class="relatedPosts_title">Matery主题添加loading-pages</div></div></a></div><div class="relatedPosts_item"><a href="8c84.html" title="Hexo+Github博客搭建之Matery主题个性化修改篇（一）"><img class="relatedPosts_cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0023.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-03-17</div><div class="relatedPosts_title">Hexo+Github博客搭建之Matery主题个性化修改篇（一）</div></div></a></div><div class="relatedPosts_item"><a href="5dbf.html" title="Hexo+Github博客搭建之Matery主题安装配置篇"><img class="relatedPosts_cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0022.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-03-17</div><div class="relatedPosts_title">Hexo+Github博客搭建之Matery主题安装配置篇</div></div></a></div><div class="relatedPosts_item"><a href="49fb.html" title="Matery主题自定义字体"><img class="relatedPosts_cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0015.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-02-17</div><div class="relatedPosts_title">Matery主题自定义字体</div></div></a></div></div></div><hr><div id="post-comment"><div class="comment-head"><div class="comment-headling"><i class="fas fa-comments fa-fw"></i> <span>评论</span></div><div class="comment-switch"><span class="first-comment">Valine</span><label><input id="switch-comments-btn" type="checkbox"><span class="slider"></span></label><span class="second-comment">Gitalk</span></div></div><div class="comment-wrap"><div class="comments-items-1" data-name="Valine"><div class="vcomment" id="vcomment"></div><script>function loadvaline(){var i=function(a,i){a=a;var o=i.split(",").filter(function(i){return-1<a.indexOf(i)});return o=0==o.length?a:o},a=i(["nick","mail","link"],"nick,mail,link"),o=i(["nick","mail"],"nick,mail");loadScript("//unpkg.com/valine@latest/dist/Valine.min.js",function(){window.valine=new Valine({el:"#vcomment",appId:"uK6HbxGHHyIJNY0jbz3gVsw3-MdYXbMMI",appKey:"boaYzjEFV04TfVzXqcRjTUdX",placeholder:"悄悄告诉你哦，昵称填写QQ号会自动填入邮箱哦！😉😉😉",avatar:"monsterid",meta:a,pageSize:"10",lang:"zh-CN",recordIP:!1,serverURLs:"",emojiCDN:"https://valinecdn.bili33.top/",emojiMaps:{weibo2:"weibo/d_aoteman.png",weibo3:"weibo/d_baibai.png",weibo4:"weibo/d_baobao.png",weibo5:"weibo/d_beishang.png",weibo6:"weibo/d_bingbujiandan.png",weibo7:"weibo/d_bishi.png",weibo8:"weibo/d_bizui.png",weibo9:"weibo/d_chanzui.png",weibo10:"weibo/d_chigua.png",weibo11:"weibo/d_chijing.png",weibo12:"weibo/d_dahaqi.png",weibo13:"weibo/d_dalian.png",weibo14:"weibo/d_ding.png",weibo15:"weibo/d_doge.png",weibo16:"weibo/d_erha.png",weibo17:"weibo/d_feijie.png",weibo18:"weibo/d_feizao.png",weibo19:"weibo/d_ganmao.png",weibo20:"weibo/d_guile.png",weibo21:"weibo/d_guzhang.png",weibo22:"weibo/d_haha.png",weibo23:"weibo/d_haixiu.png",weibo24:"weibo/d_han.png",weibo25:"weibo/d_hehe.png",weibo26:"weibo/d_heiheihei.png",weibo27:"weibo/d_heixian.png",weibo28:"weibo/d_heng.png",weibo29:"weibo/d_huaixiao.png",weibo30:"weibo/d_huaxin.png",weibo31:"weibo/d_jiyan.png",weibo32:"weibo/d_keai.png",weibo33:"weibo/d_kelian.png",weibo34:"weibo/d_ku.png",weibo35:"weibo/d_kulou.png",weibo36:"weibo/d_kun.png",weibo37:"weibo/d_landelini.png",weibo38:"weibo/d_lang.png",weibo39:"weibo/d_lei.png",weibo40:"weibo/d_miao.png",weibo41:"weibo/d_nanhaier.png",weibo42:"weibo/d_nu.png",weibo43:"weibo/d_numa.png",weibo44:"weibo/d_nvhaier.png",weibo45:"weibo/d_qian.png",weibo46:"weibo/d_qinqin.png",weibo47:"weibo/d_shayan.png",weibo48:"weibo/d_shengbing.png",weibo49:"weibo/d_shenshou.png",weibo50:"weibo/d_shiwang.png",weibo51:"weibo/d_shuai.png",weibo52:"weibo/d_shuijiao.png",weibo53:"weibo/d_sikao.png",weibo54:"weibo/d_taikaixin.png",weibo55:"weibo/d_tanshou.png",weibo56:"weibo/d_tian.png",weibo57:"weibo/d_touxiao.png",weibo58:"weibo/d_tu.png",weibo59:"weibo/d_tuzi.png",weibo60:"weibo/d_wabishi.png",weibo61:"weibo/d_weiqu.png",weibo62:"weibo/d_wu.png",weibo63:"weibo/d_xiaoku.png",weibo64:"weibo/d_xingxingyan.png",weibo65:"weibo/d_xiongmao.png",weibo66:"weibo/d_xixi.png",weibo67:"weibo/d_xu.png",weibo68:"weibo/d_yinxian.png",weibo69:"weibo/d_yiwen.png",weibo70:"weibo/d_youhengheng.png",weibo71:"weibo/d_yun.png",weibo72:"weibo/d_yunbei.png",weibo73:"weibo/d_zhuakuang.png",weibo74:"weibo/d_zhutou.png",weibo75:"weibo/d_zuiyou.png",weibo76:"weibo/emoji_0x1f31f.png",weibo77:"weibo/emoji_0x1f349.png",weibo78:"weibo/emoji_0x1f357.png",weibo79:"weibo/emoji_0x1f384.png",weibo80:"weibo/emoji_0x1f44f.png",weibo81:"weibo/emoji_0x1f47b.png",weibo82:"weibo/emoji_0x1f47f.png",weibo83:"weibo/emoji_0x1f48a.png",weibo84:"weibo/emoji_0x1f4a3.png",weibo85:"weibo/emoji_0x1f4a9.png",weibo86:"weibo/emoji_0x1f631.png",weibo87:"weibo/emoji_0x1f643.png",weibo88:"weibo/emoji_0x1f645.png",weibo89:"weibo/emoji_0x1f648.png",weibo90:"weibo/emoji_0x1f649.png",weibo91:"weibo/emoji_0x1f64a.png",weibo92:"weibo/emoji_0x1f64b.png",weibo93:"weibo/emoji_0x1f64f.png",weibo94:"weibo/emoji_0x1f913.png",weibo95:"weibo/emoji_0x1f917.png",weibo96:"weibo/emoji_0x26a1.png",weibo97:"weibo/h_buyao.png",weibo98:"weibo/h_good.png",weibo99:"weibo/h_haha.png",weibo100:"weibo/h_jiayou.png",weibo101:"weibo/h_lai.png",weibo102:"weibo/h_ok.png",weibo103:"weibo/h_quantou.png",weibo104:"weibo/h_ruo.png",weibo105:"weibo/h_woshou.png",weibo106:"weibo/h_ye.png",weibo107:"weibo/h_zan.png",weibo108:"weibo/h_zuoyi.png","HONKAI3-MEI1":"HONKAI3-MEI/501ac209b259bb545dea898838c24229483fcfeb.gif","HONKAI3-MEI2":"HONKAI3-MEI/5baf4306d1f685bf47922fbae365ccfba7721beb.gif","HONKAI3-MEI3":"HONKAI3-MEI/624857651c863ea9571f5e557fca8516dd41e0fc.gif","HONKAI3-MEI4":"HONKAI3-MEI/680311714674014d0c17f757eb40c3071448222a.gif","HONKAI3-MEI5":"HONKAI3-MEI/bf68423446465d396d3cbd8856882b5e9fb1c0c7.gif","HONKAI3-MEI6":"HONKAI3-MEI/d3a2a9c6ad1e2a0b262dca9354ab8de736d81cdf.gif","HONKAI3-MEI7":"HONKAI3-MEI/dd0fd1f3668f4907c9f6fcd39c6138417ac0e1f5.gif",bilibiliHotKey1:"bilibiliHotKey/1.jpg",bilibiliHotKey2:"bilibiliHotKey/10.jpg",bilibiliHotKey3:"bilibiliHotKey/11.jpg",bilibiliHotKey4:"bilibiliHotKey/12.jpg",bilibiliHotKey5:"bilibiliHotKey/13.jpg",bilibiliHotKey6:"bilibiliHotKey/14.jpg",bilibiliHotKey7:"bilibiliHotKey/15.jpg",bilibiliHotKey8:"bilibiliHotKey/16.jpg",bilibiliHotKey9:"bilibiliHotKey/17.jpg",bilibiliHotKey10:"bilibiliHotKey/18.jpg",bilibiliHotKey11:"bilibiliHotKey/19.jpg",bilibiliHotKey12:"bilibiliHotKey/2.jpg",bilibiliHotKey13:"bilibiliHotKey/20.jpg",bilibiliHotKey14:"bilibiliHotKey/21.jpg",bilibiliHotKey15:"bilibiliHotKey/22.jpg",bilibiliHotKey16:"bilibiliHotKey/23.jpg",bilibiliHotKey17:"bilibiliHotKey/24.jpg",bilibiliHotKey18:"bilibiliHotKey/25.jpg",bilibiliHotKey19:"bilibiliHotKey/26.jpg",bilibiliHotKey20:"bilibiliHotKey/27.jpg",bilibiliHotKey21:"bilibiliHotKey/28.jpg",bilibiliHotKey22:"bilibiliHotKey/29.jpg",bilibiliHotKey23:"bilibiliHotKey/3.jpg",bilibiliHotKey24:"bilibiliHotKey/30.jpg",bilibiliHotKey25:"bilibiliHotKey/31.jpg",bilibiliHotKey26:"bilibiliHotKey/32.jpg",bilibiliHotKey27:"bilibiliHotKey/4.jpg",bilibiliHotKey28:"bilibiliHotKey/5.jpg",bilibiliHotKey29:"bilibiliHotKey/6.jpg",bilibiliHotKey30:"bilibiliHotKey/7.jpg",bilibiliHotKey31:"bilibiliHotKey/8.jpg",bilibiliHotKey32:"bilibiliHotKey/9.jpg",alu2:"alu/不出所料.png",alu3:"alu/不说话.png",alu4:"alu/不高兴.png",alu5:"alu/中刀.png",alu6:"alu/中指.png",alu7:"alu/中枪.png",alu8:"alu/亲亲.png",alu9:"alu/便便.png",alu10:"alu/内伤.png",alu11:"alu/击掌.png",alu12:"alu/口水.png",alu13:"alu/吐.png",alu14:"alu/吐舌.png",alu15:"alu/吐血倒地.png",alu16:"alu/呲牙.png",alu17:"alu/咽气.png",alu18:"alu/哭泣.png",alu19:"alu/喜极而泣.png",alu20:"alu/喷水.png",alu21:"alu/喷血.png",alu22:"alu/坐等.png",alu23:"alu/害羞.png",alu24:"alu/小眼睛.png",alu25:"alu/尴尬.png",alu26:"alu/得意.png",alu27:"alu/惊喜.png",alu28:"alu/想一想.png",alu29:"alu/愤怒.png",alu30:"alu/扇耳光.png",alu31:"alu/投降.png",alu32:"alu/抠鼻.png",alu33:"alu/抽烟.png",alu34:"alu/无奈.png",alu35:"alu/无所谓.png",alu36:"alu/无语.png",alu37:"alu/暗地观察.png",alu38:"alu/期待.png",alu39:"alu/欢呼.png",alu40:"alu/汗.png",alu41:"alu/深思.png",alu42:"alu/狂汗.png",alu43:"alu/献花.png",alu44:"alu/献黄瓜.png",alu45:"alu/皱眉.png",alu46:"alu/看不见.png",alu47:"alu/看热闹.png",alu48:"alu/瞅你.png",alu49:"alu/肿包.png",alu50:"alu/脸红.png",alu51:"alu/蜡烛.png",alu52:"alu/装大款.png",alu53:"alu/观察.png",alu54:"alu/赞一个.png",alu55:"alu/邪恶.png",alu56:"alu/锁眉.png",alu57:"alu/长草.png",alu58:"alu/阴暗.png",alu59:"alu/高兴.png",alu60:"alu/黑线.png",alu61:"alu/鼓掌.png",aodamiao1:"aodamiao/01.gif",aodamiao2:"aodamiao/02.gif",aodamiao3:"aodamiao/03.gif",aodamiao4:"aodamiao/04.gif",aodamiao5:"aodamiao/05.gif",aodamiao6:"aodamiao/06.gif",aodamiao7:"aodamiao/07.gif",aodamiao8:"aodamiao/08.gif",aodamiao9:"aodamiao/09.gif",aodamiao10:"aodamiao/10.gif",aodamiao11:"aodamiao/11.gif",aodamiao12:"aodamiao/12.gif",aodamiao13:"aodamiao/13.gif",aodamiao14:"aodamiao/14.gif",aodamiao15:"aodamiao/15.gif",aodamiao16:"aodamiao/16.gif",aodamiao17:"aodamiao/17.gif",aodamiao18:"aodamiao/18.gif",aodamiao19:"aodamiao/19.gif",aodamiao20:"aodamiao/20.gif",aodamiao21:"aodamiao/21.gif",aodamiao22:"aodamiao/22.gif",aodamiao23:"aodamiao/23.gif",aodamiao24:"aodamiao/24.gif",aodamiao25:"aodamiao/25.gif",aodamiao26:"aodamiao/26.gif",aodamiao27:"aodamiao/27.gif",aodamiao28:"aodamiao/28.gif",aodamiao29:"aodamiao/29.gif",aodamiao30:"aodamiao/30.gif",aodamiao31:"aodamiao/31.gif",aodamiao32:"aodamiao/32.gif",aodamiao33:"aodamiao/33.gif",aodamiao34:"aodamiao/34.gif",aodamiao35:"aodamiao/35.gif",aodamiao36:"aodamiao/36.gif",aodamiao37:"aodamiao/37.gif",aodamiao38:"aodamiao/38.gif",aodamiao39:"aodamiao/39.gif",aodamiao40:"aodamiao/40.gif",bilibilitv2:"bilibilitv/[tv_doge].png",bilibilitv3:"bilibilitv/[tv_亲亲].png",bilibilitv4:"bilibilitv/[tv_偷笑].png",bilibilitv5:"bilibilitv/[tv_再见].png",bilibilitv6:"bilibilitv/[tv_冷漠].png",bilibilitv7:"bilibilitv/[tv_发怒].png",bilibilitv8:"bilibilitv/[tv_发财].png",bilibilitv9:"bilibilitv/[tv_可爱].png",bilibilitv10:"bilibilitv/[tv_吐血].png",bilibilitv11:"bilibilitv/[tv_呆].png",bilibilitv12:"bilibilitv/[tv_呕吐].png",bilibilitv13:"bilibilitv/[tv_困].png",bilibilitv14:"bilibilitv/[tv_坏笑].png",bilibilitv15:"bilibilitv/[tv_大佬].png",bilibilitv16:"bilibilitv/[tv_大哭].png",bilibilitv17:"bilibilitv/[tv_委屈].png",bilibilitv18:"bilibilitv/[tv_害羞].png",bilibilitv19:"bilibilitv/[tv_尴尬].png",bilibilitv20:"bilibilitv/[tv_微笑].png",bilibilitv21:"bilibilitv/[tv_思考].png",bilibilitv22:"bilibilitv/[tv_惊吓].png",bilibilitv23:"bilibilitv/[tv_打脸].png",bilibilitv24:"bilibilitv/[tv_抓狂].png",bilibilitv25:"bilibilitv/[tv_抠鼻].png",bilibilitv26:"bilibilitv/[tv_斜眼笑].png",bilibilitv27:"bilibilitv/[tv_无奈].png",bilibilitv28:"bilibilitv/[tv_晕].png",bilibilitv29:"bilibilitv/[tv_流汗].png",bilibilitv30:"bilibilitv/[tv_流泪].png",bilibilitv31:"bilibilitv/[tv_流鼻血].png",bilibilitv32:"bilibilitv/[tv_点赞].png",bilibilitv33:"bilibilitv/[tv_生气].png",bilibilitv34:"bilibilitv/[tv_生病].png",bilibilitv35:"bilibilitv/[tv_疑问].png",bilibilitv36:"bilibilitv/[tv_白眼].png",bilibilitv37:"bilibilitv/[tv_皱眉].png",bilibilitv38:"bilibilitv/[tv_目瞪口呆].png",bilibilitv39:"bilibilitv/[tv_睡着].png",bilibilitv40:"bilibilitv/[tv_笑哭].png",bilibilitv41:"bilibilitv/[tv_腼腆].png",bilibilitv42:"bilibilitv/[tv_色].png",bilibilitv43:"bilibilitv/[tv_调侃].png",bilibilitv44:"bilibilitv/[tv_调皮].png",bilibilitv45:"bilibilitv/[tv_鄙视].png",bilibilitv46:"bilibilitv/[tv_闭嘴].png",bilibilitv47:"bilibilitv/[tv_难过].png",bilibilitv48:"bilibilitv/[tv_馋].png",bilibilitv49:"bilibilitv/[tv_鬼脸].png",bilibilitv50:"bilibilitv/[tv_黑人问号].png",bilibilitv51:"bilibilitv/[tv_鼓掌].png","Little-Bad2":"Little-Bad/一群坏坏.jpg","Little-Bad3":"Little-Bad/中坏坏.jpg","Little-Bad4":"Little-Bad/发火的坏坏.jpg","Little-Bad5":"Little-Bad/坏坏坏.jpg","Little-Bad6":"Little-Bad/大坏坏.jpg","Little-Bad7":"Little-Bad/天使一般的坏坏.jpg","Little-Bad8":"Little-Bad/害羞坏.jpg","Little-Bad9":"Little-Bad/小坏蛋.jpg","Little-Bad10":"Little-Bad/我们一起做坏坏的事.jpg","Little-Bad11":"Little-Bad/敲板子的坏坏.gif","Little-Bad12":"Little-Bad/比地球还大的坏坏.jpg","Little-Bad13":"Little-Bad/流泪的坏坏.jpg","Little-Bad14":"Little-Bad/热炸的坏坏.jpg",Mafumafu1:"Mafumafu/199749454.png",Mafumafu2:"Mafumafu/199749455.png",Mafumafu3:"Mafumafu/199749456.png",Mafumafu4:"Mafumafu/199749457.png",Mafumafu5:"Mafumafu/199749458.png",Mafumafu6:"Mafumafu/199749459.png",Mafumafu7:"Mafumafu/199749460.png",Mafumafu8:"Mafumafu/199749461.png",Mafumafu9:"Mafumafu/199749462.png",Mafumafu10:"Mafumafu/199749463.png",Mafumafu11:"Mafumafu/199749464.png",Mafumafu12:"Mafumafu/199749465.png",Mafumafu13:"Mafumafu/199749466.png",Mafumafu14:"Mafumafu/199749467.png",Mafumafu15:"Mafumafu/199749468.png",Mafumafu16:"Mafumafu/199749469.png",Mafumafu17:"Mafumafu/199749470.png",Mafumafu18:"Mafumafu/199749471.png",Mafumafu19:"Mafumafu/199749472.png",Mafumafu20:"Mafumafu/199749473.png",Mafumafu21:"Mafumafu/199749474.png",Mafumafu22:"Mafumafu/199749475.png",Mafumafu23:"Mafumafu/199749476.png",Mafumafu24:"Mafumafu/199749477.png","Yurui-Neko1":"Yurui-Neko/001.png","Yurui-Neko2":"Yurui-Neko/002.png","Yurui-Neko3":"Yurui-Neko/003.png","Yurui-Neko4":"Yurui-Neko/004.png","Yurui-Neko5":"Yurui-Neko/005.png","Yurui-Neko6":"Yurui-Neko/006.png","Yurui-Neko7":"Yurui-Neko/007.png","Yurui-Neko8":"Yurui-Neko/008.png","Yurui-Neko9":"Yurui-Neko/009.png","Yurui-Neko10":"Yurui-Neko/010.png","Yurui-Neko11":"Yurui-Neko/011.png","Yurui-Neko12":"Yurui-Neko/012.png","Yurui-Neko13":"Yurui-Neko/013.png","Yurui-Neko14":"Yurui-Neko/014.png","Yurui-Neko15":"Yurui-Neko/015.png","Yurui-Neko16":"Yurui-Neko/016.png","Yurui-Neko17":"Yurui-Neko/017.png","Yurui-Neko18":"Yurui-Neko/018.png","Yurui-Neko19":"Yurui-Neko/019.png","Yurui-Neko20":"Yurui-Neko/020.png","Yurui-Neko21":"Yurui-Neko/021.png","Yurui-Neko22":"Yurui-Neko/022.png","Yurui-Neko23":"Yurui-Neko/023.png","Yurui-Neko24":"Yurui-Neko/024.png","Yurui-Neko25":"Yurui-Neko/025.png","Yurui-Neko26":"Yurui-Neko/026.png","Yurui-Neko27":"Yurui-Neko/027.png","Yurui-Neko28":"Yurui-Neko/028.png","Yurui-Neko29":"Yurui-Neko/029.png","Yurui-Neko30":"Yurui-Neko/030.png","Yurui-Neko31":"Yurui-Neko/031.png","Yurui-Neko32":"Yurui-Neko/032.png","Yurui-Neko33":"Yurui-Neko/033.png","Yurui-Neko34":"Yurui-Neko/034.png","Yurui-Neko35":"Yurui-Neko/035.png","Yurui-Neko36":"Yurui-Neko/036.png","Yurui-Neko37":"Yurui-Neko/037.png","Yurui-Neko38":"Yurui-Neko/038.png","Yurui-Neko39":"Yurui-Neko/039.png","Yurui-Neko40":"Yurui-Neko/040.png"},enableQQ:!0,requiredFields:o})})}function loadOtherComment(){loadvaline()}window.addEventListener("load",loadvaline)</script></div><div class="comments-items-2" data-name="Gitalk"><div id="gitalk-container"></div><script src="https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js"></script><script>function loadGitalk () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+
+  loadScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js', function () {
+    var gitalk = new Gitalk({
+      clientID: '9892fd65fc9866d49ffc',
+      clientSecret: '623b8d073d0894e8367a1484d4e29d0e01de37db',
+      repo: 'Yafine-gitalks',
+      owner: 'Yafine',
+      admin: ['Yafine'],
+      id: md5(decodeURI(location.pathname)),
+      language: 'zh-CN',
+      perPage: 10,
+      distractionFreeMode: false,
+      pagerDirection: 'last',
+      createIssueManually: true,
+      updateCountCallback: commentCount
+    })
+    gitalk.render('gitalk-container')
+  })
+
+  function commentCount(n){
+    try {
+      document.getElementsByClassName('gitalk-comment-count')[0].innerHTML= n
+    } catch (e) {
+      return false
+    }
+  }
+}
+
+if ('Valine' === 'Gitalk' || true) {
+  window.addEventListener('load', loadGitalk)
+}
+else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div></div></div></article></main><footer id="footer" style="background-image:url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0027.png)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 By Yafine</div><div class="footer_custom_text">Hi , Weclome to My Home .<br>This is My Stage!😎😎😎</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49b1f5">hexo-generator-search</a> <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/utils.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js"></script><script>document.addEventListener("DOMContentLoaded",function(){pangu.autoSpacingPage()})</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/search/local-search.js"></script><script>!function(e,p,s,u){if(void 0===e.webpushr){e.webpushr=e.webpushr||function(){(e.webpushr.q=e.webpushr.q||[]).push(arguments)};var n,t=p.getElementsByTagName(s)[0];(n=p.createElement(s)).id="webpushr-jssdk",n.src="https://cdn.webpushr.com/app.min.js",t.parentNode.appendChild(n)}}(window,document,"script"),webpushr("init","BAJy08X2FxDq2OEBYdIXet7uuThfcz7QUIypPTCV--OXENaThpuiYHWFGvLlDjkN75mJPzItiCQfnq9Z80cQ7eE")</script><script>window.$crisp=[],window.CRISP_WEBSITE_ID="6a511ac1-4992-4e21-8b54-19e2695fc8d8",d=document,s=d.createElement("script"),s.src="https://client.crisp.chat/l.js",s.async=1,d.getElementsByTagName("head")[0].appendChild(s)</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/wgtags.js"></script><script src="../js/script.html"></script><script>!function(e,p,s,n){e.webpushr=e.webpushr||function(){(e.webpushr.q=e.webpushr.q||[]).push(arguments)};var t,u=p.getElementsByTagName(s)[0];(t=p.createElement(s)).id="webpushr-jssdk",t.src="https://cdn.webpushr.com/app.min.js",u.parentNode.appendChild(t)}(window,document,"script"),webpushr("init","BAJy08X2FxDq2OEBYdIXet7uuThfcz7QUIypPTCV--OXENaThpuiYHWFGvLlDjkN75mJPzItiCQfnq9Z80cQ7eE")</script></body>
+<!-- Mirrored from yafine-blog.cn/posts/fc0.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Oct 2020 16:08:10 GMT -->
+</html>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">guo</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://qichaos.com/posts/fc0.html">https://qichaos.com/posts/fc0.html</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint polocy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">guo</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/posts/fc0.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            guo
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Current&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/posts/fc0.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            guo
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">guo</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

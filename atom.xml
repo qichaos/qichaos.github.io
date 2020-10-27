@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>过客~励む</title>
+  <icon>https://yafine-blog.cn/icon.png</icon>
+  <subtitle>有志者事竟成</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://yafine-blog.cn/"/>
+  <updated>2020-09-07T10:03:25.982Z</updated>
+  <id>https://yafine-blog.cn/</id>
+  
+  <author>
+    <name>Yafine</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>打造炫酷的Github个人页面</title>
+    <link href="https://yafine-blog.cn/posts/96f9.html"/>
+    <id>https://yafine-blog.cn/posts/96f9.html</id>
+    <published>2020-09-07T08:13:11.000Z</published>
+    <updated>2020-09-07T10:03:25.982Z</updated>
+    
+    <summary type="html">
+    
+      打造炫酷的Github个人页
+    
+    </summary>
+    
+    
+      <category term="奇淫技巧" scheme="https://yafine-blog.cn/categories/%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="技巧" scheme="https://yafine-blog.cn/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何为没有目录的PDF电子书添加目录</title>
+    <link href="https://yafine-blog.cn/posts/b251.html"/>
+    <id>https://yafine-blog.cn/posts/b251.html</id>
+    <published>2020-07-08T03:37:58.000Z</published>
+    <updated>2020-07-13T04:13:40.790Z</updated>
+    
+    <summary type="html">
+    
+      为没有目录的PDF电子书，添加目录，让阅读更方便
+    
+    </summary>
+    
+    
+      <category term="奇淫技巧" scheme="https://yafine-blog.cn/categories/%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="技巧" scheme="https://yafine-blog.cn/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+      <category term="工具" scheme="https://yafine-blog.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为你的hexo博客添加导航页</title>
+    <link href="https://yafine-blog.cn/posts/e925.html"/>
+    <id>https://yafine-blog.cn/posts/e925.html</id>
+    <published>2020-05-09T02:53:06.000Z</published>
+    <updated>2020-07-13T04:13:56.423Z</updated>
+    
+    <summary type="html">
+    
+      为你的hexo博客添加导航页面
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客订阅文章通知功能</title>
+    <link href="https://yafine-blog.cn/posts/ebb2.html"/>
+    <id>https://yafine-blog.cn/posts/ebb2.html</id>
+    <published>2020-04-26T09:34:35.000Z</published>
+    <updated>2020-07-13T04:14:26.292Z</updated>
+    
+    <summary type="html">
+    
+      使用插件实现博客文章订阅并使用浏览器进行新文章推送的通知
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之Matery主题个性化修改篇（二）</title>
+    <link href="https://yafine-blog.cn/posts/12b4.html"/>
+    <id>https://yafine-blog.cn/posts/12b4.html</id>
+    <published>2020-04-26T06:24:02.000Z</published>
+    <updated>2020-07-13T04:14:15.177Z</updated>
+    
+    <summary type="html">
+    
+      Matery主题的一些个性化修改
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="matery主题" scheme="https://yafine-blog.cn/tags/matery%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>prism代码高亮主题风格展示阁</title>
+    <link href="https://yafine-blog.cn/posts/f295.html"/>
+    <id>https://yafine-blog.cn/posts/f295.html</id>
+    <published>2020-04-19T07:14:48.000Z</published>
+    <updated>2020-07-13T04:14:54.270Z</updated>
+    
+    <summary type="html">
+    
+      hexo-prism-plugin主题风格展示
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>matery主题修改文章发布统计图的开始时间</title>
+    <link href="https://yafine-blog.cn/posts/b93d.html"/>
+    <id>https://yafine-blog.cn/posts/b93d.html</id>
+    <published>2020-04-07T02:13:40.000Z</published>
+    <updated>2020-07-13T04:14:45.931Z</updated>
+    
+    <summary type="html">
+    
+      修改文章发布统计图的开始时间(Matery主题)
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="matery主题" scheme="https://yafine-blog.cn/tags/matery%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Matery主题添加loading-pages</title>
+    <link href="https://yafine-blog.cn/posts/7400.html"/>
+    <id>https://yafine-blog.cn/posts/7400.html</id>
+    <published>2020-03-25T07:41:24.000Z</published>
+    <updated>2020-07-13T04:14:43.181Z</updated>
+    
+    <summary type="html">
+    
+      为你的matery主题添加loading pages
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="matery主题" scheme="https://yafine-blog.cn/tags/matery%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客新建文章自动打开编辑器</title>
+    <link href="https://yafine-blog.cn/posts/d17e.html"/>
+    <id>https://yafine-blog.cn/posts/d17e.html</id>
+    <published>2020-03-18T08:38:37.000Z</published>
+    <updated>2020-08-09T03:01:40.784Z</updated>
+    
+    <summary type="html">
+    
+      使用命令新建文章时，自动打开编辑器
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之域名解析与绑定篇</title>
+    <link href="https://yafine-blog.cn/posts/a170.html"/>
+    <id>https://yafine-blog.cn/posts/a170.html</id>
+    <published>2020-03-18T08:36:06.000Z</published>
+    <updated>2020-07-13T04:14:10.890Z</updated>
+    
+    <summary type="html">
+    
+      Hexo博客绑定域名
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之博客优化篇</title>
+    <link href="https://yafine-blog.cn/posts/fc0.html"/>
+    <id>https://yafine-blog.cn/posts/fc0.html</id>
+    <published>2020-03-18T08:23:09.000Z</published>
+    <updated>2020-07-13T04:14:02.421Z</updated>
+    
+    <summary type="html">
+    
+      对博客进行优化
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="matery主题" scheme="https://yafine-blog.cn/tags/matery%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之Matery主题个性化修改篇（一）</title>
+    <link href="https://yafine-blog.cn/posts/8c84.html"/>
+    <id>https://yafine-blog.cn/posts/8c84.html</id>
+    <published>2020-03-17T09:37:28.000Z</published>
+    <updated>2020-07-13T04:14:17.646Z</updated>
+    
+    <summary type="html">
+    
+      Matery主题的一些个性化修改
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="matery主题" scheme="https://yafine-blog.cn/tags/matery%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之Matery主题安装配置篇</title>
+    <link href="https://yafine-blog.cn/posts/5dbf.html"/>
+    <id>https://yafine-blog.cn/posts/5dbf.html</id>
+    <published>2020-03-17T01:12:48.000Z</published>
+    <updated>2020-09-05T09:20:28.622Z</updated>
+    
+    <summary type="html">
+    
+      Matery主题的下载，安装以及一些简单的配置
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="matery主题" scheme="https://yafine-blog.cn/tags/matery%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之环境搭建篇</title>
+    <link href="https://yafine-blog.cn/posts/7de0.html"/>
+    <id>https://yafine-blog.cn/posts/7de0.html</id>
+    <published>2020-03-17T01:02:57.000Z</published>
+    <updated>2020-07-13T04:14:04.655Z</updated>
+    
+    <summary type="html">
+    
+      Github账号的注册，Github Pages的创建以及Hexo框架的搭建及发布
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之环境准备篇</title>
+    <link href="https://yafine-blog.cn/posts/bb7.html"/>
+    <id>https://yafine-blog.cn/posts/bb7.html</id>
+    <published>2020-03-17T00:34:04.000Z</published>
+    <updated>2020-07-13T04:14:08.069Z</updated>
+    
+    <summary type="html">
+    
+      Git和Node.js的下载，安装
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Typora集成PicGo图床服务</title>
+    <link href="https://yafine-blog.cn/posts/4e9b.html"/>
+    <id>https://yafine-blog.cn/posts/4e9b.html</id>
+    <published>2020-03-16T13:45:14.000Z</published>
+    <updated>2020-07-13T04:14:56.781Z</updated>
+    
+    <summary type="html">
+    
+      Typora新版本原生集成PicGo图床服务，简单方便又快捷
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="图床搭建" scheme="https://yafine-blog.cn/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用PicGo+Gitee(码云)搭建免费图床</title>
+    <link href="https://yafine-blog.cn/posts/15cb.html"/>
+    <id>https://yafine-blog.cn/posts/15cb.html</id>
+    <published>2020-03-10T12:40:13.000Z</published>
+    <updated>2020-07-13T04:13:49.984Z</updated>
+    
+    <summary type="html">
+    
+      使用PicGo+Gitee(码云)搭建免费图床
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="图床搭建" scheme="https://yafine-blog.cn/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改matery原有主题相册</title>
+    <link href="https://yafine-blog.cn/posts/3b98.html"/>
+    <id>https://yafine-blog.cn/posts/3b98.html</id>
+    <published>2020-02-21T14:41:29.000Z</published>
+    <updated>2020-07-13T04:13:57.600Z</updated>
+    
+    <summary type="html">
+    
+      对hexo-theme-matery主题原有相册进行修改，单独写成一个页面
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用PicGo+Github搭建免费图床</title>
+    <link href="https://yafine-blog.cn/posts/eb3a.html"/>
+    <id>https://yafine-blog.cn/posts/eb3a.html</id>
+    <published>2020-02-17T12:33:38.000Z</published>
+    <updated>2020-07-13T04:13:52.477Z</updated>
+    
+    <summary type="html">
+    
+      使用PicGo搭建免费、快速高效的图床
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="图床搭建" scheme="https://yafine-blog.cn/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Jsdelivr/CDN加速博客访问速度</title>
+    <link href="https://yafine-blog.cn/posts/ee35.html"/>
+    <id>https://yafine-blog.cn/posts/ee35.html</id>
+    <published>2020-02-17T12:22:48.000Z</published>
+    <updated>2020-07-13T04:13:47.638Z</updated>
+    
+    <summary type="html">
+    
+      使用jsdelivr cdn提升博客的访问速度
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="cdn" scheme="https://yafine-blog.cn/tags/cdn/"/>
+    
+      <category term="jsdelivr" scheme="https://yafine-blog.cn/tags/jsdelivr/"/>
+    
+  </entry>
+  
+</feed>

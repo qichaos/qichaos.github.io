@@ -1,0 +1,1197 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="测试">
+    <meta name="description" content="度">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Demo</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Demo</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>Contact</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>Friends</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Demo</div>
+        <div class="logo-desc">
+            
+            度
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			Friends
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2020-10-27
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <!DOCTYPE html><html lang="zh-CN" data-theme="light">
+<!-- Mirrored from yafine-blog.cn/posts/7fe2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Oct 2020 16:08:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JavaScript的发展史 | 过客~励む</title><meta name="description" content="全面了解JavaScript语言的发展史"><meta name="keywords" content="Javascript"><meta name="author" content="Yafine"><meta name="copyright" content="Yafine"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/favicon.png"><link rel="canonical" href="7fe2.html"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="http://cdn.jsdelivr.net/"><link rel="preconnect" href="http://www.google-analytics.com/" crossorigin="crossorigin"><link rel="preconnect" href="http://hm.baidu.com/"><link rel="preconnect" href="http://ta.qq.com/"><link rel="preconnect" href="http://fonts.googleapis.com/" crossorigin="crossorigin"><link rel="preconnect" href="http://busuanzi.ibruce.info/"><link rel="preconnect" href="http://zz.bdstatic.com/"><meta name="google-site-verification" content="_Yxe-z9eMYY_SRPAcIzAbYH5As14vyJJcWZRdsz82oo"><meta name="msvalidate.01" content="24D491BCFF09B589F74D051A28BEA16A"><meta name="baidu-site-verification" content="ukPosCpWvc"><meta name="360-site-verification" content="f67a6b2f0543b97e5f2c6504670f94b6"><meta property="og:type" content="article"><meta property="og:title" content="JavaScript的发展史"><meta property="og:url" content="7fe2.html"><meta property="og:site_name" content="过客~励む"><meta property="og:description" content="全面了解JavaScript语言的发展史"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0010.png"><meta property="article:published_time" content="2019-11-25T15:29:18.000Z"><meta property="article:modified_time" content="2020-07-13T04:14:38.130Z"><meta name="twitter:card" content="summary"><link rel="manifest" href="../img/pwa/manifest.json"><meta name="theme-color" content="#fff"><meta name="msapplication-TileColor" content="#fff"><link rel="apple-touch-icon" sizes="180x180" href="../img/pwa/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="../img/pwa/32.png"><link rel="icon" type="image/png" sizes="16x16" href="../img/pwa/16.png"><link rel="mask-icon" href="../img/pwa/safari-pinned-tab.svg" color="#5bbad5"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="prev" title="Hexo博客部署到码云和Coding" href="51fb.html"><link rel="next" title="实用的在线网站" href="bc77.html"><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?12c4949ccded8725d72796f9cafb6249";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script>!function(e,a,t,n,g,c,o){e.GoogleAnalyticsObject=g,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),o=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script",0,"ga"),ga("create","151181323","auto"),ga("send","pageview")</script><script src="https://tajs.qq.com/stats?sId=66505462" charset="UTF-8"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG={root:"/",algolia:void 0,localSearch:{path:"search.xml",languages:{hits_empty:"找不到您查询的内容:${query}"}},translate:void 0,noticeOutdate:{limitDay:6,position:"top",messagePrev:"读者请注意，本文章编写于",messageNext:"天前，文中某些信息可能已经过时，如有任何问题，请在文章末尾评论处留言！"},copy:{success:"复制成功",error:"复制错误",noSupport:"浏览器不支持"},bookmark:{message_prev:"按",message_next:"键将本页加入书签"},runtime_unit:"天",runtime:!0,copyright:{languages:{author:"作者: Yafine",link:"链接: ",source:"来源: 过客~励む",info:"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},ClickShowText:void 0,medium_zoom:!1,fancybox:!0,Snackbar:void 0,justifiedGallery:{js:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js",css:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css"},baiduPush:!0,highlightCopy:!0,highlightLang:!0,isPhotoFigcaption:!0,islazyload:!1,isanchor:!1}</script><script>var GLOBAL_CONFIG_SITE={isPost:!0,isHome:!1,isHighlightShrink:!1,isSidebar:!0,postUpdate:"2020-07-13 12:14:38"}</script><noscript><style>#nav{opacity:1}.justified-gallery img{opacity:1}</style></noscript><meta name="sogou_site_verification" content="gPRA4fogql"><meta name="360-site-verification" content="f67a6b2f0543b97e5f2c6504670f94b6"><link rel="stylesheet" href="http://at.alicdn.com/t/font_1542125_n4k33ijorz.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/flink.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/plugins.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/wgtags.css"><link href="https://cdn.bootcdn.net/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.min.css" rel="stylesheet"><link href="../css/ye.html" rel="stylesheet"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="../atom.xml" title="过客~励む" type="application/atom+xml"><link rel="alternate" href="../rss2.xml" title="过客~励む" type="application/rss+xml"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://gitee.com/yafine66/blogimage/raw/master/img/avatar.jpg" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/friend_404.gif"' alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../archives/index.html"><div class="headline">文章</div><div class="length_num">33</div></a></div></div><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../tags/index.html"><div class="headline">标签</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../categories/index.html"><div class="headline">分类</div><div class="length_num">8</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="../index.html"><i class="fa-fw fa fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="../archives/index.html"><i class="fa-fw fa fa-archive"></i> <span>归档</span></a></div><div class="menus_item"><a class="site-page" href="../tags/index.html"><i class="fa-fw fa fa-tags"></i> <span>标签</span></a></div><div class="menus_item"><a class="site-page" href="../categories/index.html"><i class="fa-fw fa fa-folder-open"></i> <span>分类</span></a></div><div class="menus_item"><a class="site-page" href="../about/index.html"><i class="fa-fw fa fa-heart"></i> <span>关于我</span></a></div><div class="menus_item"><a class="site-page" href="../contact/index.html"><i class="fa-fw fa fa-comments"></i> <span>留言板</span></a></div><div class="menus_item"><a class="site-page" href="../suiyu/index.html"><i class="fa-fw fa fa-comment-alt"></i> <span>碎语</span></a></div><div class="menus_item"><a class="site-page" href="../link/index.html"><i class="fa-fw fa fa-link"></i> <span>友人帐</span></a></div><div class="menus_item"><a class="site-page" href="../box/index.html"><i class="fa-fw fa fa-box"></i> <span>工具箱</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#声明："><span class="toc-number">1.</span> <span class="toc-text">声明：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Nombas-和-ScriptEaseh"><span class="toc-number">2.</span> <span class="toc-text">Nombas 和 ScriptEaseh</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mosaic"><span class="toc-number">3.</span> <span class="toc-text">Mosaic</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Netscape-和-JavaScript（LiveScript）"><span class="toc-number">4.</span> <span class="toc-text">Netscape 和 JavaScript（LiveScript）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#发现问题"><span class="toc-number">5.</span> <span class="toc-text">发现问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#微软和Jscript"><span class="toc-number">6.</span> <span class="toc-text">微软和Jscript</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#三足鼎立与标准化"><span class="toc-number">7.</span> <span class="toc-text">三足鼎立与标准化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ECMAScript版本"><span class="toc-number">8.</span> <span class="toc-text">ECMAScript版本</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#ECMA-262第-2-版-1998年8月"><span class="toc-number">8.1.</span> <span class="toc-text">ECMA-262第 2 版(1998年8月)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ECMA-262第-3-版-1999年12月"><span class="toc-number">8.2.</span> <span class="toc-text">ECMA-262第 3 版(1999年12月)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ECMA-262第-4-版"><span class="toc-number">8.3.</span> <span class="toc-text">ECMA-262第 4 版</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ECMA-262第-5版"><span class="toc-number">8.4.</span> <span class="toc-text">ECMA-262第 5版</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ECMAScript-5-1"><span class="toc-number">8.5.</span> <span class="toc-text">ECMAScript 5.1</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ECMAScript-6-ES6"><span class="toc-number">8.6.</span> <span class="toc-text">ECMAScript 6 - ES6</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ECMAScript-7"><span class="toc-number">8.7.</span> <span class="toc-text">ECMAScript 7</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ECMAScript-8"><span class="toc-number">8.8.</span> <span class="toc-text">ECMAScript 8</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#鹿死谁手？"><span class="toc-number">9.</span> <span class="toc-text">鹿死谁手？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#可喜可贺"><span class="toc-number">10.</span> <span class="toc-text">可喜可贺</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#布兰登·艾奇（Brendan-Eich），JavaScript的发明人"><span class="toc-number">11.</span> <span class="toc-text">布兰登·艾奇（Brendan Eich），JavaScript的发明人</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一些疑问-和-解释"><span class="toc-number">12.</span> <span class="toc-text">一些疑问 和 解释</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Javascript-和-java-的关系"><span class="toc-number">12.1.</span> <span class="toc-text">Javascript 和 java 的关系</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Javascript-和-ECMAScript的区别？"><span class="toc-number">12.2.</span> <span class="toc-text">Javascript 和 ECMAScript的区别？</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#为什么有两种叫法-ES6和-ES2015"><span class="toc-number">12.3.</span> <span class="toc-text">为什么有两种叫法 - ES6和 ES2015</span></a></li></ol></li></ol></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image:url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0010.png)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="../index.html">过客~励む</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i> <span>搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="../index.html"><i class="fa-fw fa fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="../archives/index.html"><i class="fa-fw fa fa-archive"></i> <span>归档</span></a></div><div class="menus_item"><a class="site-page" href="../tags/index.html"><i class="fa-fw fa fa-tags"></i> <span>标签</span></a></div><div class="menus_item"><a class="site-page" href="../categories/index.html"><i class="fa-fw fa fa-folder-open"></i> <span>分类</span></a></div><div class="menus_item"><a class="site-page" href="../about/index.html"><i class="fa-fw fa fa-heart"></i> <span>关于我</span></a></div><div class="menus_item"><a class="site-page" href="../contact/index.html"><i class="fa-fw fa fa-comments"></i> <span>留言板</span></a></div><div class="menus_item"><a class="site-page" href="../suiyu/index.html"><i class="fa-fw fa fa-comment-alt"></i> <span>碎语</span></a></div><div class="menus_item"><a class="site-page" href="../link/index.html"><i class="fa-fw fa fa-link"></i> <span>友人帐</span></a></div><div class="menus_item"><a class="site-page" href="../box/index.html"><i class="fa-fw fa fa-box"></i> <span>工具箱</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">JavaScript的发展史</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2019-11-25 23:29:18"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2019-11-25</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-07-13 12:14:38"><i class="fas fa-history fa-fw"></i> 更新于 2020-07-13</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="../categories/Web%e5%89%8d%e7%ab%af/index.html">Web前端</a><i class="fas fa-angle-right post-meta__separator"></i><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="../categories/Web%e5%89%8d%e7%ab%af/JavaScript/index.html">JavaScript</a></span></div><div class="meta-secondline"><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta__icon"></i> <span>字数总计:</span><span class="word-count">6.5k</span><span class="post-meta__separator">|</span><i class="far fa-clock fa-fw post-meta__icon"></i><span>阅读时长: 20 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span><span class="post-meta__separator">|</span><i class="far fa-comments fa-fw post-meta__icon"></i><span>评论数:</span><a href="7fe2.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/posts/7fe2.html" itemprop="commentCount"></span></a></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h3 id="声明："><a href="#声明：" class="headerlink" title="声明："></a>声明：</h3><blockquote><p><strong>本文为转载文章，由微信公众号 -《前端技术江湖》整理</strong></p><p><strong>原文链接： <a href="https://mp.weixin.qq.com/s/62U2qLeN4dz9Si68yhDohA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/62U2qLeN4dz9Si68yhDohA</a></strong></p></blockquote><p>从公众号中了解到了这篇文章，写的很全面，详细讲解了JavaScript语言的发展史，于是就转载了这篇文章，分享给大家，让大家了解其发展历史，这是学前端必须要掌握了解的知识。</p><h3 id="Nombas-和-ScriptEaseh"><a href="#Nombas-和-ScriptEaseh" class="headerlink" title="Nombas 和 ScriptEaseh"></a>Nombas 和 ScriptEaseh</h3><p>大概在 1992 年，一家称作 Nombas 的公司开发了一种叫做 C 减减（C-minus-minus，简称 Cmm）的嵌入式脚本语言。Cmm 背后的理念很简单：一个足够强大可以替代宏操作（macro）的脚本语言，同时保持与 C （和 C ++）足够的相似性，以便开发人员能很快学会。这个脚本语言捆绑在一个叫做 CEnvi 的共享软件中，它首次向开发人员展示了这种语言的威力。</p><p>Nombas 最终把 Cmm 的名字改成了 ScriptEase，原因是后面的部分（mm）听起来过于消极，同时字母 C “令人害怕”。</p><p>现在 ScriptEase 已经成为了 Nombas 产品背后的主要驱动力。</p><h3 id="Mosaic"><a href="#Mosaic" class="headerlink" title="Mosaic"></a>Mosaic</h3><p>1992 年浏览器中大部分是单纯的 HTML 查看器，用户还需要依靠外部辅助应用程序来查看图片等富媒体内容。真正让大家眼前一亮的产品是 Mosaic，第一个可以显示图片的浏览器。这是美国国家超级电脑应用中心（NCSA）在 1993 年开发的一款适用于多平台的网页浏览器，Mosaic 是第一个被人普遍接受的浏览器，它让许多人了解了Internet 。它的技术随后被授权给了多家公司，于是，商业公司们也可以基于其上开发新产品了。</p><p>在这些商业公司里，最值得注意的一家叫网景。还有一家，叫微软。</p><p><strong>Mosaic 页面不错哦。</strong></p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126082123.png"><h3 id="Netscape-和-JavaScript（LiveScript）"><a href="#Netscape-和-JavaScript（LiveScript）" class="headerlink" title="Netscape 和 JavaScript（LiveScript）"></a>Netscape 和 JavaScript（LiveScript）</h3><p>1994年Mosaic研发的核心成员马克·安德森（Marc Andreessen）和几何图形发生器的发明人吉姆·克拉克（Jim.H.Clark）共同创立了Mosaic Communication Corporation。同年11月为了避免与NCSA的法律纠葛，公司更名为Netscape Communication Corporation即网景公司，并一直沿用。</p><p>说明 : NCSA:美国国家超级计算机应用中心</p><p>二人试图打破Mosaic的垄断并取得业界的领导地位。所以研发了一款新浏览器，名为 Netscape Navigator，即“导航者”。对内其1.0版本的研发代号则为Mozilla！网景公司员工也常将其称作Moz或Mozzie。</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126082215.png" alt=""></p><p>当 Netscape Navigator 崭露头角时，Nombas 开发了一个可以嵌入网页中的 CEnvi 的版本。这些早期的试验被称为 Espresso Page（浓咖啡般的页面），它们代表了第一个在万维网上使用的客户端语言。而 Nombas 丝毫没有料到它的理念将会成为万维网的一块重要基石。</p><p>JavaScript的雏形出现了 - 注意，是Nombas。</p><h3 id="发现问题"><a href="#发现问题" class="headerlink" title="发现问题"></a>发现问题</h3><p>当网上冲浪越来越流行时，对于开发客户端脚本的需求也逐渐增大。此时，大部分因特网用户还仅仅通过 28.8 kbit/s 的调制解调器连接到网络，即便这时网页已经不断地变得更大和更复杂。而更加加剧用户痛苦的是，仅仅为了简单的表单有效性验证，就要与服务器进行多次地往返交互。设想一下，用户填完一个表单，点击提交按钮，等待了 30 秒的处理后，看到的却是一条告诉你忘记填写一个必要的字段。</p><p>那时正处于技术革新最前沿的 Netscape，开始认真考虑开发一种客户端脚本语言来解决简单的处理问题。</p><p>Eich是在1995年4月加入Netscape，当时Netscape 1.1已经发布。Eich是被请来开发运行在浏览器上的编程语言，是基于Scheme，而Eich是通过《Structure and Interpretation of Computer Programs》这本书学会了Scheme。结果到了Netscape后他被告知Netscape正与Sun合作在Java基础上开发新的语言，不要Scheme了。JavaScript的开发代号是Mocha，Eich认为Java并不适合被业余程序员或新手使用。</p><p>Netscape 的 <strong>Brendan Eich</strong>，开始着手为即将在 1995 年发行的 Netscape Navigator 2.0 开发一个称之为 LiveScript 的脚本语言，当时的目的是在浏览器和服务器（本来要叫它 LiveWire）端使用它。Netscape 与 Sun 及时完成 LiveScript 实现。</p><p>就在 Netscape Navigator 2.0 即将正式发布前，Netscape 将其更名为 JavaScript，目的是为了利用 Java 这个因特网时髦词汇。Netscape 的赌注最终得到回报，JavaScript 从此变成了因特网的必备组件，网景也得到了物质回报。</p><p>1995年8月9日，公司首次公开募股获得巨大成功。原本股票价值，为每股14美元，但因这个临时决定，股价倍增至每股28美元。第一天收市，股价升至每股75美元，几乎是当时创记录的“首日获利”。1995年，该公司的收入每季上升一倍。</p><h3 id="微软和Jscript"><a href="#微软和Jscript" class="headerlink" title="微软和Jscript"></a>微软和Jscript</h3><p>一直到 1995 年中，市场上的网页浏览器标准都以 Netscape 主导，没公司相争，也没公司想争。随着网景的发展，它已多次尝试创做一种能够让用户通过浏览器操作的网络应用系统。这引起微软注意，担心网景可能威胁到微软的操作系统和应用程序市场。</p><blockquote><p>这个就类似于微信客户端是苹果手机的一款应用，但是微信自己还搞了一个内置应用——小程序，这会直接影响苹果商店的应用使用问题，苹果当然会很警惕，只不过在这次较量中微信的头比苹果的硬而已。</p></blockquote><p>微软是第一个破局者。微软作为IT界老大，看到JavaScript 1.0 如此成功必然心里不舒服，于是在1995年买下Mosaic的授权，在获取 Mosaic 的授权后，微软迅速推出了 Internet Explorer 1.0，并于 1995 年 8 月起通过“Windows 95 Plus ! ”搭配出售。</p><p>但是我们要清楚一点，微软最初的商业侧重点并不是互联网，而是PC 操作系统这块市场，到底是谁给了微软这么大的决心，要和几乎已经在浏览器市场坐稳的网景公司“背水一战”？</p><p>是比尔盖茨。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126082246.png" style="zoom:50%"><p>1995 年 5 月 26 日，比尔盖茨向微软内部所有员工发送了一份名为“互联网潮汐”的备忘录。在备忘录里，盖茨明确表示，他打算集中公司所有的技术力量，all in 互联网。</p><p>盖茨在这份备忘录里发出警示：“互联网用户聚集在一起，也许会创造出比 PC 更有价值的东西。目前我不认为我们的产品可以做到，不过，我们已经找到了一个出生在互联网上的对手，Netscape，它是我们必须要打败的。”</p><p>三个月后，IE 2.0 正式上线，网景和微软的战争就此真正开始。</p><p>随后，1996年8月13日，微软IE3发布。IE 3.0 搭载了一个 JavaScript 的克隆版，叫做 JScript（这样命名是为了避免与 Netscape 潜在的许可纠纷）。微软进军浏览器市场，双方激烈竞争就此展开。网景公司的Netscape Navigator与微软公司的Internet Explorer之间的竞争，后来被称为“浏览器大战”。</p><p>IE 势头凶猛</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/browser.jpg" alt=""></p><blockquote><p>网景和微软的员工不仅暗地里牟足了劲，明面上也剑拔弩张。</p></blockquote><blockquote><p>1997 年 10 月，IE 4.0正式推出，微软在旧金山举行产品发布会，竖起了一个 10 尺长的巨型“e”标志。</p></blockquote><blockquote><p>第二天早上，Netscape 的员工们惊讶地发现，这个标志跑到了自家的草坪上，而且上面赫然写上了来自对手的挑衅：“We Love You，From the IE team”。</p></blockquote><blockquote><p>这让 Netscape 十分愤怒，他们立刻上前一把推翻对手的标志，然后摆上自己的恐龙吉祥物把微软标志踩在脚下。而且，恐龙手上拿了一个展板，上面写着“Netscape 72, Microsoft 18”（代表当时“ IE 弱 Netscape 强”的市场格局）。</p></blockquote><blockquote><p>这种小事只是插曲。随着 IE 4.0 的推广，微软越战越猛，而网景颓势渐显。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126082528.png" alt=""></p><p>微软步入 Web 浏览器领域的这重要一步虽然令其声名狼藉，但也成为 JavaScript 语言发展过程中的重要一步。</p><h3 id="三足鼎立与标准化"><a href="#三足鼎立与标准化" class="headerlink" title="三足鼎立与标准化"></a>三足鼎立与标准化</h3><p>在微软进入后，有 3 种不同的 JavaScript 版本同时存在：Netscape Navigator 3.0 中的 JavaScript、IE 中的 JScript 以及 CEnvi 中的 ScriptEase。与 C 和其他编程语言不同的是，JavaScript 并没有一个标准来统一其语法或特性，而这 3 种不同的版本恰恰突出了这个问题。随着业界担心的增加，这个语言的标准化显然已经势在必行。</p><p>1997 年，JavaScript 1.1 作为一个草案提交给欧洲计算机制造商协会（ECMA）。</p><p><strong>名词解释：ECMA</strong></p><blockquote><p>这个组织的目标是评估，开发和认可电信和计算机标准。大家决定把ECMA的总部设在日内瓦是因为这样能够让它与其它与之协同工作的标准制定组织更接近一些，比方说国际标准化组织（ISO）和国际电子技术协会（IEC）。ECMA是“European Computer Manufacturers Association”的缩写，中文称欧洲计算机制造联合会。是1961年成立的旨在建立统一的电脑操作格式标准–包括程序语言和输入输出的组织。- 来自百度百科</p></blockquote><p>第 39 技术委员会（TC39）被委派来“标准化一个通用、跨平台、中立于厂商的脚本语言的语法和语义”(<a href="http://www.ecma-international.org/memento/TC39.htm)。由来自" target="_blank" rel="noopener">http://www.ecma-international.org/memento/TC39.htm)。由来自</a> Netscape、Sun、微软、Borland 和其他一些对脚本编程感兴趣的公司的程序员组成的 TC39 锤炼出了 ECMA-262，该标准定义了名为 ECMAScript 的全新脚本语言。</p><p>在接下来的几年里，国际标准化组织及国际电工委员会（ISO/IEC）也采纳 ECMAScript 作为标准（ISO/IEC-16262）。从此，Web 浏览器就开始努力（虽然有着不同的程度的成功和失败）将 ECMAScript 作为 JavaScript 实现的基础。</p><p><strong>名词解释：TC39</strong></p><p>TC39(Technical Committee #39)39号技术委员会</p><ol><li><p>TC93制定了ECMA-262标准。</p></li><li><p>ECMA-262是ECMAScript的标准，ECMA-262定义了ECMAScript。</p></li><li><p>由ECMA-262定义的ECMAScript与web服务器没有依赖关系。ECMA-262定义的只是ECMAScript的语言基础。我们常见的web浏览器只是ECMAScript实现可能的宿主环境之一。宿主环境不仅提供基本的ECMAScript实现，同时也会提供该语言的扩展，以便语言与环境之间对接交互。</p></li><li><p>Javascript实现了ECMAScript。</p></li><li><p>尽管 ECMAScript 是一个重要的标准，但它并不是 JavaScript 唯一的部分，当然，也不是唯一被标准化的部分。实际上，一个完整的 JavaScript 实现是由以下 3 个不同部分组成的：<br>a、核心（ECMAScript）<br>b、文档对象模型（DOM）<br>c、浏览器对象模型（BOM）</p></li></ol><h3 id="ECMAScript版本"><a href="#ECMAScript版本" class="headerlink" title="ECMAScript版本"></a>ECMAScript版本</h3><p>ECMA-262第 1 版(1997年6月)本质上与 Netscape 的 JavaScript 1.1相同——只不过作了一些较小的改动：</p><ol><li>删除了所有针对浏览器的代码。</li><li>支持 Unicode标准（从而支持多语言开发）。</li><li>对象与平台无关（Netscape JavaScript 1.1的对。</li><li>象在不同平台中的实现不一样，例如 Date 对象）。</li></ol><blockquote><p>这三条规则奠定了JavaScript的可移植性，比如现在比较火爆的node.JS，是一门服务端语言。试想一下如果JavaScript的特性与特定的浏览器绑定的话，前端将是多么混乱的世界。所以，站的高度不同，分析问题的角度，解决问题的角度也会不同，这就是传说中的格局？</p></blockquote><p>这也是 JavaScript 1.1和 1.2与 ECMA-262第 1版不一 致的主要原因。</p><h4 id="ECMA-262第-2-版-1998年8月"><a href="#ECMA-262第-2-版-1998年8月" class="headerlink" title="ECMA-262第 2 版(1998年8月)"></a>ECMA-262第 2 版(1998年8月)</h4><p>主要是编辑加工的结果。这一版中内容的更新是为了与 ISO/IEC-16262保持严格 一致，没有作任何新增、修改或删节处理。因此，一般不使用第 2版来衡量 ECMAScript实现的兼容性。</p><h4 id="ECMA-262第-3-版-1999年12月"><a href="#ECMA-262第-3-版-1999年12月" class="headerlink" title="ECMA-262第 3 版(1999年12月)"></a>ECMA-262第 3 版(1999年12月)</h4><p>ECMA-262第 3 版 才是对该标准第一次真正的修改。修改的内容涉及字符串处理、错误定义和数 值输出。这一版还新增了对正则表达式、新控制语句、try-catch 异常处理的支持，并围绕标准的 国际化做出了一些小的修改。从各方面综合来看，第 3版标志着 ECMAScript成为了一门真正的编程 语言。</p><h4 id="ECMA-262第-4-版"><a href="#ECMA-262第-4-版" class="headerlink" title="ECMA-262第 4 版"></a>ECMA-262第 4 版</h4><p>ECMA-262第 4 版对这门语言进行了一次全面的检核修订。由于 JavaScript在 Web 上日益流行，开 发人员纷纷建议修订 ECMAScript，以使其能够满足不断增长的 Web 开发需求。作为回应，ECMA TC39 重新召集相关人员共同谋划这门语言的未来。结果，出台后的标准几乎在第 3版基础上完全定义了一门 新语言。</p><blockquote><p>第 4版不仅包含了强类型变量、新语句和新数据结构、真正的类和经典继承，还定义了与数据 交互的新方式。与此同时，TC39下属的一个小组也提出了一个名为 ECMAScript 3.1的替代性建议，该建议只对这 门语言进行了较少的改进。这个小组认为第 4版给这门语言带来的跨越太大了。因此，该小组建议对这门语言进行小幅修订，能够在现有 JavaScript引擎基础上实现。</p></blockquote><blockquote><p>这也是为什么我们查阅的有关JavaScript资料时，从来没看到过在第四版定义过什么属性或者方法，都是在ES3、ES5中定义的，但也不能说ES4就是废弃物了，现在流行的ES6的原型就是ES4。</p></blockquote><p>终，ES3.1附属委员会获得的支持超过 了 TC39，ECMA-262第 4版在正式发布前被放弃。</p><h4 id="ECMA-262第-5版"><a href="#ECMA-262第-5版" class="headerlink" title="ECMA-262第 5版"></a>ECMA-262第 5版</h4><p><strong>ECMAScript 3.1 - 著名的 ES5</strong></p><p>ECMAScript 3.1成为 ECMA-262第 5版，并于 2009年 12月 3日正式发布。</p><p>ECMA-262第 5 版力求澄清第 3 版中已知的歧义并增添了新的功能。新功能包括原生 JSON对象（用于解析和序列化 JSON数据）、继 承的方法和高级属性定义，另外还包含一种严格模式，对 ECMAScript引擎解释和执行代码进行了补充 说明。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126082600.png" style="zoom:80%"><h4 id="ECMAScript-5-1"><a href="#ECMAScript-5-1" class="headerlink" title="ECMAScript 5.1"></a>ECMAScript 5.1</h4><p>2011年06月：使规范更符合ISO/IEC 16262:2011第三版。</p><h4 id="ECMAScript-6-ES6"><a href="#ECMAScript-6-ES6" class="headerlink" title="ECMAScript 6 - ES6"></a>ECMAScript 6 - ES6</h4><p>2015年06月：第六版的名字有很多，可以叫ECMAScript 6（ES6），也可以叫ECMAScript 2015（ES2015）。</p><p>此版本增加了非常重要的东西：let、const、class、modules、 arrow functions,、template string, destructuring, default, rest argument、binary data、promises等等。</p><p>规范地址：<a href="http://www.ecma-international.org/ecma-262/6.0/" target="_blank" rel="noopener">http://www.ecma-international.org/ecma-262/6.0/</a></p><h4 id="ECMAScript-7"><a href="#ECMAScript-7" class="headerlink" title="ECMAScript 7"></a>ECMAScript 7</h4><p>2016年06月：也被称为ECMAScript 2016。完善ES6规范，还包括两个新的功能：求幂运算符（*）和array.prototype.includes方法。</p><p>规范地址：<a href="http://www.ecma-international.org/ecma-262/7.0/" target="_blank" rel="noopener">http://www.ecma-international.org/ecma-262/7.0/</a></p><h4 id="ECMAScript-8"><a href="#ECMAScript-8" class="headerlink" title="ECMAScript 8"></a>ECMAScript 8</h4><p>2017年06月：增加新的功能，如并发、原子操作、Object.values/Object.entries、字符串填充、promises、await/asyn等等。</p><p>规范地址：<a href="http://www.ecma-international.org/ecma-262/8.0/" target="_blank" rel="noopener">http://www.ecma-international.org/ecma-262/8.0/</a></p><h3 id="鹿死谁手？"><a href="#鹿死谁手？" class="headerlink" title="鹿死谁手？"></a>鹿死谁手？</h3><p>这是一场从一开始就不公平的对决。</p><p>微软始终拥有两大优势：第一，财力雄厚。Netscape 浏览器虽然一度达到 90% 以上的占有率，但网景公司规模不大，加上只有浏览器及相关产品，总收入拍马也赶不上微软。第二，Windows 早就垄断了操作系统市场。就算 IE 在早期的评价不如 Netscape，微软只要把 IE 和 Windows 捆绑销售，就可以迅速提升市占率。再加上 IE 的免费政策，只要等到 IE 产品功能和 Netscape 差不多了，大多数用户自然会逐渐放弃 Netscape，转向 IE。</p><p>凭借这两个优势，微软的策略也是妙招不断：</p><p>1、切断 Netscape 财源。既然 Netscape 通过销售服务器软件来发布浏览器赚钱，那么微软也开发类似的产品，而且专门往便宜了卖，积极开打价格战。</p><p>2、看重市场推广。在授权 Windows 给其他主机厂商的时候，微软要求对方必须在桌面展示 IE 的图标，不能加入 Netscape，否则就以涨价威胁。</p><p>3、统一战线。把中小型 ISP（网络提供商）、电信运营商都拉入战局，要求他们以 IE 作为主接口，鼓励用户改用 IE 浏览器。</p><p>4、布局产业上下游。积极收购知名网页设计工具（比如 FrontPage），故意加入非标准的专属标签，使得作出的网页只适用于 IE 浏览器。</p><p>这些手段刀刀命中要害，再加上网景后来在商业决策上犯了错，Netscape 终于在 1998 年年底被 IE 击败。</p><p>至此，网页浏览器之争的第一阶段落下帷幕，美国在线（AOL）以 42 亿美元收购网景业务为这场战争划下终点。再往后，IE 逐步成为浏览器市场的霸主，其份额最高达到 2002 年的 96%，比 Netscape 的顶峰还高。</p><p>面对微软的强大威胁，Netscape在1998年11月决定将软件免费、且公开所有的程序源码，将主要力量放在商业市场。这个措施几乎还没来得及实施， Netscape就被AOL美国在线所收购。</p><p>不过，AOL并非是想开发浏览器同微软的IE竞争，而是将它作为对微软的反垄断案的一个筹码。之后， Netscape虽然陆续发展出4.X、6.X系列乃至7.X系列，但都毫无影响力可言。</p><p>微软与AOL的反垄断官司在2003年5月完结， Netscape项目在7月份就被AOL冻结并将大部分Netscape 开发人员解雇，到此为止属于Netscape的时代就完全结束了。</p><p>不过AOL还是作了一件好事，所有的Netscape原始代码被送给开源社群自行开发，同时协助成立了非盈利性的“Mozilla基金会（Mozilla Foundation）”，它也是现在Firefox浏览器的管理和推进组织。</p><blockquote><p>现在很多的浏览器都是以之为雏形开发设计的。为了向其致敬，chrome、safari等浏览器代码里都有Browser name: Netscape。</p></blockquote><h3 id="可喜可贺"><a href="#可喜可贺" class="headerlink" title="可喜可贺"></a>可喜可贺</h3><p>到了 2008年，五大主流 Web 浏览器（IE、Firefox、Safari、Chrome和 Opera）全部做到了与 ECMA-262兼容。IE8是第一个着手实现 ECMA-262第 5版的浏览器，并在 IE9中提供了完整的支持。Firefox 4也 紧随其后做到兼容。下表列出了 ECMAScript受主流 Web 浏览器支持的情况。</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126082641.png" alt=""></p><p><strong>IE也有他功绩的一面</strong></p><ol><li><p>IE4 中率先使用了ajax的模式，写法为 new ActiveXObject(“Microsoft.XMLHTTP”);</p></li><li><p>IE8 是第一个实现Object.defineProperty()方法的浏览器版本。然而，这个版本的实现存在诸多限制：只能在 DOM对象上使用这个方法，而且只能创建访问器属性。</p></li></ol><p>由于实现不彻底，建议读者不要在 IE8 中使用 Object.defineProperty() 方法。你是否了解Vue实现双向数据绑定的原理？</p><p>但是，他做的恶事绝对比他做的好事要多得多</p><p>2015年3月，微软确认将放弃IE品牌，代号为“Project Spartan”的新版浏览器被正式命名为“Microsoft Edge”，但IE仍会存在于某些版本的Windows 10中。</p><p>2016年1月13日（美国时间12日），微软停止为IE8/9/10这些旧版本的IE 浏览器提供技术支持。微软也最后一次放出了一个更新文件包（KB3123303)，里面含有安全更新和“寿终正寝” 的升级提醒。</p><p>2018年12月6日上午9点，微软通过其博客官方宣布：未来将采用 Chromium 内核开发桌面版 Edge 浏览器，以便为用户带来更好的 Web 兼容性，并为所有 Web 开发者减少 Web 碎片化。因此，微软计划成为 Chromium 项目的“重要贡献者”。</p><p>采用 Chromium 意味着微软将用 Blink 渲染引擎替代自己的 EdgeHTML 引擎，用 V8 替代 Chakra JS 引擎。在 Android 上微软将使用 Blink/Chromium，而 iOS 上将使用 WebKit/WKWebView。对于使用 EdgeHTML 或 Chakra 的 Windows 10 应用，它们可以暂时保持现状，微软最终会向它们提供 Edge 采用的 Chromium 方案。开发者现在可以继续采用旧的方案或切换到 Chromium。</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126082723.png" alt=""></p><p>微软还计划将 Edge 浏览器引入 macOS 平台。此外，新版 Edge 可运行在所有受支持的 Windows 版本上，包括 Windows 7 和 Windows 8 系列 —— 直到微软终止支持，而不仅仅是 Windows 10。</p><p>所以在更新频率方面，Edge 浏览器也将会与 Windows 10 的更新分离。微软将为 Microsoft Edge 带来更高频率的更新交付。</p><p>微软表示，采用 Chromium 内核的 Edge 浏览器预览版将于2019年年初推出。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/edge.jpg" style="zoom:67%"><p>chrome是Netscape的延续，到底谁嬴了？总之JavaScript已空前强大。</p><h3 id="布兰登·艾奇（Brendan-Eich），JavaScript的发明人"><a href="#布兰登·艾奇（Brendan-Eich），JavaScript的发明人" class="headerlink" title="布兰登·艾奇（Brendan Eich），JavaScript的发明人"></a>布兰登·艾奇（Brendan Eich），JavaScript的发明人</h3><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126082837.png" style="zoom:50%"><blockquote><p>布兰登·艾奇（生于1961年7月4日），美国技术专家和JavaScript 编程语言的创作者。他共同创办了Mozilla的项目的Mozilla基金会和Mozilla公司，并担任Mozilla公司的首席技术官，并简要的首席执行官。他是Brave Software的首席执行官。</p><p>他于1995年4月开始在Netscape Communications Corporation工作.Eich最初加入了打算将Scheme “放入浏览器”，但他的Netscape上司坚持认为该语言的语法要类似于Java,因为网景公司的整个管理层，都是Java语言的信徒，而且网景公司以与Sun公司结成联盟，当时的Sun已经把Java成功地推向了市场。</p><p>但是，布兰登·艾奇对Java一点兴趣也没有。为了应付公司安排的任务，他只用10天时间就把Javascript设计出来了。由于设计时间太短，语言的一些细节考虑得不够严谨，导致后来很长一段时间，Javascript写出来的程序混乱不堪。如果Brendan Eich预见到，未来这种语言会成为互联网第一大语言，全世界有几百万学习者，他会不会多花一点时间呢?</p><p>总的来说，他的设计思路是这样的：1.借鉴C语言的基本语法; 2.借鉴Java语言的数据类型和内存管理; 3.借鉴Scheme语言，将函数提升到”第一等公民”(first class)的地位; 4.借鉴Self语言，使用基于原型(prototype)的继承机制。</p><p>如果不是公司的决策，Brendan Eich绝不可能把Java作为Javascript设计的原型。作为设计者，他一点也不喜欢自己的这个作品：”与其说我爱Javascript，不如说我恨它。它是C语言和Self语言一夜情的产物。十八世纪英国文学家约翰逊博士说得好：’它的优秀之处并非原创，它的原创之处并不优秀。’ (the part that is good is not original, and the part that is original is not good.)”</p></blockquote><h3 id="一些疑问-和-解释"><a href="#一些疑问-和-解释" class="headerlink" title="一些疑问 和 解释"></a>一些疑问 和 解释</h3><h4 id="Javascript-和-java-的关系"><a href="#Javascript-和-java-的关系" class="headerlink" title="Javascript 和 java 的关系"></a>Javascript 和 java 的关系</h4><p>Brendan Eich在 1995 年发行的 Netscape Navigator 2.0 开发了一个称之为 LiveScript 的脚本语言，当时的目的是在浏览器和服务器（本来要叫它 LiveWire）端使用它。Netscape 与 Sun 及时完成 LiveScript 实现。</p><p>就在 Netscape Navigator 2.0 即将正式发布前，Netscape 将其更名为 JavaScript，目的是为了利用 Java 这个因特网时髦词汇。Netscape 的赌注最终得到回报，JavaScript 从此变成了因特网的必备组件，网景也得到了物质回报。</p><p>所以Javascript有点是蹭热度。</p><h4 id="Javascript-和-ECMAScript的区别？"><a href="#Javascript-和-ECMAScript的区别？" class="headerlink" title="Javascript 和 ECMAScript的区别？"></a>Javascript 和 ECMAScript的区别？</h4><p>Sun(现在的Oracle)公司持有着“Java”和“JavaScript”的商标。这就让微软不得不把自己的JavaScript方言称之为“JScript”。然后，在这门语言被标准化的时候，就必须使用一个与二者都不同的名字。“ECMAScript”就这样诞生了，这个名字的来由是因为执行标准化的组织是Ecma国际。通常来说，术语“ECMAScript”和“JavaScript”指的是同一个东西。但如果把JavaScript看成是“Mozilla或其他组织的ECMAScript实现”，那么ECMAScript就是实现JavaScript所依据的标准。</p><h4 id="为什么有两种叫法-ES6和-ES2015"><a href="#为什么有两种叫法-ES6和-ES2015" class="headerlink" title="为什么有两种叫法 -  ES6和 ES2015"></a>为什么有两种叫法 - ES6和 ES2015</h4><p>在 ES2015 之前，ECMAScript 规范通常按其版本命名。因此，ES5 是 2009 年更新发布的ECMAScript 规范的官方名称。</p><p>为什么会这样呢?</p><p>在 ES2015 诞生的过程中，这个名字从 ES6 变成了 ES2015 ，原因是由于这个过程比较晚，人们仍然把它习惯性的称为 ES6 ，社区并不是忘记了 ES2015 版本的命名 —— 只不过大家仍然在按照版本号来称呼 ES 的版本。</p><p>2015年6月发布：ECMAScript 6正式发布，并且更名为“ECMAScript，从那时开始，新版本将按照ECMAScript+年份的形式发布。</p><p>可以根据下图对照一下</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126082935.png" style="zoom:80%"><p>ES.Next 始终指示下一版本 JavaScript 的名称。</p><p><strong>参考资料</strong></p><p>作者：火锅伯南克</p><p><a href="https://www.jianshu.com/p/33c1d8505975" target="_blank" rel="noopener">https://www.jianshu.com/p/33c1d8505975</a></p><p><a href="https://www.html.cn/archives/9925" target="_blank" rel="noopener">https://www.html.cn/archives/9925</a></p><hr><p>希望本文可以让你对 javascript 语言有更多的理解。</p><p>另外，如果有想学习前端的小伙伴，可以关注这个作者的公众号哦，前端大佬，写的全是精华文章。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191126083059.png" style="zoom:67%"></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="../tags/JavaScript/index.html">JavaScript</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0010.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div id="wpac-rating" style="text-align:center;margin-top:10px"></div><script>wpac_init=window.wpac_init||[],wpac_init.push({widget:"Rating",id:18134}),function(){if(!("WIDGETPACK_LOADED"in window)){WIDGETPACK_LOADED=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="http://embed.widgetpack.com/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t.nextSibling)}}()</script><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="51fb.html"><img class="prev-cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0012.png" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"'><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Hexo博客部署到码云和Coding</div></div></a></div><div class="next-post pull-right"><a href="bc77.html"><img class="next-cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0009.png" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"'><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">实用的在线网站</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fas fa-thumbs-up fa-fw"></i> <span>相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="9620.html" title="JavaScript简介"><img class="relatedPosts_cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0008.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2019-11-18</div><div class="relatedPosts_title">JavaScript简介</div></div></a></div></div></div><hr><div id="post-comment"><div class="comment-head"><div class="comment-headling"><i class="fas fa-comments fa-fw"></i> <span>评论</span></div><div class="comment-switch"><span class="first-comment">Valine</span><label><input id="switch-comments-btn" type="checkbox"><span class="slider"></span></label><span class="second-comment">Gitalk</span></div></div><div class="comment-wrap"><div class="comments-items-1" data-name="Valine"><div class="vcomment" id="vcomment"></div><script>function loadvaline(){var i=function(a,i){a=a;var o=i.split(",").filter(function(i){return-1<a.indexOf(i)});return o=0==o.length?a:o},a=i(["nick","mail","link"],"nick,mail,link"),o=i(["nick","mail"],"nick,mail");loadScript("//unpkg.com/valine@latest/dist/Valine.min.js",function(){window.valine=new Valine({el:"#vcomment",appId:"uK6HbxGHHyIJNY0jbz3gVsw3-MdYXbMMI",appKey:"boaYzjEFV04TfVzXqcRjTUdX",placeholder:"悄悄告诉你哦，昵称填写QQ号会自动填入邮箱哦！😉😉😉",avatar:"monsterid",meta:a,pageSize:"10",lang:"zh-CN",recordIP:!1,serverURLs:"",emojiCDN:"https://valinecdn.bili33.top/",emojiMaps:{weibo2:"weibo/d_aoteman.png",weibo3:"weibo/d_baibai.png",weibo4:"weibo/d_baobao.png",weibo5:"weibo/d_beishang.png",weibo6:"weibo/d_bingbujiandan.png",weibo7:"weibo/d_bishi.png",weibo8:"weibo/d_bizui.png",weibo9:"weibo/d_chanzui.png",weibo10:"weibo/d_chigua.png",weibo11:"weibo/d_chijing.png",weibo12:"weibo/d_dahaqi.png",weibo13:"weibo/d_dalian.png",weibo14:"weibo/d_ding.png",weibo15:"weibo/d_doge.png",weibo16:"weibo/d_erha.png",weibo17:"weibo/d_feijie.png",weibo18:"weibo/d_feizao.png",weibo19:"weibo/d_ganmao.png",weibo20:"weibo/d_guile.png",weibo21:"weibo/d_guzhang.png",weibo22:"weibo/d_haha.png",weibo23:"weibo/d_haixiu.png",weibo24:"weibo/d_han.png",weibo25:"weibo/d_hehe.png",weibo26:"weibo/d_heiheihei.png",weibo27:"weibo/d_heixian.png",weibo28:"weibo/d_heng.png",weibo29:"weibo/d_huaixiao.png",weibo30:"weibo/d_huaxin.png",weibo31:"weibo/d_jiyan.png",weibo32:"weibo/d_keai.png",weibo33:"weibo/d_kelian.png",weibo34:"weibo/d_ku.png",weibo35:"weibo/d_kulou.png",weibo36:"weibo/d_kun.png",weibo37:"weibo/d_landelini.png",weibo38:"weibo/d_lang.png",weibo39:"weibo/d_lei.png",weibo40:"weibo/d_miao.png",weibo41:"weibo/d_nanhaier.png",weibo42:"weibo/d_nu.png",weibo43:"weibo/d_numa.png",weibo44:"weibo/d_nvhaier.png",weibo45:"weibo/d_qian.png",weibo46:"weibo/d_qinqin.png",weibo47:"weibo/d_shayan.png",weibo48:"weibo/d_shengbing.png",weibo49:"weibo/d_shenshou.png",weibo50:"weibo/d_shiwang.png",weibo51:"weibo/d_shuai.png",weibo52:"weibo/d_shuijiao.png",weibo53:"weibo/d_sikao.png",weibo54:"weibo/d_taikaixin.png",weibo55:"weibo/d_tanshou.png",weibo56:"weibo/d_tian.png",weibo57:"weibo/d_touxiao.png",weibo58:"weibo/d_tu.png",weibo59:"weibo/d_tuzi.png",weibo60:"weibo/d_wabishi.png",weibo61:"weibo/d_weiqu.png",weibo62:"weibo/d_wu.png",weibo63:"weibo/d_xiaoku.png",weibo64:"weibo/d_xingxingyan.png",weibo65:"weibo/d_xiongmao.png",weibo66:"weibo/d_xixi.png",weibo67:"weibo/d_xu.png",weibo68:"weibo/d_yinxian.png",weibo69:"weibo/d_yiwen.png",weibo70:"weibo/d_youhengheng.png",weibo71:"weibo/d_yun.png",weibo72:"weibo/d_yunbei.png",weibo73:"weibo/d_zhuakuang.png",weibo74:"weibo/d_zhutou.png",weibo75:"weibo/d_zuiyou.png",weibo76:"weibo/emoji_0x1f31f.png",weibo77:"weibo/emoji_0x1f349.png",weibo78:"weibo/emoji_0x1f357.png",weibo79:"weibo/emoji_0x1f384.png",weibo80:"weibo/emoji_0x1f44f.png",weibo81:"weibo/emoji_0x1f47b.png",weibo82:"weibo/emoji_0x1f47f.png",weibo83:"weibo/emoji_0x1f48a.png",weibo84:"weibo/emoji_0x1f4a3.png",weibo85:"weibo/emoji_0x1f4a9.png",weibo86:"weibo/emoji_0x1f631.png",weibo87:"weibo/emoji_0x1f643.png",weibo88:"weibo/emoji_0x1f645.png",weibo89:"weibo/emoji_0x1f648.png",weibo90:"weibo/emoji_0x1f649.png",weibo91:"weibo/emoji_0x1f64a.png",weibo92:"weibo/emoji_0x1f64b.png",weibo93:"weibo/emoji_0x1f64f.png",weibo94:"weibo/emoji_0x1f913.png",weibo95:"weibo/emoji_0x1f917.png",weibo96:"weibo/emoji_0x26a1.png",weibo97:"weibo/h_buyao.png",weibo98:"weibo/h_good.png",weibo99:"weibo/h_haha.png",weibo100:"weibo/h_jiayou.png",weibo101:"weibo/h_lai.png",weibo102:"weibo/h_ok.png",weibo103:"weibo/h_quantou.png",weibo104:"weibo/h_ruo.png",weibo105:"weibo/h_woshou.png",weibo106:"weibo/h_ye.png",weibo107:"weibo/h_zan.png",weibo108:"weibo/h_zuoyi.png","HONKAI3-MEI1":"HONKAI3-MEI/501ac209b259bb545dea898838c24229483fcfeb.gif","HONKAI3-MEI2":"HONKAI3-MEI/5baf4306d1f685bf47922fbae365ccfba7721beb.gif","HONKAI3-MEI3":"HONKAI3-MEI/624857651c863ea9571f5e557fca8516dd41e0fc.gif","HONKAI3-MEI4":"HONKAI3-MEI/680311714674014d0c17f757eb40c3071448222a.gif","HONKAI3-MEI5":"HONKAI3-MEI/bf68423446465d396d3cbd8856882b5e9fb1c0c7.gif","HONKAI3-MEI6":"HONKAI3-MEI/d3a2a9c6ad1e2a0b262dca9354ab8de736d81cdf.gif","HONKAI3-MEI7":"HONKAI3-MEI/dd0fd1f3668f4907c9f6fcd39c6138417ac0e1f5.gif",bilibiliHotKey1:"bilibiliHotKey/1.jpg",bilibiliHotKey2:"bilibiliHotKey/10.jpg",bilibiliHotKey3:"bilibiliHotKey/11.jpg",bilibiliHotKey4:"bilibiliHotKey/12.jpg",bilibiliHotKey5:"bilibiliHotKey/13.jpg",bilibiliHotKey6:"bilibiliHotKey/14.jpg",bilibiliHotKey7:"bilibiliHotKey/15.jpg",bilibiliHotKey8:"bilibiliHotKey/16.jpg",bilibiliHotKey9:"bilibiliHotKey/17.jpg",bilibiliHotKey10:"bilibiliHotKey/18.jpg",bilibiliHotKey11:"bilibiliHotKey/19.jpg",bilibiliHotKey12:"bilibiliHotKey/2.jpg",bilibiliHotKey13:"bilibiliHotKey/20.jpg",bilibiliHotKey14:"bilibiliHotKey/21.jpg",bilibiliHotKey15:"bilibiliHotKey/22.jpg",bilibiliHotKey16:"bilibiliHotKey/23.jpg",bilibiliHotKey17:"bilibiliHotKey/24.jpg",bilibiliHotKey18:"bilibiliHotKey/25.jpg",bilibiliHotKey19:"bilibiliHotKey/26.jpg",bilibiliHotKey20:"bilibiliHotKey/27.jpg",bilibiliHotKey21:"bilibiliHotKey/28.jpg",bilibiliHotKey22:"bilibiliHotKey/29.jpg",bilibiliHotKey23:"bilibiliHotKey/3.jpg",bilibiliHotKey24:"bilibiliHotKey/30.jpg",bilibiliHotKey25:"bilibiliHotKey/31.jpg",bilibiliHotKey26:"bilibiliHotKey/32.jpg",bilibiliHotKey27:"bilibiliHotKey/4.jpg",bilibiliHotKey28:"bilibiliHotKey/5.jpg",bilibiliHotKey29:"bilibiliHotKey/6.jpg",bilibiliHotKey30:"bilibiliHotKey/7.jpg",bilibiliHotKey31:"bilibiliHotKey/8.jpg",bilibiliHotKey32:"bilibiliHotKey/9.jpg",alu2:"alu/不出所料.png",alu3:"alu/不说话.png",alu4:"alu/不高兴.png",alu5:"alu/中刀.png",alu6:"alu/中指.png",alu7:"alu/中枪.png",alu8:"alu/亲亲.png",alu9:"alu/便便.png",alu10:"alu/内伤.png",alu11:"alu/击掌.png",alu12:"alu/口水.png",alu13:"alu/吐.png",alu14:"alu/吐舌.png",alu15:"alu/吐血倒地.png",alu16:"alu/呲牙.png",alu17:"alu/咽气.png",alu18:"alu/哭泣.png",alu19:"alu/喜极而泣.png",alu20:"alu/喷水.png",alu21:"alu/喷血.png",alu22:"alu/坐等.png",alu23:"alu/害羞.png",alu24:"alu/小眼睛.png",alu25:"alu/尴尬.png",alu26:"alu/得意.png",alu27:"alu/惊喜.png",alu28:"alu/想一想.png",alu29:"alu/愤怒.png",alu30:"alu/扇耳光.png",alu31:"alu/投降.png",alu32:"alu/抠鼻.png",alu33:"alu/抽烟.png",alu34:"alu/无奈.png",alu35:"alu/无所谓.png",alu36:"alu/无语.png",alu37:"alu/暗地观察.png",alu38:"alu/期待.png",alu39:"alu/欢呼.png",alu40:"alu/汗.png",alu41:"alu/深思.png",alu42:"alu/狂汗.png",alu43:"alu/献花.png",alu44:"alu/献黄瓜.png",alu45:"alu/皱眉.png",alu46:"alu/看不见.png",alu47:"alu/看热闹.png",alu48:"alu/瞅你.png",alu49:"alu/肿包.png",alu50:"alu/脸红.png",alu51:"alu/蜡烛.png",alu52:"alu/装大款.png",alu53:"alu/观察.png",alu54:"alu/赞一个.png",alu55:"alu/邪恶.png",alu56:"alu/锁眉.png",alu57:"alu/长草.png",alu58:"alu/阴暗.png",alu59:"alu/高兴.png",alu60:"alu/黑线.png",alu61:"alu/鼓掌.png",aodamiao1:"aodamiao/01.gif",aodamiao2:"aodamiao/02.gif",aodamiao3:"aodamiao/03.gif",aodamiao4:"aodamiao/04.gif",aodamiao5:"aodamiao/05.gif",aodamiao6:"aodamiao/06.gif",aodamiao7:"aodamiao/07.gif",aodamiao8:"aodamiao/08.gif",aodamiao9:"aodamiao/09.gif",aodamiao10:"aodamiao/10.gif",aodamiao11:"aodamiao/11.gif",aodamiao12:"aodamiao/12.gif",aodamiao13:"aodamiao/13.gif",aodamiao14:"aodamiao/14.gif",aodamiao15:"aodamiao/15.gif",aodamiao16:"aodamiao/16.gif",aodamiao17:"aodamiao/17.gif",aodamiao18:"aodamiao/18.gif",aodamiao19:"aodamiao/19.gif",aodamiao20:"aodamiao/20.gif",aodamiao21:"aodamiao/21.gif",aodamiao22:"aodamiao/22.gif",aodamiao23:"aodamiao/23.gif",aodamiao24:"aodamiao/24.gif",aodamiao25:"aodamiao/25.gif",aodamiao26:"aodamiao/26.gif",aodamiao27:"aodamiao/27.gif",aodamiao28:"aodamiao/28.gif",aodamiao29:"aodamiao/29.gif",aodamiao30:"aodamiao/30.gif",aodamiao31:"aodamiao/31.gif",aodamiao32:"aodamiao/32.gif",aodamiao33:"aodamiao/33.gif",aodamiao34:"aodamiao/34.gif",aodamiao35:"aodamiao/35.gif",aodamiao36:"aodamiao/36.gif",aodamiao37:"aodamiao/37.gif",aodamiao38:"aodamiao/38.gif",aodamiao39:"aodamiao/39.gif",aodamiao40:"aodamiao/40.gif",bilibilitv2:"bilibilitv/[tv_doge].png",bilibilitv3:"bilibilitv/[tv_亲亲].png",bilibilitv4:"bilibilitv/[tv_偷笑].png",bilibilitv5:"bilibilitv/[tv_再见].png",bilibilitv6:"bilibilitv/[tv_冷漠].png",bilibilitv7:"bilibilitv/[tv_发怒].png",bilibilitv8:"bilibilitv/[tv_发财].png",bilibilitv9:"bilibilitv/[tv_可爱].png",bilibilitv10:"bilibilitv/[tv_吐血].png",bilibilitv11:"bilibilitv/[tv_呆].png",bilibilitv12:"bilibilitv/[tv_呕吐].png",bilibilitv13:"bilibilitv/[tv_困].png",bilibilitv14:"bilibilitv/[tv_坏笑].png",bilibilitv15:"bilibilitv/[tv_大佬].png",bilibilitv16:"bilibilitv/[tv_大哭].png",bilibilitv17:"bilibilitv/[tv_委屈].png",bilibilitv18:"bilibilitv/[tv_害羞].png",bilibilitv19:"bilibilitv/[tv_尴尬].png",bilibilitv20:"bilibilitv/[tv_微笑].png",bilibilitv21:"bilibilitv/[tv_思考].png",bilibilitv22:"bilibilitv/[tv_惊吓].png",bilibilitv23:"bilibilitv/[tv_打脸].png",bilibilitv24:"bilibilitv/[tv_抓狂].png",bilibilitv25:"bilibilitv/[tv_抠鼻].png",bilibilitv26:"bilibilitv/[tv_斜眼笑].png",bilibilitv27:"bilibilitv/[tv_无奈].png",bilibilitv28:"bilibilitv/[tv_晕].png",bilibilitv29:"bilibilitv/[tv_流汗].png",bilibilitv30:"bilibilitv/[tv_流泪].png",bilibilitv31:"bilibilitv/[tv_流鼻血].png",bilibilitv32:"bilibilitv/[tv_点赞].png",bilibilitv33:"bilibilitv/[tv_生气].png",bilibilitv34:"bilibilitv/[tv_生病].png",bilibilitv35:"bilibilitv/[tv_疑问].png",bilibilitv36:"bilibilitv/[tv_白眼].png",bilibilitv37:"bilibilitv/[tv_皱眉].png",bilibilitv38:"bilibilitv/[tv_目瞪口呆].png",bilibilitv39:"bilibilitv/[tv_睡着].png",bilibilitv40:"bilibilitv/[tv_笑哭].png",bilibilitv41:"bilibilitv/[tv_腼腆].png",bilibilitv42:"bilibilitv/[tv_色].png",bilibilitv43:"bilibilitv/[tv_调侃].png",bilibilitv44:"bilibilitv/[tv_调皮].png",bilibilitv45:"bilibilitv/[tv_鄙视].png",bilibilitv46:"bilibilitv/[tv_闭嘴].png",bilibilitv47:"bilibilitv/[tv_难过].png",bilibilitv48:"bilibilitv/[tv_馋].png",bilibilitv49:"bilibilitv/[tv_鬼脸].png",bilibilitv50:"bilibilitv/[tv_黑人问号].png",bilibilitv51:"bilibilitv/[tv_鼓掌].png","Little-Bad2":"Little-Bad/一群坏坏.jpg","Little-Bad3":"Little-Bad/中坏坏.jpg","Little-Bad4":"Little-Bad/发火的坏坏.jpg","Little-Bad5":"Little-Bad/坏坏坏.jpg","Little-Bad6":"Little-Bad/大坏坏.jpg","Little-Bad7":"Little-Bad/天使一般的坏坏.jpg","Little-Bad8":"Little-Bad/害羞坏.jpg","Little-Bad9":"Little-Bad/小坏蛋.jpg","Little-Bad10":"Little-Bad/我们一起做坏坏的事.jpg","Little-Bad11":"Little-Bad/敲板子的坏坏.gif","Little-Bad12":"Little-Bad/比地球还大的坏坏.jpg","Little-Bad13":"Little-Bad/流泪的坏坏.jpg","Little-Bad14":"Little-Bad/热炸的坏坏.jpg",Mafumafu1:"Mafumafu/199749454.png",Mafumafu2:"Mafumafu/199749455.png",Mafumafu3:"Mafumafu/199749456.png",Mafumafu4:"Mafumafu/199749457.png",Mafumafu5:"Mafumafu/199749458.png",Mafumafu6:"Mafumafu/199749459.png",Mafumafu7:"Mafumafu/199749460.png",Mafumafu8:"Mafumafu/199749461.png",Mafumafu9:"Mafumafu/199749462.png",Mafumafu10:"Mafumafu/199749463.png",Mafumafu11:"Mafumafu/199749464.png",Mafumafu12:"Mafumafu/199749465.png",Mafumafu13:"Mafumafu/199749466.png",Mafumafu14:"Mafumafu/199749467.png",Mafumafu15:"Mafumafu/199749468.png",Mafumafu16:"Mafumafu/199749469.png",Mafumafu17:"Mafumafu/199749470.png",Mafumafu18:"Mafumafu/199749471.png",Mafumafu19:"Mafumafu/199749472.png",Mafumafu20:"Mafumafu/199749473.png",Mafumafu21:"Mafumafu/199749474.png",Mafumafu22:"Mafumafu/199749475.png",Mafumafu23:"Mafumafu/199749476.png",Mafumafu24:"Mafumafu/199749477.png","Yurui-Neko1":"Yurui-Neko/001.png","Yurui-Neko2":"Yurui-Neko/002.png","Yurui-Neko3":"Yurui-Neko/003.png","Yurui-Neko4":"Yurui-Neko/004.png","Yurui-Neko5":"Yurui-Neko/005.png","Yurui-Neko6":"Yurui-Neko/006.png","Yurui-Neko7":"Yurui-Neko/007.png","Yurui-Neko8":"Yurui-Neko/008.png","Yurui-Neko9":"Yurui-Neko/009.png","Yurui-Neko10":"Yurui-Neko/010.png","Yurui-Neko11":"Yurui-Neko/011.png","Yurui-Neko12":"Yurui-Neko/012.png","Yurui-Neko13":"Yurui-Neko/013.png","Yurui-Neko14":"Yurui-Neko/014.png","Yurui-Neko15":"Yurui-Neko/015.png","Yurui-Neko16":"Yurui-Neko/016.png","Yurui-Neko17":"Yurui-Neko/017.png","Yurui-Neko18":"Yurui-Neko/018.png","Yurui-Neko19":"Yurui-Neko/019.png","Yurui-Neko20":"Yurui-Neko/020.png","Yurui-Neko21":"Yurui-Neko/021.png","Yurui-Neko22":"Yurui-Neko/022.png","Yurui-Neko23":"Yurui-Neko/023.png","Yurui-Neko24":"Yurui-Neko/024.png","Yurui-Neko25":"Yurui-Neko/025.png","Yurui-Neko26":"Yurui-Neko/026.png","Yurui-Neko27":"Yurui-Neko/027.png","Yurui-Neko28":"Yurui-Neko/028.png","Yurui-Neko29":"Yurui-Neko/029.png","Yurui-Neko30":"Yurui-Neko/030.png","Yurui-Neko31":"Yurui-Neko/031.png","Yurui-Neko32":"Yurui-Neko/032.png","Yurui-Neko33":"Yurui-Neko/033.png","Yurui-Neko34":"Yurui-Neko/034.png","Yurui-Neko35":"Yurui-Neko/035.png","Yurui-Neko36":"Yurui-Neko/036.png","Yurui-Neko37":"Yurui-Neko/037.png","Yurui-Neko38":"Yurui-Neko/038.png","Yurui-Neko39":"Yurui-Neko/039.png","Yurui-Neko40":"Yurui-Neko/040.png"},enableQQ:!0,requiredFields:o})})}function loadOtherComment(){loadvaline()}window.addEventListener("load",loadvaline)</script></div><div class="comments-items-2" data-name="Gitalk"><div id="gitalk-container"></div><script src="https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js"></script><script>function loadGitalk () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+
+  loadScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js', function () {
+    var gitalk = new Gitalk({
+      clientID: '9892fd65fc9866d49ffc',
+      clientSecret: '623b8d073d0894e8367a1484d4e29d0e01de37db',
+      repo: 'Yafine-gitalks',
+      owner: 'Yafine',
+      admin: ['Yafine'],
+      id: md5(decodeURI(location.pathname)),
+      language: 'zh-CN',
+      perPage: 10,
+      distractionFreeMode: false,
+      pagerDirection: 'last',
+      createIssueManually: true,
+      updateCountCallback: commentCount
+    })
+    gitalk.render('gitalk-container')
+  })
+
+  function commentCount(n){
+    try {
+      document.getElementsByClassName('gitalk-comment-count')[0].innerHTML= n
+    } catch (e) {
+      return false
+    }
+  }
+}
+
+if ('Valine' === 'Gitalk' || true) {
+  window.addEventListener('load', loadGitalk)
+}
+else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div></div></div></article></main><footer id="footer" style="background-image:url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0010.png)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 By Yafine</div><div class="footer_custom_text">Hi , Weclome to My Home .<br>This is My Stage!😎😎😎</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49b1f5">hexo-generator-search</a> <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/utils.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js"></script><script>document.addEventListener("DOMContentLoaded",function(){pangu.autoSpacingPage()})</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/search/local-search.js"></script><script>!function(e,p,s,u){if(void 0===e.webpushr){e.webpushr=e.webpushr||function(){(e.webpushr.q=e.webpushr.q||[]).push(arguments)};var n,t=p.getElementsByTagName(s)[0];(n=p.createElement(s)).id="webpushr-jssdk",n.src="https://cdn.webpushr.com/app.min.js",t.parentNode.appendChild(n)}}(window,document,"script"),webpushr("init","BAJy08X2FxDq2OEBYdIXet7uuThfcz7QUIypPTCV--OXENaThpuiYHWFGvLlDjkN75mJPzItiCQfnq9Z80cQ7eE")</script><script>window.$crisp=[],window.CRISP_WEBSITE_ID="6a511ac1-4992-4e21-8b54-19e2695fc8d8",d=document,s=d.createElement("script"),s.src="https://client.crisp.chat/l.js",s.async=1,d.getElementsByTagName("head")[0].appendChild(s)</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/wgtags.js"></script><script src="../js/script.html"></script><script>!function(e,p,s,n){e.webpushr=e.webpushr||function(){(e.webpushr.q=e.webpushr.q||[]).push(arguments)};var t,u=p.getElementsByTagName(s)[0];(t=p.createElement(s)).id="webpushr-jssdk",t.src="https://cdn.webpushr.com/app.min.js",u.parentNode.appendChild(t)}(window,document,"script"),webpushr("init","BAJy08X2FxDq2OEBYdIXet7uuThfcz7QUIypPTCV--OXENaThpuiYHWFGvLlDjkN75mJPzItiCQfnq9Z80cQ7eE")</script></body>
+<!-- Mirrored from yafine-blog.cn/posts/7fe2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Oct 2020 16:08:15 GMT -->
+</html>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">guo</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://qichaos.com/posts/7fe2.html">https://qichaos.com/posts/7fe2.html</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint polocy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">guo</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/posts/7fe2.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            guo
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Current&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/posts/7fe2.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            guo
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">guo</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

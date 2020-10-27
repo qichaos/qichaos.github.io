@@ -1,0 +1,1197 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="测试">
+    <meta name="description" content="度">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Demo</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Demo</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>Contact</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>Friends</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Demo</div>
+        <div class="logo-desc">
+            
+            度
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			Friends
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2020-10-27
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <!DOCTYPE html><html lang="zh-CN" data-theme="light">
+<!-- Mirrored from yafine-blog.cn/posts/bc77.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Oct 2020 16:08:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>实用的在线网站 | 过客~励む</title><meta name="description" content="分享一些实用的在线网站，不定期更新,这是第一期"><meta name="keywords" content="在线网站,效率,效率工具"><meta name="author" content="Yafine"><meta name="copyright" content="Yafine"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/favicon.png"><link rel="canonical" href="bc77.html"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="http://cdn.jsdelivr.net/"><link rel="preconnect" href="http://www.google-analytics.com/" crossorigin="crossorigin"><link rel="preconnect" href="http://hm.baidu.com/"><link rel="preconnect" href="http://ta.qq.com/"><link rel="preconnect" href="http://fonts.googleapis.com/" crossorigin="crossorigin"><link rel="preconnect" href="http://busuanzi.ibruce.info/"><link rel="preconnect" href="http://zz.bdstatic.com/"><meta name="google-site-verification" content="_Yxe-z9eMYY_SRPAcIzAbYH5As14vyJJcWZRdsz82oo"><meta name="msvalidate.01" content="24D491BCFF09B589F74D051A28BEA16A"><meta name="baidu-site-verification" content="ukPosCpWvc"><meta name="360-site-verification" content="f67a6b2f0543b97e5f2c6504670f94b6"><meta property="og:type" content="article"><meta property="og:title" content="实用的在线网站"><meta property="og:url" content="bc77.html"><meta property="og:site_name" content="过客~励む"><meta property="og:description" content="分享一些实用的在线网站，不定期更新,这是第一期"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0009.png"><meta property="article:published_time" content="2019-11-18T14:04:42.000Z"><meta property="article:modified_time" content="2020-07-13T04:13:44.347Z"><meta name="twitter:card" content="summary"><link rel="manifest" href="../img/pwa/manifest.json"><meta name="theme-color" content="#fff"><meta name="msapplication-TileColor" content="#fff"><link rel="apple-touch-icon" sizes="180x180" href="../img/pwa/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="../img/pwa/32.png"><link rel="icon" type="image/png" sizes="16x16" href="../img/pwa/16.png"><link rel="mask-icon" href="../img/pwa/safari-pinned-tab.svg" color="#5bbad5"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="prev" title="JavaScript的发展史" href="7fe2.html"><link rel="next" title="JavaScript简介" href="9620.html"><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?12c4949ccded8725d72796f9cafb6249";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script>!function(e,a,t,n,g,c,o){e.GoogleAnalyticsObject=g,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),o=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script",0,"ga"),ga("create","151181323","auto"),ga("send","pageview")</script><script src="https://tajs.qq.com/stats?sId=66505462" charset="UTF-8"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG={root:"/",algolia:void 0,localSearch:{path:"search.xml",languages:{hits_empty:"找不到您查询的内容:${query}"}},translate:void 0,noticeOutdate:{limitDay:6,position:"top",messagePrev:"读者请注意，本文章编写于",messageNext:"天前，文中某些信息可能已经过时，如有任何问题，请在文章末尾评论处留言！"},copy:{success:"复制成功",error:"复制错误",noSupport:"浏览器不支持"},bookmark:{message_prev:"按",message_next:"键将本页加入书签"},runtime_unit:"天",runtime:!0,copyright:{languages:{author:"作者: Yafine",link:"链接: ",source:"来源: 过客~励む",info:"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},ClickShowText:void 0,medium_zoom:!1,fancybox:!0,Snackbar:void 0,justifiedGallery:{js:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js",css:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css"},baiduPush:!0,highlightCopy:!0,highlightLang:!0,isPhotoFigcaption:!0,islazyload:!1,isanchor:!1}</script><script>var GLOBAL_CONFIG_SITE={isPost:!0,isHome:!1,isHighlightShrink:!1,isSidebar:!0,postUpdate:"2020-07-13 12:13:44"}</script><noscript><style>#nav{opacity:1}.justified-gallery img{opacity:1}</style></noscript><meta name="sogou_site_verification" content="gPRA4fogql"><meta name="360-site-verification" content="f67a6b2f0543b97e5f2c6504670f94b6"><link rel="stylesheet" href="http://at.alicdn.com/t/font_1542125_n4k33ijorz.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/flink.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/plugins.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/wgtags.css"><link href="https://cdn.bootcdn.net/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.min.css" rel="stylesheet"><link href="../css/ye.html" rel="stylesheet"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="../atom.xml" title="过客~励む" type="application/atom+xml"><link rel="alternate" href="../rss2.xml" title="过客~励む" type="application/rss+xml"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://gitee.com/yafine66/blogimage/raw/master/img/avatar.jpg" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/friend_404.gif"' alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../archives/index.html"><div class="headline">文章</div><div class="length_num">33</div></a></div></div><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../tags/index.html"><div class="headline">标签</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../categories/index.html"><div class="headline">分类</div><div class="length_num">8</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="../index.html"><i class="fa-fw fa fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="../archives/index.html"><i class="fa-fw fa fa-archive"></i> <span>归档</span></a></div><div class="menus_item"><a class="site-page" href="../tags/index.html"><i class="fa-fw fa fa-tags"></i> <span>标签</span></a></div><div class="menus_item"><a class="site-page" href="../categories/index.html"><i class="fa-fw fa fa-folder-open"></i> <span>分类</span></a></div><div class="menus_item"><a class="site-page" href="../about/index.html"><i class="fa-fw fa fa-heart"></i> <span>关于我</span></a></div><div class="menus_item"><a class="site-page" href="../contact/index.html"><i class="fa-fw fa fa-comments"></i> <span>留言板</span></a></div><div class="menus_item"><a class="site-page" href="../suiyu/index.html"><i class="fa-fw fa fa-comment-alt"></i> <span>碎语</span></a></div><div class="menus_item"><a class="site-page" href="../link/index.html"><i class="fa-fw fa fa-link"></i> <span>友人帐</span></a></div><div class="menus_item"><a class="site-page" href="../box/index.html"><i class="fa-fw fa fa-box"></i> <span>工具箱</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#文档类"><span class="toc-text">文档类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-轻松玩转PDF"><span class="toc-text">1. 轻松玩转PDF</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Convertio：在线的文件转换器"><span class="toc-text">2. Convertio：在线的文件转换器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-CleverPDF"><span class="toc-text">3. CleverPDF</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-vvv文档在线导出工具"><span class="toc-text">4. vvv文档在线导出工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-微信公众号格式化编辑器"><span class="toc-text">5. 微信公众号格式化编辑器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-Process-On：免费在线作图，实时协作"><span class="toc-text">6. Process On：免费在线作图，实时协作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-ALL-TO-ALL（在线格式转换）"><span class="toc-text">7. ALL TO ALL（在线格式转换）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-Office-Converter"><span class="toc-text">8. Office-Converter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-Super-Tools（依奇在线超级转换工具）"><span class="toc-text">9. Super Tools（依奇在线超级转换工具）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-LightPDF"><span class="toc-text">10. LightPDF</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#PPT模板下载（免费）"><span class="toc-text">PPT模板下载（免费）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-51PPT模板"><span class="toc-text">1. 51PPT模板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-第一PPT"><span class="toc-text">2. 第一PPT</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-优品PPT"><span class="toc-text">3. 优品PPT</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-pptfans"><span class="toc-text">4. pptfans</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#工具类"><span class="toc-text">工具类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-NICETOOL-：在线工具箱"><span class="toc-text">1. NICETOOL+：在线工具箱</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Toolfk：在线工具箱"><span class="toc-text">2. Toolfk：在线工具箱</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-兔二工具"><span class="toc-text">3. 兔二工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-奇迹秀工具箱"><span class="toc-text">4. 奇迹秀工具箱</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-SOOGIF：GIF制作工具"><span class="toc-text">5. SOOGIF：GIF制作工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-超级简历：在线制作简历"><span class="toc-text">6. 超级简历：在线制作简历</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#开发类"><span class="toc-text">开发类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-在线颜色转换"><span class="toc-text">1. 在线颜色转换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-程序员导航"><span class="toc-text">2. 程序员导航</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-JSON在线解析"><span class="toc-text">3. JSON在线解析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-在线工具"><span class="toc-text">4. 在线工具</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在线图片处理"><span class="toc-text">在线图片处理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-TinyPng（压缩图片）"><span class="toc-text">1. TinyPng（压缩图片）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-waifu2x（无损放大图片）"><span class="toc-text">2. waifu2x（无损放大图片）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-在线PS（稿定设计）"><span class="toc-text">3. 在线PS（稿定设计）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-iloveimg-图片工具箱"><span class="toc-text">4. iloveimg(图片工具箱)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-U钙网"><span class="toc-text">5. U钙网</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#免费素材库"><span class="toc-text">免费素材库</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Pixabay"><span class="toc-text">1. Pixabay</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Hippopx"><span class="toc-text">2. Hippopx</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-68素材-·-欣赏"><span class="toc-text">3. 68素材 · 欣赏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Unsplash-（Photos-for-everyone）"><span class="toc-text">4. Unsplash （Photos for everyone）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-Gratisography"><span class="toc-text">5. Gratisography</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-DesignersPics-com"><span class="toc-text">6. DesignersPics.com</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#电子书类（免费）"><span class="toc-text">电子书类（免费）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-尘宇下载站"><span class="toc-text">1. 尘宇下载站</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-雅书"><span class="toc-text">2. 雅书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-PDF之家"><span class="toc-text">3. PDF之家</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-鸠摩搜书"><span class="toc-text">4. 鸠摩搜书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-子午书简"><span class="toc-text">5. 子午书简</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-苦瓜书盘"><span class="toc-text">6. 苦瓜书盘</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-周读"><span class="toc-text">7. 周读</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-计算机书籍控"><span class="toc-text">8. 计算机书籍控</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#简洁的搜索导航"><span class="toc-text">简洁的搜索导航</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-某柠檬"><span class="toc-text">1. 某柠檬</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-秘迹搜索"><span class="toc-text">2. 秘迹搜索</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-简搜"><span class="toc-text">3. 简搜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-万花筒"><span class="toc-text">4. 万花筒</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#导航整合"><span class="toc-text">导航整合</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-虫部落·快搜"><span class="toc-text">1. 虫部落·快搜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-老司机导航（正规车）"><span class="toc-text">2. 老司机导航（正规车）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-优设导航-学设计从这里开始"><span class="toc-text">3. 优设导航 - 学设计从这里开始</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-AnywhereAnything"><span class="toc-text">4. AnywhereAnything</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-小呆导航"><span class="toc-text">5. 小呆导航</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-本本啦-笔记本网址导航"><span class="toc-text">6. 本本啦 - 笔记本网址导航</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-果汁导航"><span class="toc-text">7. 果汁导航</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-A网"><span class="toc-text">8. A网</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-KIM主页-主页从未如此惊艳"><span class="toc-text">9. KIM主页 - 主页从未如此惊艳</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-星空导航"><span class="toc-text">10. 星空导航</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#11-走读派读书导航-读书学习第一站"><span class="toc-text">11. 走读派读书导航 -读书学习第一站</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-HiPPTer-（PPT资源导航）"><span class="toc-text">12. HiPPTer （PPT资源导航）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#音乐网站-免费下载"><span class="toc-text">音乐网站(免费下载)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-果核音乐搜搜"><span class="toc-text">1. 果核音乐搜搜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-FreeMusic"><span class="toc-text">2. FreeMusic</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-全网音乐免费下载工具"><span class="toc-text">3. 全网音乐免费下载工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-歌曲大全-音乐聚合搜索引擎"><span class="toc-text">4. 歌曲大全-音乐聚合搜索引擎</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-七月辰的工具箱"><span class="toc-text">5. 七月辰的工具箱</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-墨灵音乐"><span class="toc-text">6. 墨灵音乐</span></a></li></ol></li></ol></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image:url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0009.png)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="../index.html">过客~励む</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i> <span>搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="../index.html"><i class="fa-fw fa fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="../archives/index.html"><i class="fa-fw fa fa-archive"></i> <span>归档</span></a></div><div class="menus_item"><a class="site-page" href="../tags/index.html"><i class="fa-fw fa fa-tags"></i> <span>标签</span></a></div><div class="menus_item"><a class="site-page" href="../categories/index.html"><i class="fa-fw fa fa-folder-open"></i> <span>分类</span></a></div><div class="menus_item"><a class="site-page" href="../about/index.html"><i class="fa-fw fa fa-heart"></i> <span>关于我</span></a></div><div class="menus_item"><a class="site-page" href="../contact/index.html"><i class="fa-fw fa fa-comments"></i> <span>留言板</span></a></div><div class="menus_item"><a class="site-page" href="../suiyu/index.html"><i class="fa-fw fa fa-comment-alt"></i> <span>碎语</span></a></div><div class="menus_item"><a class="site-page" href="../link/index.html"><i class="fa-fw fa fa-link"></i> <span>友人帐</span></a></div><div class="menus_item"><a class="site-page" href="../box/index.html"><i class="fa-fw fa fa-box"></i> <span>工具箱</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">实用的在线网站</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2019-11-18 22:04:42"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2019-11-18</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-07-13 12:13:44"><i class="fas fa-history fa-fw"></i> 更新于 2020-07-13</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fas fa-inbox fa-fw post-meta__icon"></i><a class="post-meta__categories" href="../categories/%e5%ae%9e%e7%94%a8%e5%b7%a5%e5%85%b7%e9%9b%86%e5%90%88/index.html">实用工具集合</a></span></div><div class="meta-secondline"><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta__icon"></i> <span>字数总计:</span><span class="word-count">2.9k</span><span class="post-meta__separator">|</span><i class="far fa-clock fa-fw post-meta__icon"></i><span>阅读时长: 9 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span><span class="post-meta__separator">|</span><i class="far fa-comments fa-fw post-meta__icon"></i><span>评论数:</span><a href="bc77.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/posts/bc77.html" itemprop="commentCount"></span></a></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><blockquote><p><strong>不定时持续更新，如果你有好用的在线网站，欢迎来交流！如果网址失效，请及时联系我，我会及时进行相关的处理，谢谢您的支持！</strong></p></blockquote><h2 id="文档类"><a href="#文档类" class="headerlink" title="文档类"></a>文档类</h2><h3 id="1-轻松玩转PDF"><a href="#1-轻松玩转PDF" class="headerlink" title="1.  轻松玩转PDF"></a>1. 轻松玩转PDF</h3><p>官网： <a href="https://smallpdf.com/cn" target="_blank" rel="noopener">https://smallpdf.com/cn</a></p><p>这个网站非常好用，提供了很多的实用功能，如PDF转换Word，PDF转换PPT，PDF编辑，PDF加密，Word转换PDF等等</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118222057.png" style="zoom:50%"><h3 id="2-Convertio：在线的文件转换器"><a href="#2-Convertio：在线的文件转换器" class="headerlink" title="2. Convertio：在线的文件转换器"></a>2. Convertio：在线的文件转换器</h3><p>这个网站也提供在线免费的文件转换器，将文件转换为不同的格式，不注册的话也可以使用，限制最大文件的大小为<strong>100MB</strong>，超过这个文件大小的最大限制，需要进行注册，收费。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118223346.png" style="zoom:50%"><h3 id="3-CleverPDF"><a href="#3-CleverPDF" class="headerlink" title="3. CleverPDF"></a>3. CleverPDF</h3><p>官网： <a href="https://www.cleverpdf.com/cn" target="_blank" rel="noopener">https://www.cleverpdf.com/cn</a></p><p>27个强大的PDF在线工具，完全免费！而且还提供Windows客户端，不过在线的，客户点有一定的限制，网上也有破解的客户端，:point_right: <a href="https://pan.baidu.com/s/1_E6b42zhnEN3AAGGGEffxw" target="_blank" rel="noopener">传送门</a>(密钥：bigo)</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191121221824.png" style="zoom:50%"><h3 id="4-vvv文档在线导出工具"><a href="#4-vvv文档在线导出工具" class="headerlink" title="4. vvv文档在线导出工具"></a>4. vvv文档在线导出工具</h3><p>官网： <a href="http://wenku.baiduvvv.com/doc/" target="_blank" rel="noopener">http://wenku.baiduvvv.com/doc/</a></p><p>免费下载百度文库文档，支持 PDF 和 Word 格式。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118224216.png" style="zoom:50%"><h3 id="5-微信公众号格式化编辑器"><a href="#5-微信公众号格式化编辑器" class="headerlink" title="5. 微信公众号格式化编辑器"></a>5. 微信公众号格式化编辑器</h3><p>可以在线调整公众号文章的格式</p><p>官网： <a href="https://lab.lyric.im/wxformat/" target="_blank" rel="noopener">https://lab.lyric.im/wxformat/</a></p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118224735.png" style="zoom:50%"><h3 id="6-Process-On：免费在线作图，实时协作"><a href="#6-Process-On：免费在线作图，实时协作" class="headerlink" title="6. Process On：免费在线作图，实时协作"></a>6. Process On：免费在线作图，实时协作</h3><p>官网： <a href="https://www.processon.com/" target="_blank" rel="noopener">https://www.processon.com/</a></p><p>Process On 支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等，也支持小程序，很好用，还有模板可以借鉴。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118225035.png" style="zoom:50%"><h3 id="7-ALL-TO-ALL（在线格式转换）"><a href="#7-ALL-TO-ALL（在线格式转换）" class="headerlink" title="7. ALL TO ALL（在线格式转换）"></a>7. ALL TO ALL（在线格式转换）</h3><p>官网： <a href="http://www.alltoall.net/" target="_blank" rel="noopener">http://www.alltoall.net/</a></p><p>国内最全类型的在线文件转换平台，免费、快速，无须下载安装任何软件。支持文档、视频、压缩包、音频等文件类型格式的转换</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191121224541077.png" style="zoom:50%"><h3 id="8-Office-Converter"><a href="#8-Office-Converter" class="headerlink" title="8. Office-Converter"></a>8. Office-Converter</h3><p>官网： <a href="https://cn.office-converter.com/" target="_blank" rel="noopener">https://cn.office-converter.com/</a></p><p>网站支持各种文件类型的转换，如音频、视频、压缩包等的转换，虽然免费，但对上传文件的大小有限制，所以文件大小不超过限制的话，还是很好用的！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191121225255.png" style="zoom:50%"><h3 id="9-Super-Tools（依奇在线超级转换工具）"><a href="#9-Super-Tools（依奇在线超级转换工具）" class="headerlink" title="9. Super Tools（依奇在线超级转换工具）"></a>9. Super Tools（依奇在线超级转换工具）</h3><p>官网： <a href="https://www.wdku.net/" target="_blank" rel="noopener">https://www.wdku.net/</a></p><p>提供一些文档格式的转换，文字识别转换，在线图片，文档等</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191121225627.png" style="zoom:50%"><h3 id="10-LightPDF"><a href="#10-LightPDF" class="headerlink" title="10. LightPDF"></a>10. LightPDF</h3><p>官网： <a href="https://lightpdf.com/zh/" target="_blank" rel="noopener">https://lightpdf.com/zh/</a></p><p>从名称来看就是关于PDF文档处理的，PDF转PPT，PDF转Word，PDF编辑，加密等等，挺实用的，还提供客户端下载。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191121230156.png" style="zoom:50%"><p><strong>小结：</strong></p><p>个人感觉吧，有些在线网站确实非常好用，完全免费，大大方便了人们的办公生活，但有些网站对一些功能，文件大小都有限制，如果要进行使用，需要进行购买付费，毕竟人家做这个多少还是要赚取利益的。如果是经常需要对文档进行处理的人们，我觉得还是付费比较好点，功能好用无限制，可能还有售后服务啥的:joy:。当然网上也有破解的相关软件，百度一下，你就知道！:joy:先就这样啦！</p><h2 id="PPT模板下载（免费）"><a href="#PPT模板下载（免费）" class="headerlink" title="PPT模板下载（免费）"></a>PPT模板下载（免费）</h2><h3 id="1-51PPT模板"><a href="#1-51PPT模板" class="headerlink" title="1. 51PPT模板"></a>1. 51PPT模板</h3><p>官网： <a href="http://www.51pptmoban.com/" target="_blank" rel="noopener">http://www.51pptmoban.com/</a></p><p>想必大家都知道这个网站，免费还非常好用！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122224203.png" style="zoom:67%"><h3 id="2-第一PPT"><a href="#2-第一PPT" class="headerlink" title="2. 第一PPT"></a>2. 第一PPT</h3><p>官网： <a href="http://www.1ppt.com/" target="_blank" rel="noopener">http://www.1ppt.com/</a></p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122224441.png" style="zoom:67%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122224441.png" style="zoom:67%"><h3 id="3-优品PPT"><a href="#3-优品PPT" class="headerlink" title="3. 优品PPT"></a>3. 优品PPT</h3><p>官网： <a href="http://www.ypppt.com/" target="_blank" rel="noopener">http://www.ypppt.com/</a></p><p>一个有情怀的免费PPT模板下载网站！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122224724.png" style="zoom:67%"><h3 id="4-pptfans"><a href="#4-pptfans" class="headerlink" title="4. pptfans"></a>4. pptfans</h3><p>官网： <a href="http://www.pptfans.cn/" target="_blank" rel="noopener">http://www.pptfans.cn/</a></p><p>PPT设计教程网，提供PPT设计教程，PPT模板、素材等免费下载！今天看到了网站新增一个功能，会员，估计以后可能要收费了！</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122225340.png" alt=""></p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122225359.png" style="zoom:50%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122225415.png" style="zoom:50%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122225433.png" style="zoom:50%"><h2 id="工具类"><a href="#工具类" class="headerlink" title="工具类"></a>工具类</h2><h3 id="1-NICETOOL-：在线工具箱"><a href="#1-NICETOOL-：在线工具箱" class="headerlink" title="1. NICETOOL+：在线工具箱"></a>1. NICETOOL+：在线工具箱</h3><p>官网： <a href="http://www.nicetool.net/" target="_blank" rel="noopener">http://www.nicetool.net/</a></p><p>NiceTool.net 好工具网致力于收集打造各种简单易用在线工具，网友无需注册和下载安装即可使用。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118230437.png" style="zoom:50%"><h3 id="2-Toolfk：在线工具箱"><a href="#2-Toolfk：在线工具箱" class="headerlink" title="2. Toolfk：在线工具箱"></a>2. Toolfk：在线工具箱</h3><p>官网： <a href="http://www.toolfk.com/" target="_blank" rel="noopener">http://www.toolfk.com/</a></p><p>这是一个在线工具箱，一个为程序员服务并创建价值的在线工具转换网站 - 程序员的工具箱，里面有很多的实用小工具，比如：在线PDF转换图片，在线加密工具，在线Photoshop等等。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118225555.png" style="zoom:50%"><h3 id="3-兔二工具"><a href="#3-兔二工具" class="headerlink" title="3. 兔二工具"></a>3. 兔二工具</h3><p>官网： <a href="https://www.tool2.cn/" target="_blank" rel="noopener">https://www.tool2.cn/</a></p><p>这是一个工具集合网站，很强大，有很多的使用网站，对网站进行了分类，非常好用。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118232554.png" style="zoom:50%"><h3 id="4-奇迹秀工具箱"><a href="#4-奇迹秀工具箱" class="headerlink" title="4. 奇迹秀工具箱"></a>4. 奇迹秀工具箱</h3><p>官网： <a href="http://www.qijishow.com/down/index.html" target="_blank" rel="noopener">http://www.qijishow.com/down/index.html</a></p><p>提供一些好用的创意工具，效率工具，有在线的，也有客户端的。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118234323.png" style="zoom:50%"><h3 id="5-SOOGIF：GIF制作工具"><a href="#5-SOOGIF：GIF制作工具" class="headerlink" title="5.  SOOGIF：GIF制作工具"></a>5. SOOGIF：GIF制作工具</h3><p>官网： <a href="https://www.soogif.com/" target="_blank" rel="noopener">https://www.soogif.com</a></p><p>在这个网站上可以搜到很多有趣的GIF动态图，比如表情包，Loading加载图等等，还可以制作GIF，非常好用！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118222528.png" style="zoom:50%"><h3 id="6-超级简历：在线制作简历"><a href="#6-超级简历：在线制作简历" class="headerlink" title="6.  超级简历：在线制作简历"></a>6. 超级简历：在线制作简历</h3><p>官网： <a href="https://www.wondercv.com/" target="_blank" rel="noopener">https://www.wondercv.com/</a></p><p>在线制作简历，也有模板免费使用，有些模板好像是收费的，不过其他模板足足够用。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118223057.png" style="zoom:50%"><h2 id="开发类"><a href="#开发类" class="headerlink" title="开发类"></a>开发类</h2><h3 id="1-在线颜色转换"><a href="#1-在线颜色转换" class="headerlink" title="1. 在线颜色转换"></a>1. 在线颜色转换</h3><p>官网： <a href="https://www.sioe.cn/yingyong/yanse-rgb-16/" target="_blank" rel="noopener">https://www.sioe.cn/yingyong/yanse-rgb-16/</a></p><p>RGB颜色值与十六进制颜色码相互转换在线工具，还提供颜色对照表。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118230118.png" style="zoom:50%"><h3 id="2-程序员导航"><a href="#2-程序员导航" class="headerlink" title="2. 程序员导航"></a>2. 程序员导航</h3><p>官网： <a href="http://code.giffox.com/" target="_blank" rel="noopener">http://code.giffox.com/</a></p><p>整合了有关于程序员的实用工具，比如在线编程教程，程序员社区，开发工具，技术博客等。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118233955.png" style="zoom:50%"><h3 id="3-JSON在线解析"><a href="#3-JSON在线解析" class="headerlink" title="3. JSON在线解析"></a>3. JSON在线解析</h3><p>官网： <a href="https://www.sojson.com/" target="_blank" rel="noopener">https://www.sojson.com/</a></p><p>提供json数据的在线处理工具，如转换，格式化，压缩等，还提供在线加密解密数据，有关生活服务等功能。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191119134433.png" style="zoom:50%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191119134542.png" style="zoom:50%"><h3 id="4-在线工具"><a href="#4-在线工具" class="headerlink" title="4. 在线工具"></a>4. 在线工具</h3><p>官网： <a href="https://tool.lu/" target="_blank" rel="noopener">https://tool.lu/</a></p><p>程序猿实用的在线网站，看图你就知道啦</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191121231241.png" style="zoom:67%"><h2 id="在线图片处理"><a href="#在线图片处理" class="headerlink" title="在线图片处理"></a>在线图片处理</h2><h3 id="1-TinyPng（压缩图片）"><a href="#1-TinyPng（压缩图片）" class="headerlink" title="1. TinyPng（压缩图片）"></a>1. TinyPng（压缩图片）</h3><p>官网： <a href="https://tinypng.com/" target="_blank" rel="noopener">https://tinypng.com/</a></p><p>在不超过它上传文件的最大限制（5MB），免费使用，进行图片压缩，最多不超过20张，可以免费打包下载。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191119145719.png" style="zoom:50%"><h3 id="2-waifu2x（无损放大图片）"><a href="#2-waifu2x（无损放大图片）" class="headerlink" title="2.  waifu2x（无损放大图片）"></a>2. waifu2x（无损放大图片）</h3><p>官网： <a href="http://waifu2x.udp.jp/" target="_blank" rel="noopener">http://waifu2x.udp.jp/</a></p><p>使用卷积神经网络对动漫风格的图片进行放大操作（支持照片）</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118235127.png" style="zoom:50%"><h3 id="3-在线PS（稿定设计）"><a href="#3-在线PS（稿定设计）" class="headerlink" title="3. 在线PS（稿定设计）"></a>3. 在线PS（稿定设计）</h3><p>官网： <a href="https://www.uupoop.com/" target="_blank" rel="noopener">https://www.uupoop.com/</a></p><p>在线Photoshop，也可以对照片进行编辑，制作手机端海报，公众号封面等等。好像需要用微信扫码进行登录，关注公众，即可进行免费下载。网址旗下还有在线抠图，很实用。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191119000102.png" style="zoom:50%"><h3 id="4-iloveimg-图片工具箱"><a href="#4-iloveimg-图片工具箱" class="headerlink" title="4. iloveimg(图片工具箱)"></a>4. iloveimg(图片工具箱)</h3><p>官网：<a href="https://www.iloveimg.com/zh-cn" target="_blank" rel="noopener">https://www.iloveimg.com/zh-cn</a></p><p>可以进行图片的压缩，尺寸调整，裁剪，图片生成器等等</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200207171116.png" alt=""></p><h3 id="5-U钙网"><a href="#5-U钙网" class="headerlink" title="5. U钙网"></a>5. U钙网</h3><p>官网：<a href="http://www.uugai.com/" target="_blank" rel="noopener">http://www.uugai.com/</a></p><p>完全免费的LOGO在线设计工具</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200207171302.png" alt=""></p><h2 id="免费素材库"><a href="#免费素材库" class="headerlink" title="免费素材库"></a>免费素材库</h2><h3 id="1-Pixabay"><a href="#1-Pixabay" class="headerlink" title="1. Pixabay"></a>1. Pixabay</h3><p>官网： <a href="https://pixabay.com/zh/photos/" target="_blank" rel="noopener">https://pixabay.com/zh/photos/</a></p><p>正版高清素材库，有免费视频素材，照片素材，插画素材，矢量图素材，免费下载。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118235609.png" style="zoom:50%"><h3 id="2-Hippopx"><a href="#2-Hippopx" class="headerlink" title="2. Hippopx"></a>2. Hippopx</h3><p>官网： <a href="https://www.hippopx.com/" target="_blank" rel="noopener">https://www.hippopx.com/</a></p><p>外文网站，但非常好用，免费下载图片素材</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122204534.png" style="zoom:50%"><h3 id="3-68素材-·-欣赏"><a href="#3-68素材-·-欣赏" class="headerlink" title="3. 68素材 · 欣赏"></a>3. 68素材 · 欣赏</h3><p>官网： <a href="http://sc.68design.net/" target="_blank" rel="noopener">http://sc.68design.net/</a></p><p>完全免费下载图片素材，网页模板，图标等</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122204803.png" style="zoom:50%"><h3 id="4-Unsplash-（Photos-for-everyone）"><a href="#4-Unsplash-（Photos-for-everyone）" class="headerlink" title="4. Unsplash （Photos for everyone）"></a>4. Unsplash （Photos for everyone）</h3><p>官网： <a href="https://unsplash.com/" target="_blank" rel="noopener">https://unsplash.com/</a></p><p>网站里面提供摄影图片素材，不管你是做网页还是做PPT都可以使用，并且每一个图片素材分辨率都非常高，保管够用！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122205127.png" style="zoom:50%"><h3 id="5-Gratisography"><a href="#5-Gratisography" class="headerlink" title="5. Gratisography"></a>5. Gratisography</h3><p>官网： <a href="https://gratisography.com/" target="_blank" rel="noopener">https://gratisography.com/</a></p><p>这个网站提供高质量免费图片素材网站，里面的图片版权是完全自由，不仅可以拿去做商用还是拿去设置壁纸都可以！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122205929.png" style="zoom:50%"><h3 id="6-DesignersPics-com"><a href="#6-DesignersPics-com" class="headerlink" title="6. DesignersPics.com"></a>6. DesignersPics.com</h3><p>官网： <a href="http://www.designerspics.com/" target="_blank" rel="noopener">http://www.designerspics.com/</a></p><p>这款网站里面免费提供各类商业用途图片素材，不需要归属，里面包含了：食品、自然、动物等等 。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122210134.png" style="zoom:50%"><h2 id="电子书类（免费）"><a href="#电子书类（免费）" class="headerlink" title="电子书类（免费）"></a>电子书类（免费）</h2><h3 id="1-尘宇下载站"><a href="#1-尘宇下载站" class="headerlink" title="1. 尘宇下载站"></a>1. 尘宇下载站</h3><p>官网： <a href="http://www.cydown.cn/" target="_blank" rel="noopener">http://www.cydown.cn/</a></p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122215415.png" style="zoom:50%"><h3 id="2-雅书"><a href="#2-雅书" class="headerlink" title="2. 雅书"></a>2. 雅书</h3><p>官网： <a href="https://yabook.org/" target="_blank" rel="noopener">https://yabook.org/</a></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122215522.png" alt=""></p><h3 id="3-PDF之家"><a href="#3-PDF之家" class="headerlink" title="3. PDF之家"></a>3. PDF之家</h3><p>官网： <a href="http://www.pdfzj.cn/" target="_blank" rel="noopener">http://www.pdfzj.cn/</a></p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122215704.png" style="zoom:50%"><h3 id="4-鸠摩搜书"><a href="#4-鸠摩搜书" class="headerlink" title="4. 鸠摩搜书"></a>4. 鸠摩搜书</h3><p>官网： <a href="https://www.jiumodiary.com/" target="_blank" rel="noopener">https://www.jiumodiary.com/</a></p><p>提供电子书籍的搜索，搜索结果直接是有关你要搜索书名的电子版</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122220048.png" style="zoom:50%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122220120.png" style="zoom:50%"><h3 id="5-子午书简"><a href="#5-子午书简" class="headerlink" title="5. 子午书简"></a>5. 子午书简</h3><p>官网： <a href="https://5kindle.com/" target="_blank" rel="noopener">https://5kindle.com/</a></p><p>免费电子书交流下载</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122220413.png" style="zoom:50%"><h3 id="6-苦瓜书盘"><a href="#6-苦瓜书盘" class="headerlink" title="6. 苦瓜书盘"></a>6. 苦瓜书盘</h3><p>官网： <a href="https://kgbook.com/" target="_blank" rel="noopener">https://kgbook.com/</a></p><p>苦瓜书盘是供网友交流适合电纸书阅读的6寸pdf及mobi格式电子书制作技术的网站，这里提供电子书上传及下载。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122221006.png" style="zoom:50%"><h3 id="7-周读"><a href="#7-周读" class="headerlink" title="7. 周读"></a>7. 周读</h3><p>官网： <a href="http://www.ireadweek.com/" target="_blank" rel="noopener">http://www.ireadweek.com/</a></p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122221219.png" style="zoom:50%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122221254.png" style="zoom:50%"><h3 id="8-计算机书籍控"><a href="#8-计算机书籍控" class="headerlink" title="8. 计算机书籍控"></a>8. 计算机书籍控</h3><p>官网： <a href="http://bestcbooks.com/" target="_blank" rel="noopener">http://bestcbooks.com/</a></p><p>免费下载关于计算机有关的书籍。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122221938.png" style="zoom:50%"><h2 id="简洁的搜索导航"><a href="#简洁的搜索导航" class="headerlink" title="简洁的搜索导航"></a>简洁的搜索导航</h2><h3 id="1-某柠檬"><a href="#1-某柠檬" class="headerlink" title="1. 某柠檬"></a>1. 某柠檬</h3><p>官网： <a href="https://www.moulem.com/" target="_blank" rel="noopener">https://www.moulem.com/</a></p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191119000446.png" style="zoom:67%"><h3 id="2-秘迹搜索"><a href="#2-秘迹搜索" class="headerlink" title="2. 秘迹搜索"></a>2. 秘迹搜索</h3><p>官网： <a href="https://mijisou.com/" target="_blank" rel="noopener">https://mijisou.com/</a></p><p>这个搜索引擎也提供APP客户端，<a href="https://www.leakzero.com/?from=search" target="_blank" rel="noopener">点我</a>进入官网进行下载。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191119000805.png" style="zoom:67%"><h3 id="3-简搜"><a href="#3-简搜" class="headerlink" title="3. 简搜"></a>3. 简搜</h3><p>官网： <a href="https://so.appts.cn/" target="_blank" rel="noopener">https://so.appts.cn/</a></p><p>非常非常简单，正如网站名称，直接上图。有三种主题模式，一种就是图片所显示的，其他两种就是白天与黑夜的效果</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122213321.png" style="zoom:67%"><h3 id="4-万花筒"><a href="#4-万花筒" class="headerlink" title="4. 万花筒"></a>4. 万花筒</h3><p>官网： <a href="https://wht.im/" target="_blank" rel="noopener">https://wht.im/</a></p><p>素雅、简洁白，可自定义背景、支持学校官方网址导航</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122214537.png" style="zoom:50%"><h2 id="导航整合"><a href="#导航整合" class="headerlink" title="导航整合"></a>导航整合</h2><h3 id="1-虫部落·快搜"><a href="#1-虫部落·快搜" class="headerlink" title="1. 虫部落·快搜"></a>1. 虫部落·快搜</h3><p>官网： <a href="https://search.chongbuluo.com/" target="_blank" rel="noopener">https://search.chongbuluo.com/</a></p><p>整合了很多的好用的导航网站。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118233234.png" style="zoom:50%"><h3 id="2-老司机导航（正规车）"><a href="#2-老司机导航（正规车）" class="headerlink" title="2. 老司机导航（正规车）"></a>2. 老司机导航（正规车）</h3><p>官网： <a href="https://www.giffox.com/" target="_blank" rel="noopener">https://www.giffox.com/</a></p><p>看到<strong>老司机</strong>这几个字，别想太多了哦，整合了许多的导航网站。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191118233518.png" style="zoom:50%"><h3 id="3-优设导航-学设计从这里开始"><a href="#3-优设导航-学设计从这里开始" class="headerlink" title="3. 优设导航 - 学设计从这里开始"></a>3. 优设导航 - 学设计从这里开始</h3><p>官网： <a href="http://hao.uisdc.com/" target="_blank" rel="noopener">http://hao.uisdc.com/</a></p><p>学设计必备网站，整合的非常详细，像界面设计、设计教程、字体设计，颜色设计等，应有尽有。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122201150.png" style="zoom:50%"><h3 id="4-AnywhereAnything"><a href="#4-AnywhereAnything" class="headerlink" title="4. AnywhereAnything"></a>4. AnywhereAnything</h3><p>官网： <a href="http://lackar.com/aa/" target="_blank" rel="noopener">http://lackar.com/aa/</a></p><p>界面干净美观，无广告无新闻，而且也整合了很多的网站。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122210523.png" style="zoom:50%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122210553.png" style="zoom:50%"><h3 id="5-小呆导航"><a href="#5-小呆导航" class="headerlink" title="5. 小呆导航"></a>5. 小呆导航</h3><p>官网： <a href="https://webjike.com/" target="_blank" rel="noopener">https://webjike.com/</a></p><p>界面简洁干净美观，让人看起来很舒心！同时也整合了其他的很多网站！最重要的是无广告！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122211023.png" style="zoom:50%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122211057.png" style="zoom:50%"><h3 id="6-本本啦-笔记本网址导航"><a href="#6-本本啦-笔记本网址导航" class="headerlink" title="6. 本本啦 - 笔记本网址导航"></a>6. 本本啦 - 笔记本网址导航</h3><p>官网： <a href="https://www.benbenla.com/" target="_blank" rel="noopener">https://www.benbenla.com/</a></p><p>界面简洁干净美观，让人看起来很舒心。同时也整合了其他的很多网站，最重要的是无广告！还支持换主题哦！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122211536.png" style="zoom:50%"><h3 id="7-果汁导航"><a href="#7-果汁导航" class="headerlink" title="7. 果汁导航"></a>7. 果汁导航</h3><p>官网： <a href="http://www.guozhivip.com/nav/" target="_blank" rel="noopener">http://www.guozhivip.com/nav/</a></p><p>又是一个整合许多的网站于一身的导航网，非常好用，无广告，界面也好看，不信:question:图在下面 :point_down:，自己看。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122212507.png" style="zoom:50%"><h3 id="8-A网"><a href="#8-A网" class="headerlink" title="8. A网"></a>8. A网</h3><p>官网： <a href="http://anets.cn/" target="_blank" rel="noopener">http://anets.cn/</a></p><p>界面美观，还有特效，双击鼠标即可隐藏导航列表，不信，你去官网试一试！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122212635.png" style="zoom:50%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122212700.png" style="zoom:50%"> <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122212725.png" style="zoom:50%"><h3 id="9-KIM主页-主页从未如此惊艳"><a href="#9-KIM主页-主页从未如此惊艳" class="headerlink" title="9. KIM主页 - 主页从未如此惊艳"></a>9. KIM主页 - 主页从未如此惊艳</h3><p>官网： <a href="https://kim.plopco.com/" target="_blank" rel="noopener">https://kim.plopco.com/</a></p><p>把图放在这，自己看吧！</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122213118.png" style="zoom:50%"><h3 id="10-星空导航"><a href="#10-星空导航" class="headerlink" title="10. 星空导航"></a>10. 星空导航</h3><p>官网： <a href="https://www.starnavi.cn/" target="_blank" rel="noopener">https://www.starnavi.cn/</a></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122214150.png" alt=""></p><h3 id="11-走读派读书导航-读书学习第一站"><a href="#11-走读派读书导航-读书学习第一站" class="headerlink" title="11. 走读派读书导航 -读书学习第一站"></a>11. 走读派读书导航 -读书学习第一站</h3><p>官网： <a href="http://www.zoudupai.com/" target="_blank" rel="noopener">http://www.zoudupai.com/</a></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122221510.png" alt=""></p><h3 id="12-HiPPTer-（PPT资源导航）"><a href="#12-HiPPTer-（PPT资源导航）" class="headerlink" title="12. HiPPTer （PPT资源导航）"></a>12. HiPPTer （PPT资源导航）</h3><p>官网： <a href="http://www.hippter.com/" target="_blank" rel="noopener">http://www.hippter.com/</a></p><p>汇总了PPT资源模板的网站。</p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20191122230525.png" style="zoom:67%"><h2 id="音乐网站-免费下载"><a href="#音乐网站-免费下载" class="headerlink" title="音乐网站(免费下载)"></a>音乐网站(免费下载)</h2><p>分享一下可以免费搜索并下载音乐的一些网站</p><h3 id="1-果核音乐搜搜"><a href="#1-果核音乐搜搜" class="headerlink" title="1. 果核音乐搜搜"></a>1. 果核音乐搜搜</h3><p>官网：<a href="https://music.ghpym.com/" target="_blank" rel="noopener">https://music.ghpym.com/</a></p><p>支持QQ音乐和酷狗音乐</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200207164948.png" alt=""></p><h3 id="2-FreeMusic"><a href="#2-FreeMusic" class="headerlink" title="2. FreeMusic"></a>2. FreeMusic</h3><p>官网：<a href="http://y.webzcz.cn/" target="_blank" rel="noopener">http://y.webzcz.cn/</a></p><p>另外几个网址也是这样的界面</p><ul><li><a href="http://music.zhuolin.wang/" target="_blank" rel="noopener">http://music.zhuolin.wang/</a></li><li><a href="http://music.fooor.cn/" target="_blank" rel="noopener">http://music.fooor.cn/</a></li></ul><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200207165315.png" alt=""></p><h3 id="3-全网音乐免费下载工具"><a href="#3-全网音乐免费下载工具" class="headerlink" title="3. 全网音乐免费下载工具"></a>3. 全网音乐免费下载工具</h3><p>官网：<a href="https://music.sounm.com/" target="_blank" rel="noopener">https://music.sounm.com/</a></p><p>可以下载音乐，也可以使用链接。</p><p>还有几个类似的网址：</p><ul><li><a href="http://www.333ttt.com/up/tool/" target="_blank" rel="noopener">http://www.333ttt.com/up/tool/</a></li><li><a href="https://music.liuzhijin.cn/" target="_blank" rel="noopener">https://music.liuzhijin.cn/</a></li><li><a href="http://www.lzzi.cn/" target="_blank" rel="noopener">http://www.lzzi.cn/</a></li></ul><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200207165444.png" alt=""></p><h3 id="4-歌曲大全-音乐聚合搜索引擎"><a href="#4-歌曲大全-音乐聚合搜索引擎" class="headerlink" title="4. 歌曲大全-音乐聚合搜索引擎"></a>4. 歌曲大全-音乐聚合搜索引擎</h3><p>官网：<a href="http://www.gequdaquan.net/gqss/" target="_blank" rel="noopener">http://www.gequdaquan.net/gqss/</a></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200207165608.png" alt=""></p><h3 id="5-七月辰的工具箱"><a href="#5-七月辰的工具箱" class="headerlink" title="5. 七月辰的工具箱"></a>5. 七月辰的工具箱</h3><p>官网：<a href="http://music.onlychen.cn/" target="_blank" rel="noopener">http://music.onlychen.cn/</a></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200207165856.png" alt=""></p><h3 id="6-墨灵音乐"><a href="#6-墨灵音乐" class="headerlink" title="6. 墨灵音乐"></a>6. 墨灵音乐</h3><p>官网：<a href="https://music.qugeek.com/" target="_blank" rel="noopener">https://music.qugeek.com/</a></p><p>可以在线听音乐，听FM电台节目等</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200207170305.png" alt=""></p><p>如果觉得不错的话，可以转发给身边的朋友们看一看，或许可以帮到他们哦！:blush::blush::blush:</p></div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者:</span> <span class="post-copyright-info"><a href="mailto:undefined">Yafine</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接:</span> <span class="post-copyright-info"><a href="bc77.html">https://yafine-blog.cn/posts/bc77.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明:</span> <span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="../index.html" target="_blank">过客~励む</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="../tags/%e6%95%88%e7%8e%87%e5%b7%a5%e5%85%b7/index.html">效率工具</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0009.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div id="wpac-rating" style="text-align:center;margin-top:10px"></div><script>wpac_init=window.wpac_init||[],wpac_init.push({widget:"Rating",id:18134}),function(){if(!("WIDGETPACK_LOADED"in window)){WIDGETPACK_LOADED=!0;var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="http://embed.widgetpack.com/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t.nextSibling)}}()</script><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="7fe2.html"><img class="prev-cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0010.png" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"'><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">JavaScript的发展史</div></div></a></div><div class="next-post pull-right"><a href="9620.html"><img class="next-cover" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0008.png" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"'><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">JavaScript简介</div></div></a></div></nav><hr><div id="post-comment"><div class="comment-head"><div class="comment-headling"><i class="fas fa-comments fa-fw"></i> <span>评论</span></div><div class="comment-switch"><span class="first-comment">Valine</span><label><input id="switch-comments-btn" type="checkbox"><span class="slider"></span></label><span class="second-comment">Gitalk</span></div></div><div class="comment-wrap"><div class="comments-items-1" data-name="Valine"><div class="vcomment" id="vcomment"></div><script>function loadvaline(){var i=function(a,i){a=a;var o=i.split(",").filter(function(i){return-1<a.indexOf(i)});return o=0==o.length?a:o},a=i(["nick","mail","link"],"nick,mail,link"),o=i(["nick","mail"],"nick,mail");loadScript("//unpkg.com/valine@latest/dist/Valine.min.js",function(){window.valine=new Valine({el:"#vcomment",appId:"uK6HbxGHHyIJNY0jbz3gVsw3-MdYXbMMI",appKey:"boaYzjEFV04TfVzXqcRjTUdX",placeholder:"悄悄告诉你哦，昵称填写QQ号会自动填入邮箱哦！😉😉😉",avatar:"monsterid",meta:a,pageSize:"10",lang:"zh-CN",recordIP:!1,serverURLs:"",emojiCDN:"https://valinecdn.bili33.top/",emojiMaps:{weibo2:"weibo/d_aoteman.png",weibo3:"weibo/d_baibai.png",weibo4:"weibo/d_baobao.png",weibo5:"weibo/d_beishang.png",weibo6:"weibo/d_bingbujiandan.png",weibo7:"weibo/d_bishi.png",weibo8:"weibo/d_bizui.png",weibo9:"weibo/d_chanzui.png",weibo10:"weibo/d_chigua.png",weibo11:"weibo/d_chijing.png",weibo12:"weibo/d_dahaqi.png",weibo13:"weibo/d_dalian.png",weibo14:"weibo/d_ding.png",weibo15:"weibo/d_doge.png",weibo16:"weibo/d_erha.png",weibo17:"weibo/d_feijie.png",weibo18:"weibo/d_feizao.png",weibo19:"weibo/d_ganmao.png",weibo20:"weibo/d_guile.png",weibo21:"weibo/d_guzhang.png",weibo22:"weibo/d_haha.png",weibo23:"weibo/d_haixiu.png",weibo24:"weibo/d_han.png",weibo25:"weibo/d_hehe.png",weibo26:"weibo/d_heiheihei.png",weibo27:"weibo/d_heixian.png",weibo28:"weibo/d_heng.png",weibo29:"weibo/d_huaixiao.png",weibo30:"weibo/d_huaxin.png",weibo31:"weibo/d_jiyan.png",weibo32:"weibo/d_keai.png",weibo33:"weibo/d_kelian.png",weibo34:"weibo/d_ku.png",weibo35:"weibo/d_kulou.png",weibo36:"weibo/d_kun.png",weibo37:"weibo/d_landelini.png",weibo38:"weibo/d_lang.png",weibo39:"weibo/d_lei.png",weibo40:"weibo/d_miao.png",weibo41:"weibo/d_nanhaier.png",weibo42:"weibo/d_nu.png",weibo43:"weibo/d_numa.png",weibo44:"weibo/d_nvhaier.png",weibo45:"weibo/d_qian.png",weibo46:"weibo/d_qinqin.png",weibo47:"weibo/d_shayan.png",weibo48:"weibo/d_shengbing.png",weibo49:"weibo/d_shenshou.png",weibo50:"weibo/d_shiwang.png",weibo51:"weibo/d_shuai.png",weibo52:"weibo/d_shuijiao.png",weibo53:"weibo/d_sikao.png",weibo54:"weibo/d_taikaixin.png",weibo55:"weibo/d_tanshou.png",weibo56:"weibo/d_tian.png",weibo57:"weibo/d_touxiao.png",weibo58:"weibo/d_tu.png",weibo59:"weibo/d_tuzi.png",weibo60:"weibo/d_wabishi.png",weibo61:"weibo/d_weiqu.png",weibo62:"weibo/d_wu.png",weibo63:"weibo/d_xiaoku.png",weibo64:"weibo/d_xingxingyan.png",weibo65:"weibo/d_xiongmao.png",weibo66:"weibo/d_xixi.png",weibo67:"weibo/d_xu.png",weibo68:"weibo/d_yinxian.png",weibo69:"weibo/d_yiwen.png",weibo70:"weibo/d_youhengheng.png",weibo71:"weibo/d_yun.png",weibo72:"weibo/d_yunbei.png",weibo73:"weibo/d_zhuakuang.png",weibo74:"weibo/d_zhutou.png",weibo75:"weibo/d_zuiyou.png",weibo76:"weibo/emoji_0x1f31f.png",weibo77:"weibo/emoji_0x1f349.png",weibo78:"weibo/emoji_0x1f357.png",weibo79:"weibo/emoji_0x1f384.png",weibo80:"weibo/emoji_0x1f44f.png",weibo81:"weibo/emoji_0x1f47b.png",weibo82:"weibo/emoji_0x1f47f.png",weibo83:"weibo/emoji_0x1f48a.png",weibo84:"weibo/emoji_0x1f4a3.png",weibo85:"weibo/emoji_0x1f4a9.png",weibo86:"weibo/emoji_0x1f631.png",weibo87:"weibo/emoji_0x1f643.png",weibo88:"weibo/emoji_0x1f645.png",weibo89:"weibo/emoji_0x1f648.png",weibo90:"weibo/emoji_0x1f649.png",weibo91:"weibo/emoji_0x1f64a.png",weibo92:"weibo/emoji_0x1f64b.png",weibo93:"weibo/emoji_0x1f64f.png",weibo94:"weibo/emoji_0x1f913.png",weibo95:"weibo/emoji_0x1f917.png",weibo96:"weibo/emoji_0x26a1.png",weibo97:"weibo/h_buyao.png",weibo98:"weibo/h_good.png",weibo99:"weibo/h_haha.png",weibo100:"weibo/h_jiayou.png",weibo101:"weibo/h_lai.png",weibo102:"weibo/h_ok.png",weibo103:"weibo/h_quantou.png",weibo104:"weibo/h_ruo.png",weibo105:"weibo/h_woshou.png",weibo106:"weibo/h_ye.png",weibo107:"weibo/h_zan.png",weibo108:"weibo/h_zuoyi.png","HONKAI3-MEI1":"HONKAI3-MEI/501ac209b259bb545dea898838c24229483fcfeb.gif","HONKAI3-MEI2":"HONKAI3-MEI/5baf4306d1f685bf47922fbae365ccfba7721beb.gif","HONKAI3-MEI3":"HONKAI3-MEI/624857651c863ea9571f5e557fca8516dd41e0fc.gif","HONKAI3-MEI4":"HONKAI3-MEI/680311714674014d0c17f757eb40c3071448222a.gif","HONKAI3-MEI5":"HONKAI3-MEI/bf68423446465d396d3cbd8856882b5e9fb1c0c7.gif","HONKAI3-MEI6":"HONKAI3-MEI/d3a2a9c6ad1e2a0b262dca9354ab8de736d81cdf.gif","HONKAI3-MEI7":"HONKAI3-MEI/dd0fd1f3668f4907c9f6fcd39c6138417ac0e1f5.gif",bilibiliHotKey1:"bilibiliHotKey/1.jpg",bilibiliHotKey2:"bilibiliHotKey/10.jpg",bilibiliHotKey3:"bilibiliHotKey/11.jpg",bilibiliHotKey4:"bilibiliHotKey/12.jpg",bilibiliHotKey5:"bilibiliHotKey/13.jpg",bilibiliHotKey6:"bilibiliHotKey/14.jpg",bilibiliHotKey7:"bilibiliHotKey/15.jpg",bilibiliHotKey8:"bilibiliHotKey/16.jpg",bilibiliHotKey9:"bilibiliHotKey/17.jpg",bilibiliHotKey10:"bilibiliHotKey/18.jpg",bilibiliHotKey11:"bilibiliHotKey/19.jpg",bilibiliHotKey12:"bilibiliHotKey/2.jpg",bilibiliHotKey13:"bilibiliHotKey/20.jpg",bilibiliHotKey14:"bilibiliHotKey/21.jpg",bilibiliHotKey15:"bilibiliHotKey/22.jpg",bilibiliHotKey16:"bilibiliHotKey/23.jpg",bilibiliHotKey17:"bilibiliHotKey/24.jpg",bilibiliHotKey18:"bilibiliHotKey/25.jpg",bilibiliHotKey19:"bilibiliHotKey/26.jpg",bilibiliHotKey20:"bilibiliHotKey/27.jpg",bilibiliHotKey21:"bilibiliHotKey/28.jpg",bilibiliHotKey22:"bilibiliHotKey/29.jpg",bilibiliHotKey23:"bilibiliHotKey/3.jpg",bilibiliHotKey24:"bilibiliHotKey/30.jpg",bilibiliHotKey25:"bilibiliHotKey/31.jpg",bilibiliHotKey26:"bilibiliHotKey/32.jpg",bilibiliHotKey27:"bilibiliHotKey/4.jpg",bilibiliHotKey28:"bilibiliHotKey/5.jpg",bilibiliHotKey29:"bilibiliHotKey/6.jpg",bilibiliHotKey30:"bilibiliHotKey/7.jpg",bilibiliHotKey31:"bilibiliHotKey/8.jpg",bilibiliHotKey32:"bilibiliHotKey/9.jpg",alu2:"alu/不出所料.png",alu3:"alu/不说话.png",alu4:"alu/不高兴.png",alu5:"alu/中刀.png",alu6:"alu/中指.png",alu7:"alu/中枪.png",alu8:"alu/亲亲.png",alu9:"alu/便便.png",alu10:"alu/内伤.png",alu11:"alu/击掌.png",alu12:"alu/口水.png",alu13:"alu/吐.png",alu14:"alu/吐舌.png",alu15:"alu/吐血倒地.png",alu16:"alu/呲牙.png",alu17:"alu/咽气.png",alu18:"alu/哭泣.png",alu19:"alu/喜极而泣.png",alu20:"alu/喷水.png",alu21:"alu/喷血.png",alu22:"alu/坐等.png",alu23:"alu/害羞.png",alu24:"alu/小眼睛.png",alu25:"alu/尴尬.png",alu26:"alu/得意.png",alu27:"alu/惊喜.png",alu28:"alu/想一想.png",alu29:"alu/愤怒.png",alu30:"alu/扇耳光.png",alu31:"alu/投降.png",alu32:"alu/抠鼻.png",alu33:"alu/抽烟.png",alu34:"alu/无奈.png",alu35:"alu/无所谓.png",alu36:"alu/无语.png",alu37:"alu/暗地观察.png",alu38:"alu/期待.png",alu39:"alu/欢呼.png",alu40:"alu/汗.png",alu41:"alu/深思.png",alu42:"alu/狂汗.png",alu43:"alu/献花.png",alu44:"alu/献黄瓜.png",alu45:"alu/皱眉.png",alu46:"alu/看不见.png",alu47:"alu/看热闹.png",alu48:"alu/瞅你.png",alu49:"alu/肿包.png",alu50:"alu/脸红.png",alu51:"alu/蜡烛.png",alu52:"alu/装大款.png",alu53:"alu/观察.png",alu54:"alu/赞一个.png",alu55:"alu/邪恶.png",alu56:"alu/锁眉.png",alu57:"alu/长草.png",alu58:"alu/阴暗.png",alu59:"alu/高兴.png",alu60:"alu/黑线.png",alu61:"alu/鼓掌.png",aodamiao1:"aodamiao/01.gif",aodamiao2:"aodamiao/02.gif",aodamiao3:"aodamiao/03.gif",aodamiao4:"aodamiao/04.gif",aodamiao5:"aodamiao/05.gif",aodamiao6:"aodamiao/06.gif",aodamiao7:"aodamiao/07.gif",aodamiao8:"aodamiao/08.gif",aodamiao9:"aodamiao/09.gif",aodamiao10:"aodamiao/10.gif",aodamiao11:"aodamiao/11.gif",aodamiao12:"aodamiao/12.gif",aodamiao13:"aodamiao/13.gif",aodamiao14:"aodamiao/14.gif",aodamiao15:"aodamiao/15.gif",aodamiao16:"aodamiao/16.gif",aodamiao17:"aodamiao/17.gif",aodamiao18:"aodamiao/18.gif",aodamiao19:"aodamiao/19.gif",aodamiao20:"aodamiao/20.gif",aodamiao21:"aodamiao/21.gif",aodamiao22:"aodamiao/22.gif",aodamiao23:"aodamiao/23.gif",aodamiao24:"aodamiao/24.gif",aodamiao25:"aodamiao/25.gif",aodamiao26:"aodamiao/26.gif",aodamiao27:"aodamiao/27.gif",aodamiao28:"aodamiao/28.gif",aodamiao29:"aodamiao/29.gif",aodamiao30:"aodamiao/30.gif",aodamiao31:"aodamiao/31.gif",aodamiao32:"aodamiao/32.gif",aodamiao33:"aodamiao/33.gif",aodamiao34:"aodamiao/34.gif",aodamiao35:"aodamiao/35.gif",aodamiao36:"aodamiao/36.gif",aodamiao37:"aodamiao/37.gif",aodamiao38:"aodamiao/38.gif",aodamiao39:"aodamiao/39.gif",aodamiao40:"aodamiao/40.gif",bilibilitv2:"bilibilitv/[tv_doge].png",bilibilitv3:"bilibilitv/[tv_亲亲].png",bilibilitv4:"bilibilitv/[tv_偷笑].png",bilibilitv5:"bilibilitv/[tv_再见].png",bilibilitv6:"bilibilitv/[tv_冷漠].png",bilibilitv7:"bilibilitv/[tv_发怒].png",bilibilitv8:"bilibilitv/[tv_发财].png",bilibilitv9:"bilibilitv/[tv_可爱].png",bilibilitv10:"bilibilitv/[tv_吐血].png",bilibilitv11:"bilibilitv/[tv_呆].png",bilibilitv12:"bilibilitv/[tv_呕吐].png",bilibilitv13:"bilibilitv/[tv_困].png",bilibilitv14:"bilibilitv/[tv_坏笑].png",bilibilitv15:"bilibilitv/[tv_大佬].png",bilibilitv16:"bilibilitv/[tv_大哭].png",bilibilitv17:"bilibilitv/[tv_委屈].png",bilibilitv18:"bilibilitv/[tv_害羞].png",bilibilitv19:"bilibilitv/[tv_尴尬].png",bilibilitv20:"bilibilitv/[tv_微笑].png",bilibilitv21:"bilibilitv/[tv_思考].png",bilibilitv22:"bilibilitv/[tv_惊吓].png",bilibilitv23:"bilibilitv/[tv_打脸].png",bilibilitv24:"bilibilitv/[tv_抓狂].png",bilibilitv25:"bilibilitv/[tv_抠鼻].png",bilibilitv26:"bilibilitv/[tv_斜眼笑].png",bilibilitv27:"bilibilitv/[tv_无奈].png",bilibilitv28:"bilibilitv/[tv_晕].png",bilibilitv29:"bilibilitv/[tv_流汗].png",bilibilitv30:"bilibilitv/[tv_流泪].png",bilibilitv31:"bilibilitv/[tv_流鼻血].png",bilibilitv32:"bilibilitv/[tv_点赞].png",bilibilitv33:"bilibilitv/[tv_生气].png",bilibilitv34:"bilibilitv/[tv_生病].png",bilibilitv35:"bilibilitv/[tv_疑问].png",bilibilitv36:"bilibilitv/[tv_白眼].png",bilibilitv37:"bilibilitv/[tv_皱眉].png",bilibilitv38:"bilibilitv/[tv_目瞪口呆].png",bilibilitv39:"bilibilitv/[tv_睡着].png",bilibilitv40:"bilibilitv/[tv_笑哭].png",bilibilitv41:"bilibilitv/[tv_腼腆].png",bilibilitv42:"bilibilitv/[tv_色].png",bilibilitv43:"bilibilitv/[tv_调侃].png",bilibilitv44:"bilibilitv/[tv_调皮].png",bilibilitv45:"bilibilitv/[tv_鄙视].png",bilibilitv46:"bilibilitv/[tv_闭嘴].png",bilibilitv47:"bilibilitv/[tv_难过].png",bilibilitv48:"bilibilitv/[tv_馋].png",bilibilitv49:"bilibilitv/[tv_鬼脸].png",bilibilitv50:"bilibilitv/[tv_黑人问号].png",bilibilitv51:"bilibilitv/[tv_鼓掌].png","Little-Bad2":"Little-Bad/一群坏坏.jpg","Little-Bad3":"Little-Bad/中坏坏.jpg","Little-Bad4":"Little-Bad/发火的坏坏.jpg","Little-Bad5":"Little-Bad/坏坏坏.jpg","Little-Bad6":"Little-Bad/大坏坏.jpg","Little-Bad7":"Little-Bad/天使一般的坏坏.jpg","Little-Bad8":"Little-Bad/害羞坏.jpg","Little-Bad9":"Little-Bad/小坏蛋.jpg","Little-Bad10":"Little-Bad/我们一起做坏坏的事.jpg","Little-Bad11":"Little-Bad/敲板子的坏坏.gif","Little-Bad12":"Little-Bad/比地球还大的坏坏.jpg","Little-Bad13":"Little-Bad/流泪的坏坏.jpg","Little-Bad14":"Little-Bad/热炸的坏坏.jpg",Mafumafu1:"Mafumafu/199749454.png",Mafumafu2:"Mafumafu/199749455.png",Mafumafu3:"Mafumafu/199749456.png",Mafumafu4:"Mafumafu/199749457.png",Mafumafu5:"Mafumafu/199749458.png",Mafumafu6:"Mafumafu/199749459.png",Mafumafu7:"Mafumafu/199749460.png",Mafumafu8:"Mafumafu/199749461.png",Mafumafu9:"Mafumafu/199749462.png",Mafumafu10:"Mafumafu/199749463.png",Mafumafu11:"Mafumafu/199749464.png",Mafumafu12:"Mafumafu/199749465.png",Mafumafu13:"Mafumafu/199749466.png",Mafumafu14:"Mafumafu/199749467.png",Mafumafu15:"Mafumafu/199749468.png",Mafumafu16:"Mafumafu/199749469.png",Mafumafu17:"Mafumafu/199749470.png",Mafumafu18:"Mafumafu/199749471.png",Mafumafu19:"Mafumafu/199749472.png",Mafumafu20:"Mafumafu/199749473.png",Mafumafu21:"Mafumafu/199749474.png",Mafumafu22:"Mafumafu/199749475.png",Mafumafu23:"Mafumafu/199749476.png",Mafumafu24:"Mafumafu/199749477.png","Yurui-Neko1":"Yurui-Neko/001.png","Yurui-Neko2":"Yurui-Neko/002.png","Yurui-Neko3":"Yurui-Neko/003.png","Yurui-Neko4":"Yurui-Neko/004.png","Yurui-Neko5":"Yurui-Neko/005.png","Yurui-Neko6":"Yurui-Neko/006.png","Yurui-Neko7":"Yurui-Neko/007.png","Yurui-Neko8":"Yurui-Neko/008.png","Yurui-Neko9":"Yurui-Neko/009.png","Yurui-Neko10":"Yurui-Neko/010.png","Yurui-Neko11":"Yurui-Neko/011.png","Yurui-Neko12":"Yurui-Neko/012.png","Yurui-Neko13":"Yurui-Neko/013.png","Yurui-Neko14":"Yurui-Neko/014.png","Yurui-Neko15":"Yurui-Neko/015.png","Yurui-Neko16":"Yurui-Neko/016.png","Yurui-Neko17":"Yurui-Neko/017.png","Yurui-Neko18":"Yurui-Neko/018.png","Yurui-Neko19":"Yurui-Neko/019.png","Yurui-Neko20":"Yurui-Neko/020.png","Yurui-Neko21":"Yurui-Neko/021.png","Yurui-Neko22":"Yurui-Neko/022.png","Yurui-Neko23":"Yurui-Neko/023.png","Yurui-Neko24":"Yurui-Neko/024.png","Yurui-Neko25":"Yurui-Neko/025.png","Yurui-Neko26":"Yurui-Neko/026.png","Yurui-Neko27":"Yurui-Neko/027.png","Yurui-Neko28":"Yurui-Neko/028.png","Yurui-Neko29":"Yurui-Neko/029.png","Yurui-Neko30":"Yurui-Neko/030.png","Yurui-Neko31":"Yurui-Neko/031.png","Yurui-Neko32":"Yurui-Neko/032.png","Yurui-Neko33":"Yurui-Neko/033.png","Yurui-Neko34":"Yurui-Neko/034.png","Yurui-Neko35":"Yurui-Neko/035.png","Yurui-Neko36":"Yurui-Neko/036.png","Yurui-Neko37":"Yurui-Neko/037.png","Yurui-Neko38":"Yurui-Neko/038.png","Yurui-Neko39":"Yurui-Neko/039.png","Yurui-Neko40":"Yurui-Neko/040.png"},enableQQ:!0,requiredFields:o})})}function loadOtherComment(){loadvaline()}window.addEventListener("load",loadvaline)</script></div><div class="comments-items-2" data-name="Gitalk"><div id="gitalk-container"></div><script src="https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js"></script><script>function loadGitalk () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+
+  loadScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js', function () {
+    var gitalk = new Gitalk({
+      clientID: '9892fd65fc9866d49ffc',
+      clientSecret: '623b8d073d0894e8367a1484d4e29d0e01de37db',
+      repo: 'Yafine-gitalks',
+      owner: 'Yafine',
+      admin: ['Yafine'],
+      id: md5(decodeURI(location.pathname)),
+      language: 'zh-CN',
+      perPage: 10,
+      distractionFreeMode: false,
+      pagerDirection: 'last',
+      createIssueManually: true,
+      updateCountCallback: commentCount
+    })
+    gitalk.render('gitalk-container')
+  })
+
+  function commentCount(n){
+    try {
+      document.getElementsByClassName('gitalk-comment-count')[0].innerHTML= n
+    } catch (e) {
+      return false
+    }
+  }
+}
+
+if ('Valine' === 'Gitalk' || true) {
+  window.addEventListener('load', loadGitalk)
+}
+else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div></div></div></article></main><footer id="footer" style="background-image:url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0009.png)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 By Yafine</div><div class="footer_custom_text">Hi , Weclome to My Home .<br>This is My Stage!😎😎😎</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49b1f5">hexo-generator-search</a> <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/utils.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js"></script><script>document.addEventListener("DOMContentLoaded",function(){pangu.autoSpacingPage()})</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/search/local-search.js"></script><script>!function(e,p,s,u){if(void 0===e.webpushr){e.webpushr=e.webpushr||function(){(e.webpushr.q=e.webpushr.q||[]).push(arguments)};var n,t=p.getElementsByTagName(s)[0];(n=p.createElement(s)).id="webpushr-jssdk",n.src="https://cdn.webpushr.com/app.min.js",t.parentNode.appendChild(n)}}(window,document,"script"),webpushr("init","BAJy08X2FxDq2OEBYdIXet7uuThfcz7QUIypPTCV--OXENaThpuiYHWFGvLlDjkN75mJPzItiCQfnq9Z80cQ7eE")</script><script>window.$crisp=[],window.CRISP_WEBSITE_ID="6a511ac1-4992-4e21-8b54-19e2695fc8d8",d=document,s=d.createElement("script"),s.src="https://client.crisp.chat/l.js",s.async=1,d.getElementsByTagName("head")[0].appendChild(s)</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/wgtags.js"></script><script src="../js/script.html"></script><script>!function(e,p,s,n){e.webpushr=e.webpushr||function(){(e.webpushr.q=e.webpushr.q||[]).push(arguments)};var t,u=p.getElementsByTagName(s)[0];(t=p.createElement(s)).id="webpushr-jssdk",t.src="https://cdn.webpushr.com/app.min.js",u.parentNode.appendChild(t)}(window,document,"script"),webpushr("init","BAJy08X2FxDq2OEBYdIXet7uuThfcz7QUIypPTCV--OXENaThpuiYHWFGvLlDjkN75mJPzItiCQfnq9Z80cQ7eE")</script></body>
+<!-- Mirrored from yafine-blog.cn/posts/bc77.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Oct 2020 16:08:15 GMT -->
+</html>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">guo</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://qichaos.com/posts/bc77.html">https://qichaos.com/posts/bc77.html</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint polocy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">guo</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/posts/bc77.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            guo
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Current&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/posts/bc77.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            guo
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">guo</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

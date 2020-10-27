@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>过客~励む</title>
+    <link>https://yafine-blog.cn/</link>
+    
+    <image>
+      <url>https://yafine-blog.cn/icon.png</url>
+      <title>过客~励む</title>
+      <link>https://yafine-blog.cn/</link>
+    </image>
+    
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>专注于Web,分享生活,分享知识,备用站点：yafine66.gitee.io</description>
+    <pubDate>Mon, 07 Sep 2020 10:03:25 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>打造炫酷的Github个人页面</title>
+      <link>https://yafine-blog.cn/posts/96f9.html</link>
+      <guid>https://yafine-blog.cn/posts/96f9.html</guid>
+      <pubDate>Mon, 07 Sep 2020 08:13:11 GMT</pubDate>
+      <description>
+      
+        打造炫酷的Github个人页
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/96f9.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>如何为没有目录的PDF电子书添加目录</title>
+      <link>https://yafine-blog.cn/posts/b251.html</link>
+      <guid>https://yafine-blog.cn/posts/b251.html</guid>
+      <pubDate>Wed, 08 Jul 2020 03:37:58 GMT</pubDate>
+      <description>
+      
+        为没有目录的PDF电子书，添加目录，让阅读更方便
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/b251.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>为你的hexo博客添加导航页</title>
+      <link>https://yafine-blog.cn/posts/e925.html</link>
+      <guid>https://yafine-blog.cn/posts/e925.html</guid>
+      <pubDate>Sat, 09 May 2020 02:53:06 GMT</pubDate>
+      <description>
+      
+        为你的hexo博客添加导航页面
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/e925.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hexo博客订阅文章通知功能</title>
+      <link>https://yafine-blog.cn/posts/ebb2.html</link>
+      <guid>https://yafine-blog.cn/posts/ebb2.html</guid>
+      <pubDate>Sun, 26 Apr 2020 09:34:35 GMT</pubDate>
+      <description>
+      
+        使用插件实现博客文章订阅并使用浏览器进行新文章推送的通知
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/ebb2.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hexo+Github博客搭建之Matery主题个性化修改篇（二）</title>
+      <link>https://yafine-blog.cn/posts/12b4.html</link>
+      <guid>https://yafine-blog.cn/posts/12b4.html</guid>
+      <pubDate>Sun, 26 Apr 2020 06:24:02 GMT</pubDate>
+      <description>
+      
+        Matery主题的一些个性化修改
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/12b4.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>prism代码高亮主题风格展示阁</title>
+      <link>https://yafine-blog.cn/posts/f295.html</link>
+      <guid>https://yafine-blog.cn/posts/f295.html</guid>
+      <pubDate>Sun, 19 Apr 2020 07:14:48 GMT</pubDate>
+      <description>
+      
+        hexo-prism-plugin主题风格展示
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/f295.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>matery主题修改文章发布统计图的开始时间</title>
+      <link>https://yafine-blog.cn/posts/b93d.html</link>
+      <guid>https://yafine-blog.cn/posts/b93d.html</guid>
+      <pubDate>Tue, 07 Apr 2020 02:13:40 GMT</pubDate>
+      <description>
+      
+        修改文章发布统计图的开始时间(Matery主题)
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/b93d.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Matery主题添加loading-pages</title>
+      <link>https://yafine-blog.cn/posts/7400.html</link>
+      <guid>https://yafine-blog.cn/posts/7400.html</guid>
+      <pubDate>Wed, 25 Mar 2020 07:41:24 GMT</pubDate>
+      <description>
+      
+        为你的matery主题添加loading pages
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/7400.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hexo博客新建文章自动打开编辑器</title>
+      <link>https://yafine-blog.cn/posts/d17e.html</link>
+      <guid>https://yafine-blog.cn/posts/d17e.html</guid>
+      <pubDate>Wed, 18 Mar 2020 08:38:37 GMT</pubDate>
+      <description>
+      
+        使用命令新建文章时，自动打开编辑器
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/d17e.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hexo+Github博客搭建之域名解析与绑定篇</title>
+      <link>https://yafine-blog.cn/posts/a170.html</link>
+      <guid>https://yafine-blog.cn/posts/a170.html</guid>
+      <pubDate>Wed, 18 Mar 2020 08:36:06 GMT</pubDate>
+      <description>
+      
+        Hexo博客绑定域名
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/a170.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hexo+Github博客搭建之博客优化篇</title>
+      <link>https://yafine-blog.cn/posts/fc0.html</link>
+      <guid>https://yafine-blog.cn/posts/fc0.html</guid>
+      <pubDate>Wed, 18 Mar 2020 08:23:09 GMT</pubDate>
+      <description>
+      
+        对博客进行优化
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/fc0.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hexo+Github博客搭建之Matery主题个性化修改篇（一）</title>
+      <link>https://yafine-blog.cn/posts/8c84.html</link>
+      <guid>https://yafine-blog.cn/posts/8c84.html</guid>
+      <pubDate>Tue, 17 Mar 2020 09:37:28 GMT</pubDate>
+      <description>
+      
+        Matery主题的一些个性化修改
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/8c84.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hexo+Github博客搭建之Matery主题安装配置篇</title>
+      <link>https://yafine-blog.cn/posts/5dbf.html</link>
+      <guid>https://yafine-blog.cn/posts/5dbf.html</guid>
+      <pubDate>Tue, 17 Mar 2020 01:12:48 GMT</pubDate>
+      <description>
+      
+        Matery主题的下载，安装以及一些简单的配置
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/5dbf.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hexo+Github博客搭建之环境搭建篇</title>
+      <link>https://yafine-blog.cn/posts/7de0.html</link>
+      <guid>https://yafine-blog.cn/posts/7de0.html</guid>
+      <pubDate>Tue, 17 Mar 2020 01:02:57 GMT</pubDate>
+      <description>
+      
+        Github账号的注册，Github Pages的创建以及Hexo框架的搭建及发布
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/7de0.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Hexo+Github博客搭建之环境准备篇</title>
+      <link>https://yafine-blog.cn/posts/bb7.html</link>
+      <guid>https://yafine-blog.cn/posts/bb7.html</guid>
+      <pubDate>Tue, 17 Mar 2020 00:34:04 GMT</pubDate>
+      <description>
+      
+        Git和Node.js的下载，安装
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/bb7.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Typora集成PicGo图床服务</title>
+      <link>https://yafine-blog.cn/posts/4e9b.html</link>
+      <guid>https://yafine-blog.cn/posts/4e9b.html</guid>
+      <pubDate>Mon, 16 Mar 2020 13:45:14 GMT</pubDate>
+      <description>
+      
+        Typora新版本原生集成PicGo图床服务，简单方便又快捷
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/4e9b.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>使用PicGo+Gitee(码云)搭建免费图床</title>
+      <link>https://yafine-blog.cn/posts/15cb.html</link>
+      <guid>https://yafine-blog.cn/posts/15cb.html</guid>
+      <pubDate>Tue, 10 Mar 2020 12:40:13 GMT</pubDate>
+      <description>
+      
+        使用PicGo+Gitee(码云)搭建免费图床
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/15cb.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>修改matery原有主题相册</title>
+      <link>https://yafine-blog.cn/posts/3b98.html</link>
+      <guid>https://yafine-blog.cn/posts/3b98.html</guid>
+      <pubDate>Fri, 21 Feb 2020 14:41:29 GMT</pubDate>
+      <description>
+      
+        对hexo-theme-matery主题原有相册进行修改，单独写成一个页面
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/3b98.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>使用PicGo+Github搭建免费图床</title>
+      <link>https://yafine-blog.cn/posts/eb3a.html</link>
+      <guid>https://yafine-blog.cn/posts/eb3a.html</guid>
+      <pubDate>Mon, 17 Feb 2020 12:33:38 GMT</pubDate>
+      <description>
+      
+        使用PicGo搭建免费、快速高效的图床
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/eb3a.html#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>使用Jsdelivr/CDN加速博客访问速度</title>
+      <link>https://yafine-blog.cn/posts/ee35.html</link>
+      <guid>https://yafine-blog.cn/posts/ee35.html</guid>
+      <pubDate>Mon, 17 Feb 2020 12:22:48 GMT</pubDate>
+      <description>
+      
+        使用jsdelivr cdn提升博客的访问速度
+      
+      </description>
+      
+      
+      <comments>https://yafine-blog.cn/posts/ee35.html#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1157 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="测试">
+    <meta name="description" content="度">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Demo</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Demo</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>Contact</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>Friends</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Demo</div>
+        <div class="logo-desc">
+            
+            度
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			Friends
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2020-10-27
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <!DOCTYPE html><html lang="zh-CN" data-theme="light">
+<!-- Mirrored from yafine-blog.cn/page/3/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Oct 2020 16:08:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>过客~励む - 有志者事竟成</title><meta name="description" content="专注于Web,分享生活,分享知识,备用站点：yafine66.gitee.io"><meta name="keywords" content="HTML,CSS,JavaScript,JQuery,React,Vue.js,YangAir,Yafine,blog,个人博客,程序员,前端等"><meta name="author" content="Yafine"><meta name="copyright" content="Yafine"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/favicon.png"><link rel="canonical" href="index.html"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="http://cdn.jsdelivr.net/"><link rel="preconnect" href="http://www.google-analytics.com/" crossorigin="crossorigin"><link rel="preconnect" href="http://hm.baidu.com/"><link rel="preconnect" href="http://ta.qq.com/"><link rel="preconnect" href="http://fonts.googleapis.com/" crossorigin="crossorigin"><link rel="preconnect" href="http://busuanzi.ibruce.info/"><link rel="preconnect" href="http://zz.bdstatic.com/"><meta name="google-site-verification" content="_Yxe-z9eMYY_SRPAcIzAbYH5As14vyJJcWZRdsz82oo"><meta name="msvalidate.01" content="24D491BCFF09B589F74D051A28BEA16A"><meta name="baidu-site-verification" content="ukPosCpWvc"><meta name="360-site-verification" content="f67a6b2f0543b97e5f2c6504670f94b6"><meta property="og:type" content="website"><meta property="og:title" content="过客~励む"><meta property="og:url" content="index.html"><meta property="og:site_name" content="过客~励む"><meta property="og:description" content="专注于Web,分享生活,分享知识,备用站点：yafine66.gitee.io"><meta property="og:image" content="https://gitee.com/yafine66/blogimage/raw/master/img/avatar.jpg"><meta property="article:published_time" content="2020-09-30T02:22:04.390Z"><meta property="article:modified_time" content="2020-09-30T02:22:04.390Z"><meta name="twitter:card" content="summary"><link rel="manifest" href="../../img/pwa/manifest.json"><meta name="theme-color" content="#fff"><meta name="msapplication-TileColor" content="#fff"><link rel="apple-touch-icon" sizes="180x180" href="../../img/pwa/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="../../img/pwa/32.png"><link rel="icon" type="image/png" sizes="16x16" href="../../img/pwa/16.png"><link rel="mask-icon" href="../../img/pwa/safari-pinned-tab.svg" color="#5bbad5"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?12c4949ccded8725d72796f9cafb6249";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script>!function(e,a,t,n,g,c,o){e.GoogleAnalyticsObject=g,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),o=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script",0,"ga"),ga("create","151181323","auto"),ga("send","pageview")</script><script src="https://tajs.qq.com/stats?sId=66505462" charset="UTF-8"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG={root:"/",algolia:void 0,localSearch:{path:"search.xml",languages:{hits_empty:"找不到您查询的内容:${query}"}},translate:void 0,noticeOutdate:{limitDay:6,position:"top",messagePrev:"读者请注意，本文章编写于",messageNext:"天前，文中某些信息可能已经过时，如有任何问题，请在文章末尾评论处留言！"},copy:{success:"复制成功",error:"复制错误",noSupport:"浏览器不支持"},bookmark:{message_prev:"按",message_next:"键将本页加入书签"},runtime_unit:"天",runtime:!0,copyright:{languages:{author:"作者: Yafine",link:"链接: ",source:"来源: 过客~励む",info:"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},ClickShowText:void 0,medium_zoom:!1,fancybox:!0,Snackbar:void 0,justifiedGallery:{js:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js",css:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css"},baiduPush:!0,highlightCopy:!0,highlightLang:!0,isPhotoFigcaption:!0,islazyload:!1,isanchor:!1}</script><script>var GLOBAL_CONFIG_SITE={isPost:!1,isHome:!0,isHighlightShrink:!1,isSidebar:!1,postUpdate:"2020-09-30 10:22:04"}</script><noscript><style>#nav{opacity:1}.justified-gallery img{opacity:1}</style></noscript><meta name="sogou_site_verification" content="gPRA4fogql"><meta name="360-site-verification" content="f67a6b2f0543b97e5f2c6504670f94b6"><link rel="stylesheet" href="http://at.alicdn.com/t/font_1542125_n4k33ijorz.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/flink.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/plugins.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/css/wgtags.css"><link href="https://cdn.bootcdn.net/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.min.css" rel="stylesheet"><link href="../../css/ye.html" rel="stylesheet"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="../../atom.xml" title="过客~励む" type="application/atom+xml"><link rel="alternate" href="../../rss2.xml" title="过客~励む" type="application/rss+xml"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://gitee.com/yafine66/blogimage/raw/master/img/avatar.jpg" onerror='onerror=null,src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/friend_404.gif"' alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../../archives/index.html"><div class="headline">文章</div><div class="length_num">33</div></a></div></div><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../../tags/index.html"><div class="headline">标签</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="../../categories/index.html"><div class="headline">分类</div><div class="length_num">8</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="../../index.html"><i class="fa-fw fa fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="../../archives/index.html"><i class="fa-fw fa fa-archive"></i> <span>归档</span></a></div><div class="menus_item"><a class="site-page" href="../../tags/index.html"><i class="fa-fw fa fa-tags"></i> <span>标签</span></a></div><div class="menus_item"><a class="site-page" href="../../categories/index.html"><i class="fa-fw fa fa-folder-open"></i> <span>分类</span></a></div><div class="menus_item"><a class="site-page" href="../../about/index.html"><i class="fa-fw fa fa-heart"></i> <span>关于我</span></a></div><div class="menus_item"><a class="site-page" href="../../contact/index.html"><i class="fa-fw fa fa-comments"></i> <span>留言板</span></a></div><div class="menus_item"><a class="site-page" href="../../suiyu/index.html"><i class="fa-fw fa fa-comment-alt"></i> <span>碎语</span></a></div><div class="menus_item"><a class="site-page" href="../../link/index.html"><i class="fa-fw fa fa-link"></i> <span>友人帐</span></a></div><div class="menus_item"><a class="site-page" href="../../box/index.html"><i class="fa-fw fa fa-box"></i> <span>工具箱</span></a></div></div></div></div><div id="body-wrap"><header class="full_page" id="page-header" style="background-image:url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0445.png)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="../../index.html">过客~励む</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i> <span>搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="../../index.html"><i class="fa-fw fa fa-home"></i> <span>主页</span></a></div><div class="menus_item"><a class="site-page" href="../../archives/index.html"><i class="fa-fw fa fa-archive"></i> <span>归档</span></a></div><div class="menus_item"><a class="site-page" href="../../tags/index.html"><i class="fa-fw fa fa-tags"></i> <span>标签</span></a></div><div class="menus_item"><a class="site-page" href="../../categories/index.html"><i class="fa-fw fa fa-folder-open"></i> <span>分类</span></a></div><div class="menus_item"><a class="site-page" href="../../about/index.html"><i class="fa-fw fa fa-heart"></i> <span>关于我</span></a></div><div class="menus_item"><a class="site-page" href="../../contact/index.html"><i class="fa-fw fa fa-comments"></i> <span>留言板</span></a></div><div class="menus_item"><a class="site-page" href="../../suiyu/index.html"><i class="fa-fw fa fa-comment-alt"></i> <span>碎语</span></a></div><div class="menus_item"><a class="site-page" href="../../link/index.html"><i class="fa-fw fa fa-link"></i> <span>友人帐</span></a></div><div class="menus_item"><a class="site-page" href="../../box/index.html"><i class="fa-fw fa fa-box"></i> <span>工具箱</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="site-info"><h1 id="site_title">过客~励む</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/Yafine" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:yangair01@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="../../atom.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></div></div><div id="scroll_down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="../../posts/49fb.html" title="Matery主题自定义字体"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0015.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="Matery主题自定义字体"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/49fb.html" title="Matery主题自定义字体">Matery主题自定义字体</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-17 18:18:56"><i class="far fa-calendar-alt"></i>2020-02-17</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/Hexo%e5%8d%9a%e5%ae%a2/index.html">Hexo博客</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/Hexo/index.html">Hexo</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="../../tags/matery%e4%b8%bb%e9%a2%98/index.html">matery主题</a></span></div><div class="content">全局字体自定义 博客站点根目录下的 source 文件夹内创建一个名为 font 的文件夹，即文件夹路径为 /source/font/ ，用来统一存放你要用到的字体。 将你要用到的字体放入上述创建的文件夹内，字体名称最好为英文，如 /source/font/myFont.ttf 找到主题文件夹下的 my.css 文件，路径为 /themes/matery/source/css/my.css ，填入下面的代码： 12345678@font-face&#123; font-family: 'myFont'; src: url('../font/myFont.ttf');&#125;body&#123; font-family: 'myFont';&#125; 将上面的 myFont 改成你自己的字体名称即可 局部字体自定义 如果你不想全局字体自定义的话，就可以尝试一下局部字体自定义。 与全局字体自定义一样，我们需要创建 font 文件夹，将需要的字体放入，与上面的第1、2步一样，可以参考一下 找到主题文件夹下的 my.css 文件，路径为 /themes/ma ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="../../posts/d0e9.html" title="Hexo添加PWA支持"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0011.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="Hexo添加PWA支持"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/d0e9.html" title="Hexo添加PWA支持">Hexo添加PWA支持</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-06 16:02:38"><i class="far fa-calendar-alt"></i>2020-02-06</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/Hexo%e5%8d%9a%e5%ae%a2/index.html">Hexo博客</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/Hexo/index.html">Hexo</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="../../tags/matery%e4%b8%bb%e9%a2%98/index.html">matery主题</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="../../tags/PWA/index.html">PWA</a></span></div><div class="content">PWA（Progressive Web App）是一种理念，使用多种技术来增强web app的功能，可以让网站的体验变得更好，能够模拟一些原生功能，比如通知推送。在移动端利用标准化框架，让网页应用呈现和原生应用相似的体验。 —来自百度百科 Progressive Web App, 简称 PWA，是提升 Web App 的体验的一种新方法，能给用户原生应用的体验。 PWA 能做到原生应用的体验不是靠特指某一项技术，而是经过应用一些新技术进行改进，在安全、性能和体验三个方面都有很大提升，PWA 本质上是 Web App，借助一些新技术也具备了 Native App 的一些特性，兼具 Web App 和 Native App 的优点。 PWA 的主要特点包括下面三点： 可靠 - 即使在不稳定的网络环境下，也能瞬间加载并展现 体验 - 快速响应，并且有平滑的动画响应用户的操作 粘性 - 像设备上的原生应用，具有沉浸式的用户体验，用户可以添加到桌面 PWA 本身强调渐进式，并不要求一次性达到安全、性能和体验上的所有要求，开发者可以通过 PWA Checklist 查看现有的特征。 推荐 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="../../posts/153b.html" title="Hexo博客添加一言"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0014.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="Hexo博客添加一言"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/153b.html" title="Hexo博客添加一言">Hexo博客添加一言</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-05 13:53:01"><i class="far fa-calendar-alt"></i>2020-02-05</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/Hexo%e5%8d%9a%e5%ae%a2/index.html">Hexo博客</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/Hexo/index.html">Hexo</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="../../tags/matery%e4%b8%bb%e9%a2%98/index.html">matery主题</a></span></div><div class="content">说明一言网创立于2016年，隶属于萌创Team，目前网站主要提供一句话服务。 动漫也好、小说也好、网络也好，不论在哪里，我们总会看到有那么一两个句子能穿透你的心。我们把这些句子汇聚起来，形成一言网络，以传递更多的感动。如果可以，我们希望我们没有停止服务的那一天。 简单来说，一言指的就是一句话，可以是动漫中的台词，也可以是网络上的各种小段子。或是感动，或是开心，有或是单纯的回忆。来到这里，留下你所喜欢的那一句句话，与大家分享，这就是一言存在的目的。（来源于一言官方网站） API文档 这是一个Hitokoto Api更新时间表： 时间 影响Api 调整 2018年6月之前 旧版API（http://api.hitokoto.cn和https://sslapi.hitokoto.cn） 旧版API将在6月份之前以切换解析的方式合并到v1API中。也就意味着调整之后请求此API无异于请求v1API。调整后此接口的稳定性将不再受到维护。 2018年7月之前 v1API（https://v1.hitokoto.cn） v1API将发布最终版本。v1接口将会在未来存在较长时间（即使v ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="../../posts/8094.html" title="npm、cnpm、yarn三剑客"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0013.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="npm、cnpm、yarn三剑客"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/8094.html" title="npm、cnpm、yarn三剑客">npm、cnpm、yarn三剑客</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-02-02 14:11:12"><i class="far fa-calendar-alt"></i>2020-02-02</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/Web%e5%89%8d%e7%ab%af/index.html">Web前端</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="../../categories/Web%e5%89%8d%e7%ab%af/Node-js/index.html">Node.js</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/nodejs/index.html">nodejs</a></span></div><div class="content">npm，cnpm，yarn这三个或许使用Hexo，Hugo，vuepress等静态博客搭建的小伙伴们来说，会经常遇见，会使用它们进行插件，依赖包等的安装、卸载与更新，如果你是前端开发者或者是准备从事前端的话，你会经常与它们三个打交道，下面简单的说说它们三剑客吧！ npm是什么？ npm 为你和你的团队打开了连接整个 JavaScript 天才世界的一扇大门。它是世界上最大的软件注册表，每星期大约有 30 亿次的下载量，包含超过 600000 个 包（package） （即，代码模块）。来自各大洲的开源软件开发者使用 npm 互相分享和借鉴。包的结构使您能够轻松跟踪依赖项和版本。引自npm中文网 npm (node package manager)是 JavaScript 世界的包管理工具，是 Node.js 平台的默认包管理工具，是前端模块化下的一个标志性产物，简单地说，就是通过npm下载模块，复用已有的代码，提高工作效率。 下面是关于 npm 的快速介绍： npm 由三个独立的部分组成： 网站 注册表（registry） 命令行工具 (CLI) 网站 是开发者查找包（packa ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="../../posts/51fb.html" title="Hexo博客部署到码云和Coding"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0012.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="Hexo博客部署到码云和Coding"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/51fb.html" title="Hexo博客部署到码云和Coding">Hexo博客部署到码云和Coding</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-01-28 14:19:48"><i class="far fa-calendar-alt"></i>2020-01-28</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/Hexo%e5%8d%9a%e5%ae%a2/index.html">Hexo博客</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/Hexo/index.html">Hexo</a></span></div><div class="content">今天闲来无聊，尝试了Hexo博客部署到码云和崭新的Coding平台，我之前试过将博客部署到Coding上，成功了，但Coding平台进行大更新，虽说我的博客地址之前还能用，但有点乱，就将之前的仓库全部删除，重新部署下。就写下这篇教程，希望能够帮到那些搭建博客的小伙伴们，如果教程有错，希望大家能够指出来，我会及时修改的，谢谢大家的支持！ 部署到Coding平台 首先去官网进行注册，也可以用第三方微信进行注册。 注册完成之后就会进入主页面，然后创建新项目，如下图所示： 代码托管项目：用于托管代码仓库，支持多个仓库，并可选择开启 CI/CD 和制品库功能 项目管理项目：支持 Scrum 敏捷管理和传统任务管理项目，包含需求、任务和缺陷 DevOps项目：包含项目管理、代码托管、CI/CD 和制品库等功能，提供完整的研发流程 在这里我们选择第三个，DevOps项目，这个含有构建与部署功能。 选择第三个DevOps项目后，会出现下面的页面： 项目名称：与你的用户名相同，用户名就是你的团队名 团队域名可以修改一次，会显示一个修改笔的图标，因为我修改过了，所以就没显示。 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="../../posts/7fe2.html" title="JavaScript的发展史"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0010.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="JavaScript的发展史"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/7fe2.html" title="JavaScript的发展史">JavaScript的发展史</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2019-11-25 23:29:18"><i class="far fa-calendar-alt"></i>2019-11-25</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/Web%e5%89%8d%e7%ab%af/index.html">Web前端</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="../../categories/Web%e5%89%8d%e7%ab%af/JavaScript/index.html">JavaScript</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/JavaScript/index.html">JavaScript</a></span></div><div class="content">声明： 本文为转载文章，由微信公众号 -《前端技术江湖》整理 原文链接： https://mp.weixin.qq.com/s/62U2qLeN4dz9Si68yhDohA 从公众号中了解到了这篇文章，写的很全面，详细讲解了JavaScript语言的发展史，于是就转载了这篇文章，分享给大家，让大家了解其发展历史，这是学前端必须要掌握了解的知识。 Nombas 和 ScriptEaseh大概在 1992 年，一家称作 Nombas 的公司开发了一种叫做 C 减减（C-minus-minus，简称 Cmm）的嵌入式脚本语言。Cmm 背后的理念很简单：一个足够强大可以替代宏操作（macro）的脚本语言，同时保持与 C （和 C ++）足够的相似性，以便开发人员能很快学会。这个脚本语言捆绑在一个叫做 CEnvi 的共享软件中，它首次向开发人员展示了这种语言的威力。 Nombas 最终把 Cmm 的名字改成了 ScriptEase，原因是后面的部分（mm）听起来过于消极，同时字母 C “令人害怕”。 现在 ScriptEase 已经成为了 Nombas 产品背后的主要驱动力。 Mosaic1 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="../../posts/bc77.html" title="实用的在线网站"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0009.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="实用的在线网站"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/bc77.html" title="实用的在线网站">实用的在线网站</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2019-11-18 22:04:42"><i class="far fa-calendar-alt"></i>2019-11-18</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/%e5%ae%9e%e7%94%a8%e5%b7%a5%e5%85%b7%e9%9b%86%e5%90%88/index.html">实用工具集合</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/%e6%95%88%e7%8e%87%e5%b7%a5%e5%85%b7/index.html">效率工具</a></span></div><div class="content">不定时持续更新，如果你有好用的在线网站，欢迎来交流！如果网址失效，请及时联系我，我会及时进行相关的处理，谢谢您的支持！ 文档类1. 轻松玩转PDF官网： https://smallpdf.com/cn 这个网站非常好用，提供了很多的实用功能，如PDF转换Word，PDF转换PPT，PDF编辑，PDF加密，Word转换PDF等等 2. Convertio：在线的文件转换器这个网站也提供在线免费的文件转换器，将文件转换为不同的格式，不注册的话也可以使用，限制最大文件的大小为100MB，超过这个文件大小的最大限制，需要进行注册，收费。 3. CleverPDF官网： https://www.cleverpdf.com/cn 27个强大的PDF在线工具，完全免费！而且还提供Windows客户端，不过在线的，客户点有一定的限制，网上也有破解的客户端，:point_right: 传送门(密钥：bigo) 4. vvv文档在线导出工具官网： http://wenku.baiduvvv.com/doc/ 免费下载百度文库文档，支持 PDF 和 Word 格式。 5. 微 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="../../posts/9620.html" title="JavaScript简介"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0008.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="JavaScript简介"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/9620.html" title="JavaScript简介">JavaScript简介</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2019-11-18 21:50:10"><i class="far fa-calendar-alt"></i>2019-11-18</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/Web%e5%89%8d%e7%ab%af/index.html">Web前端</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="../../categories/Web%e5%89%8d%e7%ab%af/JavaScript/index.html">JavaScript</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/JavaScript/index.html">JavaScript</a></span></div><div class="content">JavaScript是由Netscape公司开发的，最初的名字叫做Mocha，1995年9月改为LiveScript，当时的Java语言很流行，当年的12月，Netscape公司与Sun公司（Java语言的发明者和所有者）达成协议，允许Netscape将LiveScript改名为JavaScript，以此让JavaScript慢慢的流行起来。 随着JavaScript的发展，它自立门户，成为了一门独立的语言，同时也拥有了自己的语言规范——ECMAScript。现在它和Java之间没有啥关系了。 JavaScript是一种轻量级的，解释性的脚本语言，也可以称它为脚本语言。所谓的”脚本语言“（Script language），指的是它不具备开发操作系统的能力，而是只用来编写控制其他大型程序（比如浏览器）的”脚本”。脚本作为纯文本存在和执行，它们不需要特殊的准备或编译即可运行。 JavaScript也是一种嵌入式（embedded）语言，目前已经嵌入JavaScript的宿主环境有多种，最常见的环境就是浏览器，另外还有服务器环境，也就是 Node 项目。 甚至还能在任意搭载了 JavaScr ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="../../posts/4ab2.html" title="Hexo+github搭建博客(超级详细版，精细入微)"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0007.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="Hexo+github搭建博客(超级详细版，精细入微)"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/4ab2.html" title="Hexo+github搭建博客(超级详细版，精细入微)">Hexo+github搭建博客(超级详细版，精细入微)</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2019-11-17 23:12:01"><i class="far fa-calendar-alt"></i>2019-11-17</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/Hexo%e5%8d%9a%e5%ae%a2/index.html">Hexo博客</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/Hexo/index.html">Hexo</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="../../tags/matery%e4%b8%bb%e9%a2%98/index.html">matery主题</a></span></div><div class="content">转载此文章前，请先联系作者，经作者同意后再转载，并请注明原文链接和作者，整理这些不容易，最终版权归作者所有，谢谢合作！ 前言你了解Hexo吗？ Hexo是一个静态博客框架，基于Node.js，将Markdown文章通过渲染引擎，生成一个静态网页，再结合Git命令（ssh），Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 几个月前偶然间了解到了Hexo这个静态博客网站，很适合那些喜欢写作的朋友们，最重要的是它是免费的，里面有许多的博客主题模板，这些主题都是一些很牛的大佬们开发的，而且设计的主题都很棒，让我很心动，心动不如行动，于是开始整理搭建属于自己的博客。直到今天，这中间经历了许多的坎坷荆棘，我将我的博客搭建的流程分享出来，能为那些博客小石榴们提供一些帮助吧，如果有错的话，请给我留言，我会及时修改，废话不多说，直接上教程。 如果下面的教程有错误之处，请在评论区留言，收到后，我会尽快修改，谢谢支持！ 一、博客环境搭建 本文系统环境信息：Win10专业版，64位（10.0 版 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="../../posts/724a.html" title="CSS3弹性盒子"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0006.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' alt="CSS3弹性盒子"></a></div><div class="recent-post-info"><a class="article-title" href="../../posts/724a.html" title="CSS3弹性盒子">CSS3弹性盒子</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2019-11-05 15:27:54"><i class="far fa-calendar-alt"></i>2019-11-05</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="../../categories/Web%e5%89%8d%e7%ab%af/index.html">Web前端</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="../../categories/Web%e5%89%8d%e7%ab%af/CSS3/index.html">CSS3</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="../../tags/CSS3/index.html">CSS3</a></span></div><div class="content">弹性盒模型的一些知识 一、简单介绍&emsp;&emsp;弹性盒模型（ Flexible Box或FlexBox）是一个CSS3新增布局模块，官方称为CSS Flexible Box Layout Module，用于实现容器里项目的对齐、方向、排序（即使在项目大小位置、动态生成的情况）, 分配空白空间 。弹性盒模型最大的特性在于，能够动态修改子元素的宽度和高度，以满足在不同尺寸屏幕下的恰当布局。 二、基本知识&emsp;&emsp;弹性盒子是由弹性容器（flex container）和弹性子元素（flex item）组成，弹性盒子有一个主轴（main axis）和一个纵轴（cross axis），弹性子元素沿着主轴依次排列 ，侧轴垂直于主轴。弹性容器的主轴开始（main start）、主轴结束（main end）和侧轴开始（cross start）、侧轴结束（cross end）代表了弹性子元素排列的起始和结束位置。具体可以看下面的图。 三、属性分类1. 弹性容器的相关属性 属性 属性说明 flex-direction 设置主轴方向，确定弹性子元素的排列方式 fle ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="../2/index.html"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="../../index.html">1</a><a class="page-number" href="../2/index.html">2</a><span class="page-number current">3</span><a class="page-number" href="../4/index.html">4</a><a class="extend next" rel="next" href="../4/index.html"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://gitee.com/yafine66/blogimage/raw/master/img/avatar.jpg" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/friend_404.gif"' alt="avatar"><div class="author-info__name">Yafine</div><div class="author-info__description">专注于Web,分享生活,分享知识,备用站点：yafine66.gitee.io</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="../../archives/index.html"><div class="headline">文章</div><div class="length_num">33</div></a></div><div class="card-info-data-item is-center"><a href="../../tags/index.html"><div class="headline">标签</div><div class="length_num">15</div></a></div><div class="card-info-data-item is-center"><a href="../../categories/index.html"><div class="headline">分类</div><div class="length_num">8</div></a></div></div><div class="card-info-bookmark is-center"><button class="button--animated" id="bookmark-it" type="button" title="加入书签"><i class="fas fa-bookmark"></i><span>加入书签</span></button></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Yafine" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:yangair01@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="../../atom.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的小站，小站别名为压饭阁，小伙伴们可以进QQ群交流哦！群号：1065359092.</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a href="../../posts/96f9.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0033.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' title="打造炫酷的Github个人页面" alt="打造炫酷的Github个人页面"></div><div class="aside-post-title"><div class="aside-post_title" href="../../posts/96f9.html" title="打造炫酷的Github个人页面">打造炫酷的Github个人页面</div><time class="aside-post_meta post-meta__date" title="发表于 2020-09-07 16:13:11">2020-09-07</time></div></a></div><div class="aside-recent-post"><a href="../../posts/b251.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0032.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' title="如何为没有目录的PDF电子书添加目录" alt="如何为没有目录的PDF电子书添加目录"></div><div class="aside-post-title"><div class="aside-post_title" href="../../posts/b251.html" title="如何为没有目录的PDF电子书添加目录">如何为没有目录的PDF电子书添加目录</div><time class="aside-post_meta post-meta__date" title="发表于 2020-07-08 11:37:58">2020-07-08</time></div></a></div><div class="aside-recent-post"><a href="../../posts/e925.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0031.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' title="为你的hexo博客添加导航页" alt="为你的hexo博客添加导航页"></div><div class="aside-post-title"><div class="aside-post_title" href="../../posts/e925.html" title="为你的hexo博客添加导航页">为你的hexo博客添加导航页</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-09 10:53:06">2020-05-09</time></div></a></div><div class="aside-recent-post"><a href="../../posts/ebb2.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0024.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' title="Hexo博客订阅文章通知功能" alt="Hexo博客订阅文章通知功能"></div><div class="aside-post-title"><div class="aside-post_title" href="../../posts/ebb2.html" title="Hexo博客订阅文章通知功能">Hexo博客订阅文章通知功能</div><time class="aside-post_meta post-meta__date" title="发表于 2020-04-26 17:34:35">2020-04-26</time></div></a></div><div class="aside-recent-post"><a href="../../posts/12b4.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0001.png" onerror='this.onerror=null,this.src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/404/404.jpg"' title="Hexo+Github博客搭建之Matery主题个性化修改篇（二）" alt="Hexo+Github博客搭建之Matery主题个性化修改篇（二）"></div><div class="aside-post-title"><div class="aside-post_title" href="../../posts/12b4.html" title="Hexo+Github博客搭建之Matery主题个性化修改篇（二）">Hexo+Github博客搭建之Matery主题个性化修改篇（二）</div><time class="aside-post_meta post-meta__date" title="发表于 2020-04-26 14:24:02">2020-04-26</time></div></a></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list"><li class="card-category-list-item"><a class="card-category-list-link" href="../../categories/Hexo%e5%8d%9a%e5%ae%a2/index.html"><span class="card-category-list-name">Hexo博客</span><span class="card-category-list-count">23</span></a></li><li class="card-category-list-item parent"><a class="card-category-list-link" href="../../categories/Web%e5%89%8d%e7%ab%af/index.html"><span class="card-category-list-name">Web前端</span><span class="card-category-list-count">7</span><i class="fas fa-caret-left card-category-list-icon expand"></i></a></li><ul class="card-category-list child"><li class="card-category-list-item"><a class="card-category-list-link" href="../../categories/Web%e5%89%8d%e7%ab%af/CSS3/index.html"><span class="card-category-list-name">CSS3</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="../../categories/Web%e5%89%8d%e7%ab%af/HTML/index.html"><span class="card-category-list-name">HTML</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="../../categories/Web%e5%89%8d%e7%ab%af/JavaScript/index.html"><span class="card-category-list-name">JavaScript</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="../../categories/Web%e5%89%8d%e7%ab%af/Node-js/index.html"><span class="card-category-list-name">Node.js</span><span class="card-category-list-count">1</span></a></li></ul><li class="card-category-list-item"><a class="card-category-list-link" href="../../categories/%e5%a5%87%e6%b7%ab%e6%8a%80%e5%b7%a7/index.html"><span class="card-category-list-name">奇淫技巧</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="../../categories/%e5%ae%9e%e7%94%a8%e5%b7%a5%e5%85%b7%e9%9b%86%e5%90%88/index.html"><span class="card-category-list-name">实用工具集合</span><span class="card-category-list-count">1</span></a></li></ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="../../tags/CSS3/index.html" style="font-size:16px;color:#5a6e79">CSS3</a><a href="../../tags/HTML/index.html" style="font-size:19px;color:#873f99">HTML</a><a href="../../tags/Hexo/index.html" style="font-size:16px;color:#78baaa">Hexo</a><a href="../../tags/JavaScript/index.html" style="font-size:18px;color:#1844a0">JavaScript</a><a href="../../tags/PWA/index.html" style="font-size:20px;color:#2d80b4">PWA</a><a href="../../tags/cdn/index.html" style="font-size:16px;color:#21131f">cdn</a><a href="../../tags/jsdelivr/index.html" style="font-size:19px;color:#af95b3">jsdelivr</a><a href="../../tags/matery%e4%b8%bb%e9%a2%98/index.html" style="font-size:19px;color:#84ab3a">matery主题</a><a href="../../tags/nodejs/index.html" style="font-size:19px;color:#61345c">nodejs</a><a href="../../tags/%e5%9b%be%e5%ba%8a%e6%90%ad%e5%bb%ba/index.html" style="font-size:17px;color:#369267">图床搭建</a><a href="../../tags/%e5%b7%a5%e5%85%b7/index.html" style="font-size:16px;color:#41244b">工具</a><a href="../../tags/%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7/index.html" style="font-size:16px;color:#456b4b">开发工具</a><a href="../../tags/%e6%8a%80%e5%b7%a7/index.html" style="font-size:19px;color:#b28ba4">技巧</a><a href="../../tags/%e6%95%88%e7%8e%87%e5%b7%a5%e5%85%b7/index.html" style="font-size:20px;color:#983f3a">效率工具</a><a href="../../tags/%e6%b5%8f%e8%a7%88%e5%99%a8%e7%9f%a5%e8%af%86/index.html" style="font-size:16px;color:#ac1948">浏览器知识</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="../../archives/2020/09/index.html"><span class="card-archive-list-date">九月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="../../archives/2020/07/index.html"><span class="card-archive-list-date">七月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="../../archives/2020/05/index.html"><span class="card-archive-list-date">五月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="../../archives/2020/04/index.html"><span class="card-archive-list-date">四月 2020</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="../../archives/2020/03/index.html"><span class="card-archive-list-date">三月 2020</span><span class="card-archive-list-count">10</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="../../archives/2020/02/index.html"><span class="card-archive-list-date">二月 2020</span><span class="card-archive-list-count">7</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="../../archives/2020/01/index.html"><span class="card-archive-list-date">一月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="../../archives/2019/11/index.html"><span class="card-archive-list-date">十一月 2019</span><span class="card-archive-list-count">6</span></a></li><li class="card-archive-list-item more is-center"><a class="card-archive-list-link-more" href="../../archives/index.html"><span>查看更多</span><i class="fas fa-angle-right"></i></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">33</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" publish_date="6/7/2018 00:00:00"></div></div><div class="webinfo-item"><div class="webinfo-site-wordcount-name">本站总字数 :</div><div class="webinfo-site-wordcount">85.7k</div></div><div class="webinfo-item"><div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div><div class="card-widget card-sponsor"><div class="card-content"><div class="item-headline"><i class="fa fa-credit-card" aria-hidden="true" style="color:#3f51b5;-webkit-animation:announ_animation .8s linear infinite;-moz-animation:announ_animation .8s linear infinite;-o-animation:announ_animation .8s linear infinite;-ms-animation:announ_animation .8s linear infinite"></i><span>赞助墙</span><span>感谢你们的赞助🌹</span></div><div class="sponsor_content" style="padding:.2rem 1rem"><div class="sponsor_item" style="display:block;padding:4px 0 0">璀 璨：5.00元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">Cherry：8.10元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">AIMER：6.66元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">黑夜の骑士：6.66元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">DanielLee：6.66元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">孤影负长枪：10.00元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">po-pe：6.00元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">MipMap：6.66元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">果果小师弟：10.00元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">Hw@D0g3：6.66元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">JF：6.66元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">Mr.Chen：8.88元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">会飞的小弋：13.32元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">病症：10.00元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">╯晓~：6.66元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">1℃：5.00元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">demon：50.00元</div><div class="sponsor_item" style="display:block;padding:4px 0 0">空灵：0.10元</div></div></div></div></div></main><footer id="footer" style="background-image:url(https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/images/0445.png)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 By Yafine</div><div class="footer_custom_text">Hi , Weclome to My Home .<br>This is My Stage!😎😎😎</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49b1f5">hexo-generator-search</a> <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/utils.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js"></script><script>document.addEventListener("DOMContentLoaded",function(){pangu.autoSpacingPage()})</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/search/local-search.js"></script><script>!function(e,p,s,u){if(void 0===e.webpushr){e.webpushr=e.webpushr||function(){(e.webpushr.q=e.webpushr.q||[]).push(arguments)};var n,t=p.getElementsByTagName(s)[0];(n=p.createElement(s)).id="webpushr-jssdk",n.src="https://cdn.webpushr.com/app.min.js",t.parentNode.appendChild(n)}}(window,document,"script"),webpushr("init","BAJy08X2FxDq2OEBYdIXet7uuThfcz7QUIypPTCV--OXENaThpuiYHWFGvLlDjkN75mJPzItiCQfnq9Z80cQ7eE")</script><script>window.$crisp=[],window.CRISP_WEBSITE_ID="6a511ac1-4992-4e21-8b54-19e2695fc8d8",d=document,s=d.createElement("script"),s.src="https://client.crisp.chat/l.js",s.async=1,d.getElementsByTagName("head")[0].appendChild(s)</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@3.3.4/source/js/wgtags.js"></script><script src="../../js/script.html"></script><script>!function(e,p,s,n){e.webpushr=e.webpushr||function(){(e.webpushr.q=e.webpushr.q||[]).push(arguments)};var t,u=p.getElementsByTagName(s)[0];(t=p.createElement(s)).id="webpushr-jssdk",t.src="https://cdn.webpushr.com/app.min.js",u.parentNode.appendChild(t)}(window,document,"script"),webpushr("init","BAJy08X2FxDq2OEBYdIXet7uuThfcz7QUIypPTCV--OXENaThpuiYHWFGvLlDjkN75mJPzItiCQfnq9Z80cQ7eE")</script></body>
+<!-- Mirrored from yafine-blog.cn/page/3/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Oct 2020 16:08:15 GMT -->
+</html>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">guo</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://qichaos.com/page/3/index.html">https://qichaos.com/page/3/index.html</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint polocy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">guo</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/page/3/index.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            guo
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Current&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/page/3/index.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            guo
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">guo</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
